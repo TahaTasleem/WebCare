@@ -1,0 +1,36 @@
+<div class="modal" role="dialog">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content" onclick="if (!$('input,select,button').is(':focus')) { $('#tclinput').focus(); }">
+            <div class="modal-header">
+                <button type="button" class="close" onclick="WD.hidetcl();">&times;</button>
+                <button type="button" class="close" style="padding-right:10px;"
+                    onclick="WD.printterm()">&gt;&gt;</button>
+                <h4 class="modal-title">{{ "IDS_CAP0024" | loadstring }}</h4>
+            </div>
+            <div class="modal-body" style="min-width: 75em;">
+                <div id="output"></div>
+                <div style="padding-left: 1em;">
+                    <br />
+                    {{ "IDS_WEB0007" | loadstring }} = <input id="tclinput" style="width: 40em;" autocomplete="off" type="text"
+                        onkeypress="if ((event.keyCode || event.which) == 13) {WD.input($(this).val());$(this).val('');}" />
+                    <button class="btn btn-primary"
+                        onclick="WD.input($('#tclinput').val());$('#tclinput').val('');">{{ "IDS_WEB0008" | loadstring }}</button>
+                    <div class="pull-right">
+                        <label for="tclcols">{{ "IDS_CAP0133" | loadstring | trim }}:</label>
+                        <select id="tclcols" style="width: 4em; text-align: right;">
+                            <option value=80 checked>80</option>
+                            <option value=132>132</option>
+                        </select>
+                        <label for="tclrows">{{ "IDS_CAP0132" | loadstring | trim }}</label>
+                        <select id="tclrows" style="width: 4em; text-align: right;">
+                            <option value=24 checked>24</option>
+                            <option value=42>42</option>
+                        </select>
+                        <button class="btn btn-primary"
+                            onclick="WD.changeTerminalSize($('#tclcols').val(),$('#tclrows').val());">{{ "IDS_CAP0004" | loadstring }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

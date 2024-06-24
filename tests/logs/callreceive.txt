@@ -1,0 +1,348 @@
+[20161213 14:22:12] IN  - Screen              | WSþ0þ3þMAINþ2þ0þ26þ95þþSGþþþ1.5ý11
+[20161213 14:22:12] IN  - Auto Complete       | WACþDOC$DISPATCH.CENTERþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCUST$CS.CLUB.NOþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCUST$CS.CARD.TYPEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCUST$MEM.LANGUAGEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCUST$CITYþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCUST$PROVINCEþADDýON
+[20161213 14:22:12] IN  - Auto Complete       | WACþDISTRICTþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCOUNTYþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþLOCATION.DESCþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþDIRECTIONþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþPHONE.TYPEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþALLOW.PAþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþPA.LANGUAGEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCAR.YEARþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCAR.MAKEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCAR.MODELþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCAR.SUB.MODELþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþCAR.DRIVE.TYPEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþHANDLING.CODEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþSERVICE.RENDEREDþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþTOW.REASONþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþTOW.GRIDþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþSTATUSþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþGARAGEþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþDRIVERþADDý
+[20161213 14:22:12] IN  - Auto Complete       | WACþC.CODEþADDý
+[20161213 14:22:12] IN  - Application Command | WAþRESIZEþ26þ96
+[20161213 14:22:12] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161213 14:22:12] IN  - Header              | WHþReal-Time Club Dispatchingþ313 CAA.DEV AS CDBOU
+[20161213 14:22:12] IN  - Define Grid         | WWþ6.1þ78þ8.1þ98þ16þ16þDþþNþF
+[20161213 14:22:12] IN  - Define Grid         | WWþ7.1þ13þ7.1þ32.5þ17þ17þDþþNþF
+[20161213 14:22:12] IN  - Define Grid         | WWþ19.5þ13þ20.5þ22þ58þ58þDþþNþF
+[20161213 14:22:12] IN  - Define Grid         | WWþ20.5þ31þ21.5þ44þ61þ61þDþþNþF
+[20161213 14:22:12] IN  - Define Grid         | WWþ25þ13þ26þ81þ78þ78þDþþNþF
+[20161213 14:22:12] IN  - Define Prompt       | WPþ2þ3þ2þInitials:þ3þ13þLý150ý7þDþVERIFYþEnter your initialsþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ3þ3þ23þDC:þ3þ27þLý150ý4þDþTABLEþDispatch center: code, ?? for tableþDDDýAC.LISTüDOC$DISPATCH.CENTERüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ4þ3þ33þCall:þ3þ37þLý150ý8þDþERS.CALL.NOþCall numberþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ5þ3þ48þRE Date:þ3þ55þLý150ý10þDþERS.RECEIVE.DATEþCall receive dateþDDDýDDIüCALENDAR.ICO
+[20161213 14:22:12] IN  - Define Prompt       | WPþ8þ5þ2þClub/Member:þ5þ13þLý150ý8þDþCLUBþClub/MemberþDDDýAC.LISTüCUST$CS.CLUB.NOüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ9þ5þ25þþ5þ25þLý150ý21þDþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ10þ-1þ-1þþ-1þ-1þLý150ý7þDþTABLEþCard type (?? for table)þDDDýAC.LISTüCUST$CS.CARD.TYPEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ11þ-1þ-1þþ-1þ-1þLý150ý6þDþTABLEþLanguage (?? for table)þDDDýAC.LISTüCUST$MEM.LANGUAGEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ12þ5þ47þExp:þ5þ51þLý150ý9þDþDATEþExpiry dateþDDDýDDIüCALENDAR.ICO
+[20161213 14:22:12] IN  - Define Prompt       | WPþ13þ5þ61þþ5þ61þLý150ý4þSþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ14þ5þ67þStatus:þ5þ78þLý150ý10þSþþStatusþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ15þ6þ2þName:þ6þ13þLý150ý47þDþþNameþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ16þ6.1þ67þFlags:þ6.1þ78þLý150ý20þSþþFlagþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ17þ7.1þ2þAddress:þ7.1þ13þLý150ý20þDþþAddressþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ18þ7.1þ35þCity:þ7.1þ40þLý150ý15þDþAXIS.CITYþCity (?? for table)þDDDýAC.LISTüCUST$CITYüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ19þ-1þ-1þUse Auto Spot to correct address (Y/N)þ-1þ-1þLý150ý79þDþONLYþUse Auto Spot to correct address (Y/N)þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ20þ7.1þ55þProv/Sta:þ7.1þ62þLý150ý5þDþTABLEþProvince or state (?? for table)þDDDýAC.LISTüCUST$PROVINCEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ21þ8.1þ2þPostal/Zip:þ8.1þ13þLý150ý21þDþPOSTALþP/Zipþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ22þ-1þ-1þDoes the Member want to 'Transfer In' at Expiry (Y/N)þ-1þ-1þLý150ý3þDþNORYþDoes the Member want to 'Transfer In' at Expiry (Y/N)þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ23þ8.1þ35þPhone:þ8.1þ40þLý150ý15þDþPHONEþHome phone #þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ25þ9þ2þJoin:þ9þ13þLý150ý21þDþDATEþDate joined clubþDDDýDDIüCALENDAR.ICO
+[20161213 14:22:12] IN  - Define Prompt       | WPþ28þ9.1þ67þRate Type:þ9.1þ78þLý150ý10þSþþRate Typeþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ30þ-1þ-1þþ4þ78þLý150ý12þSþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ31þ11þ25þPlus Coverage Start:þ11þ40þLý150ý9þSþþ+ Startþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ32þ-1þ-1þþ11þ53þLý150ý9þSþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ33þ11þ67þCalls Used:þ11þ78þLý150ý10þSþþCalls Usedþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ34þ-1þ-1þþ-1þ79þLý150ý79þDþYORN.NODEFþDid you notify the member that this is the last call: (Y/N)þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ35þ12þ2þLocation:þ12þ13þLý150ý40þDþALPHAþStreet locationþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ36þ13þ2þCity:þ13þ13þLý150ý40þDþþCityþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ37þ14þ2þDistrict:þ14þ13þLý150ý20þDþTABLEþDistrict: code, ?? for tableþDDDýAC.LISTüDISTRICTüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ38þ14þ34þCounty:þ14þ40þLý150ý13þDþTABLEþCounty code, ?? for tableþDDDýAC.LISTüCOUNTYüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ39þ15þ2þCross Street:þ15þ13þLý150ý40þDþALPHAþCross streetþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ40þ12þ67þDescription:þ12þ78þLý150ý21þDþTABLEþLocation description: code, ?? for tableþDDDýAC.LISTüLOCATION.DESCüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ41þ13þ67þDirection:þ13þ78þLý150ý21þDþTABLEþDirection: code, ?? for tableþDDDýAC.LISTüDIRECTIONüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ42þ14þ54þPhone:þ14þ60þLý150ý22þDþþPhone numberþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ43þ14þ54þþ14þ74þLý150ý8þDþTABLEþPhone type: code, ?? for tableþDDDýAC.LISTüPHONE.TYPEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ44þ14þ83þPA Allowed:þ14þ92þLý150ý7þDþTABLEþAllow phone ahead: code, ?? for tableþDDDýAC.LISTüALLOW.PAüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ46þ15þ54þEmail:þ15þ60þLý150ý22þDþþEmail address for member notifications, like ETA alertsþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ47þ16þ2þYear:þ16þ13þLý150ý7þDþTABLEþCar yearþDDDýAC.LISTüCAR.YEARüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ48þ16þ21þMake:þ16þ26þLý150ý19þDþTABLEþCar makeþDDDýAC.LISTüCAR.MAKEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ49þ16þ46þModel:þ16þ52þLý150ý19þDþTABLEþCar modelþDDDýAC.LISTüCAR.MODELüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ50þ16þ73þSub-Model:þ16þ82þLý150ý17þDþTABLEþCar sub-modelþDDDýAC.LISTüCAR.SUB.MODELüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ51þ17þ2þDrive:þ17þ13þLý150ý7þDþTABLEþCar drive typeþDDDýAC.LISTüCAR.DRIVE.TYPEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ52þ17þ21þColor:þ17þ26þLý150ý19þDþþCar colorþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ53þ17þ46þLicense:þ17þ52þLý150ý19þDþþCar licenseþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ54þ17þ68þþ17þ73þLý150ý23þSþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ55þ-1þ-1þþ-1þ-1þLý150ý79þDþYORN.NODEFþIs this the member's personal car (Y/N)þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ56þ18þ2þDispatch Instr:þ18þ13þLý150ý58þSþþDispatch Instrþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ57þ-1þ-1þSC Promptsþ-1þ-1þLý150ý3þDþþSC Promptsþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ58þ19.5þ2þHandling:þ19.5þ13þLý150ý10þDþTABLEþHandling code: code, ?? for tableþDDDýAC.LISTüHANDLING.CODEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ59þ21.6þ2þAmt to Collectþ21.6þ13þLý99900ý10þSþDOLLARþAmount to collectþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ60þ19.5þ24þReason:þ20.5þ24þLý150ý6þDþERS.MENUþCall reason: shortcut code, ?? to enter menu edit at topþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ61þ19.5þ31þProblemþ20.5þ31þLý150ý10þDþTABLEþProblem code: code ?? for tableþDDDýAC.LISTüSERVICE.RENDEREDüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ62þ-1þ-1þþ-1þ-1þLý150ý79þDþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ63þ19.5þ45þDestination:þ19.5þ55þLý150ý44þDþALPHAþTow destinationþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ64þ20.5þ45þTow Reason:þ20.5þ55þLý150ý14þDþTABLEþTow reason: code, ?? for tableþDDDýAC.LISTüTOW.REASONüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ65þ21.5þ45þPassengers:þ21.5þ55þLý150ý14þDþþNumber of passengersþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ66þ20.5þ74þTow Grid:þ20.5þ82þLý150ý17þDþTABLEþTow grid: code, ?? for tableþDDDýAC.LISTüTOW.GRIDüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ67þ14þ41þþ-1þ-1þLý150ý79þDþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ68þ14þ41þþ21.5þ82þLý150ý14þSþþþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ69þ23þ2þStatus:þ23þ13þLý150ý8þDþTABLEþCall status: code, ?? for tableþDDDýAC.LISTüSTATUSüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ70þ23þ25þTime:þ23þ31þLý150ý8þDþTIMEþReactivate timeþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ71þ23þ41þGarage:þ23þ47þLý150ý8þDþTABLEþGarage facility: code, ?? for tableþDDDýAC.LISTüGARAGEüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ72þ23þ56þDriver:þ23þ61þLý150ý8þDþLIST.SELECTþDriver code: code, ?? for tableþDDDýAC.LISTüDRIVERüINORDER
+[20161213 14:22:12] IN  - Define Prompt       | WPþ73þ24þ2þGrid:þ24þ13þLý150ý8þDþþGridþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ74þ24þ25þDelay:þ24þ31þLý999ý8þDþINTþDelay (in minutes)þ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ75þ24þ41þETA:þ24þ47þLý150ý8þSþþETAþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ78þ25þ2þComments:þ25þ13þLý150ý67þDþTEXTþCommentsþEDIT.PARMSüCC.SCAN
+[20161213 14:22:12] IN  - Define Prompt       | WPþ79þ5þ105þþ10þ78þLý150ý21þSþþþ
+[20161213 14:22:12] IN  - Define Text         | WTþ1þ2þ62þþ
+[20161213 14:22:12] IN  - Define Text         | WTþ2þ2þ67þþ
+[20161213 14:22:12] IN  - Define Text         | WTþ3þ12þ57þLat/Lonþ
+[20161213 14:22:12] IN  - Define Text         | WTþ4þ18þ73þSC Promptsþ
+[20161213 14:22:12] IN  - Define Text         | WTþ5þ21.6þ27þDspþ
+[20161213 14:22:12] IN  - Define Text         | WTþ6þ21.5þ74þBatteryþ
+[20161213 14:22:12] IN  - Define Text         | WTþ7þ11þ50þ-to-þ
+[20161213 14:22:12] IN  - Define Button       | WDBþ10þCý<img= >RecentýEýRECENT.CLIENTSýýYý5ý102ýRECENT.CLIENTSýýýýý1.4ý11þCý<img=BLACKARROW.ICO>ýEýRELýýYý5ý22ýRELATED.CLIENTSýýýýý.9ý2.4þCý<img=BLACKARROW.ICO>ýEýENTýýYý11ý75ýENTýýýýý.9ý2.4þCý<img=BLACKARROW.ICO>ýEýLONLATýýYý12ý54ýLONLATýýýýý.9ý2.4þCý<img=BLACKARROW.ICO>ýEýCAUTIONS.CMDýýNý16.9ý96.5ýCAUTIONS.BTNýýýýý.9ý2.4þCý<img=BLACKARROW.ICO>ýEýWGUF:3:57:SEARCHýýYý18ý82ýSEARCHýýýýý.8ý2.0þCý<img=BLACKARROW.ICO>ýEýTL.CODEýýYý21.6ý24ýTL.CODEýýýýý.9ý2.4þCý<img=BLACKARROW.ICO>ýEýWGUF:3:67:BATTERY.BUTTONýýYý21.5ý96ýBATTERY.BUTTONýýýýý.9ý2.4þCý<img= >Garage InquiryýEýGýýYýýýGARAGEþCý<img= >RE->RDýEýTýýNýýýTOGGLE.RE.RDþCý<img= >EstimateýEýESTýýNýýýEST.BUTTONþCý<img= >POSýEýESCAPE.POSýýYýýýPOS.BUTTONþCý<img= >Move CallýEýMOVýýNýýýMOVE.BUTTON
+[20161213 14:22:12] IN  - Command             | WCþCLEARALLþ16
+[20161213 14:22:12] IN  - Command             | WCþCLEARALLþ17
+[20161213 14:22:12] IN  - Command             | WCþCLEARALLþ58
+[20161213 14:22:12] IN  - Command             | WCþCLEARALLþ61
+[20161213 14:22:12] IN  - Command             | WCþCLEARALLþ78
+[20161213 14:22:12] IN  - Define Prompt       | WPþ35þ12þ2þLocation:þ12þ13þLý150ý40þDþALPHAþStreet locationþ
+[20161213 14:22:12] IN  - Define Prompt       | WPþ63þ19.5þ45þDestination:þ19.5þ55þLý150ý44þDþALPHAþTow destination (or H,RES for member's home)þ
+[20161213 14:22:12] IN  - Define Button       | WDBþ10þCýBatteryýEýBATT.QUOTE.CMDýýYý9ý102ýBATT.QUOTE.BTNýýýýý1.4ý11ýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýYýýýBATT.QUOTE.BTNýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþý<img= >RE >> RDýýýýYýýýTOGGLE.RE.RDýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýRELATED.CLIENTSýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýENTýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýSEARCHýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýTL.CODEýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþý<img= alt= >Move CallýýýýNýýýMOVE.BUTTONýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýGARAGEýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýTL.CODEýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýBATTERY.BUTTONýýýýýýýýý
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ54ýþ
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýCAUTIONS.BTNýýýýýýýýý
+[20161213 14:22:12] IN  - Define Button       | WCBþýýýýýNýýýRECENT.CLIENTSýýýýýýýýý
+[20161213 14:22:12] IN  - (un)Lock Screen     | WLSþ1
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ2ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ3ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ4ýþNEW
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ5ýþ13 DEC 16
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ8ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ9ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ12ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ13ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ14ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ15ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ16ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ17ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ18ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ20ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ21ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ23ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ25ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ28ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ30ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ31ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ32ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ33ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ35ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ36ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ37ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ38ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ39ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ40ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ41ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ42ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ43ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ44ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ46ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ47ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ48ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ49ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ50ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ51ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ52ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ53ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ54ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ56ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ58ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ59ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ60ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ61ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ63ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ64ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ65ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ66ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ68ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ69ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ70ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ71ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ72ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ73ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ74ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ75ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ78ýþ
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ79ýþ
+[20161213 14:22:12] IN  - (un)Lock Screen     | WLSþ0
+[20161213 14:22:12] IN  - Header              | WHþReceive a Callþ313 CAA.DEV AS CDBOU
+[20161213 14:22:12] IN  - Screen Command      | WSCþSHOW
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ2ýþCDBOU
+[20161213 14:22:12] IN  - Define Button       | WDBþ10þCý<img= >GoogleýEýGEO.GOOGLEýýNýýýGOOGLE.GEOCODE.BUTTONýýýýýýýýý
+[20161213 14:22:12] IN  - Get Information     | WGIþDATAPATH
+[20161213 14:22:12] OUT - Data Sent To Host   | WHIR:C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\
+
+[20161213 14:22:12] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþC:\ProgramData\Campana\AXIS\google_313.html
+[20161213 14:22:12] OUT - Data Sent To Host   | WHIR:1ý0
+
+[20161213 14:22:12] IN  - File Transfer       | WFTþWRITEþHOLDþ<!DOCTYPE html>
+<!-- Copyright 2010 Campana Systems Inc. -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\css/reset.css">
+    <link rel="stylesheet" href="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\css/theme/jquery_ui.css">
+    <link rel="stylesheet" href="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\css/ers.google.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&client=gme-campanasystemsinc&libraries=places,drawing,visualization,geometry&channel=csi
+"></script>
+    <script src="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\scripts/jquery.js"></script>
+    <script src="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\scripts/jquery_ui.js"></script>
+    <script src="C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\V20171\scripts/ers.google.js"></script>
+
+    <script>
+    // ==========================================
+    // General Configuration for ERS Google Maps
+    // ==========================================
+
+    // initialZoom is used for setting zoom level of initial map.
+    var initialZoom = 9;
+
+    // placeZoom is used for setting zoom level of autocomplete selected location.
+    // higher number means smaller bounding area
+    var placeZoom = 17;
+
+    // axisInfo will hold the geocode and location result of selected location.
+    var axisInfo = null;
+
+    // Boundary Definition
+    var maxLat = 44.470000;
+    var maxLng = -79.540000;
+    var minLat = 42.470000;
+    var minLng = -81.540000;
+
+    // Initial Location
+    var initLat = 43.470000;
+    var initLng = -80.540000;
+
+    // Limit Query to County
+    var limitCountry = "CA";
+
+    // Key Stroke Limitations
+    var kstrokes = "4,6,8,16,20";
+
+</script>
+<style>
+.counter {
+    display: none;
+}
+</style>
+    <script type="text/javascript">
+    // ==========================================
+    // Setup google maps as we want it
+    // ==========================================
+    function init() {
+        var googleMaps = initGoogleMaps("map-canvas");
+        // Setup Search Boxes, AXIS Mapping Variables
+        AXIS.mapping = AXIS.map(googleMaps.params, googleMaps.map);
+        AXIS.mapping.addEvents();
+        google.maps.event.addListener(googleMaps.map, 'rightclick', function(event){
+            console.log(event.latLng);
+            AXIS.mapping.setLatLong(event.latLng.lat()+","+event.latLng.lng(), true, false);
+        });
+    };
+    </script>
+    <style>
+    html, body, #map-canvas {
+        height: 100%;
+    }
+    #map-canvas input {
+        outline: none;
+        border: medium none;
+        background: transparent;
+        margin: 0px;
+        padding: 1px;
+    }
+    </style>
+
+<TITLE>Campana Call Center</TITLE>
+</head>
+
+<body onload="init()">
+
+    <div id="map-canvas"></div>
+<div id="matches" style="display:none;"></div>
+<div id="acContainer">
+    <div class="autocomplete"><input id="autocomplete" placeholder="Enter a location"><span onclick="AXIS.mapping.hideCards();" class="closebutton"></span></div><button class="searchbutton" onclick="AXIS.mapping.doNearbySearch();"><span class="buttonimg searchimg"></span></button>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <div id="cs_container"
+class="crossstreet"><input id="crossstreet" placeholder="Cross Street"><span onclick="$('#crossstreet').val('');" class="closebutton"></span>
+    </div>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <button class="searchbutton" id="towdbutton"
+style="display:none;"
+ onclick="AXIS.mapping.getTowDestinations()"><span class="buttonimg repairimg"></span></button>
+</div>
+<div style="display:none;">
+    <li id="itemCard">
+        <div>
+            <a href="#" title="Save Location" class="cards-icon-save"></a>
+        </div>
+        <div class="placedescription">
+            <input type="hidden" id="pId">
+        </div>
+    </li>
+</div>
+
+    <!-- These are WinGem only -->
+    <div style="display:none;">
+        <span id="ac_input" onclick="AXIS.mapping.updateSearch()" style="display:none;"></span>
+        <span id="cs_input" style="display:none;"></span>
+        <span id="latlong_input" onclick="AXIS.mapping.setLatLong($(this).html());"></span>
+        <span id="towdest_input" onclick="AXIS.mapping.calcTowDestination($(this).html());"></span>
+        <span id="geo_input" onclick="$('#crossstreet').val($('#cs_input').val()); AXIS.mapping.geocodeAddress($('<textarea/>').html($(this).html()).text(),true);"></span>
+        <span id="disablesave" onclick="AXIS.mapping.showSaveButton(false);"></span>
+        <span id="enablesave" onclick="AXIS.mapping.showSaveButton(true);"></span>
+        <span id="hidecrossstreet" onclick="$('#cs_container').hide();"></span>
+        <span id="showcrossstreet" onclick="$('#cs_container').show();"></span>
+        <span id="hidetowbutton" onclick="$('#towdbutton').hide();"></span>
+        <span id="showtowbutton" onclick="$('#towdbutton').show();"></span>
+    </div>
+
+</body>
+</html>
+[20161213 14:22:12] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20161213 14:22:12] OUT - Data Sent To Host   | WHIR:1ýC:\ProgramData\Campana\AXIS\google_313.htmlýWFTC
+
+[20161213 14:22:12] IN  - File Transfer       | WFTþDELETEþC:\ProgramData\Campana\AXIS\google_313.htmlþENDOFSESSION
+[20161213 14:22:12] OUT - Data Sent To Host   | WHIR:1
+
+[20161213 14:22:12] IN  - Browse              | EBRþDISPLAYþC:\ProgramData\Campana\AXIS\google_313.htmlþTAGüGMAPS.CALL.RECEIVEýTITLEüGoogle SearchýNOFOCUSýNODELETE
+[20161213 14:22:12] INFO: frmBrowser_DisplayURL : C:\ProgramData\Campana\AXIS\google_313.html
+
+[20161213 14:22:12] INFO: frmBrowser_DisplayURL : Read C:\ProgramData\Campana\AXIS\google_313.html successfully - 5219 bytes.
+
+[20161213 14:22:12] INFO: frmBrowser_webBrowser_BeforeNavigate2 : C:\ProgramData\Campana\AXIS\google_313.html
+
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ3ýþW
+[20161213 14:22:12] IN  - Populate Prompt     | WDþ4ýþNEW
+[20161213 14:22:12] IN  - Define Prompt       | WPþ8þ5þ2þClub/Member:þ5þ13þLý150ý8þDþCLUBþClub/MemberþDDDýAC.LISTüCUST$CS.CLUB.NOüINORDER
+[20161213 14:22:12] IN  - Populate & Prompt   | WPDþ8ýþ084

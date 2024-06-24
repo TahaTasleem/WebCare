@@ -1,0 +1,63 @@
+{% set hasdropdown = (tool.subband != "" and commandbar.bands[tool.subband].tools|length > 0) %}
+{% set ishidden = not tool.visible %}
+{% set isdisabled = not tool.enabled %}
+{% set hasclass = (hasdropdown or ishidden or isdisabled) %}
+{% if inband is defined %}
+	{% set myndx = loop.index %}
+{% else %}
+	{% set myndx = 0 %}
+{% endif %}
+{# if tool.begingroup and myndx > 1 #}
+{% if tool.begingroup %}
+<li role="separator" class="divider" id="{{ myband.getid()+tool.getid() }}-sep"></li>
+{% endif %}
+<li {% if hasclass %}class="{% if hasdropdown %}dropdown{% endif %}{% if ishidden %} hidden{% elif isdisabled %} disabled{% endif %}"{% endif %} id="{{ myband.getid()+tool.getid() }}" name="{{ tool.getid() }}">
+	<a href="#"
+	{%- if isdisabled -%}
+	    onclick="return false;"
+	{%- elif tool.specialcmd != "" -%}
+		onclick="{{ tool.specialcmd }}"
+	{%- elif tool.subband == "" -%}
+		onclick='WD.buttonclick(this,{{ tool.sendtext|tojson }}{%- if tool.sendtype == "E" -%},true{%- endif -%});'
+	{%- endif -%}
+	>
+	{% if myband.name != "bndMenuStandard" %}
+		{%- if tool.help -%}
+			{% set buttontitle = tool.help | removehotkey %}
+		{%- else -%}
+			{% set buttontitle = tool.tag | removehotkey %}
+		{%- endif -%}
+		{% if tool.filename -%}
+			<img class="buttonimage"
+				src="{{url_for('static',filename=tool.filename)}}"
+				title="{{ buttontitle }}"
+				alt="{{ tool.tag | removehotkey }}">
+		{% else %}
+			<span class="mnubtnplaceholder" title="{{ buttontitle }}">&nbsp;</span>
+		{% endif -%}
+	{% endif %}
+	{%- if myband.bandtype != "TOOLBAR" -%}
+		{% if tool.filename and myband.name == "bndMenuStandard" and config.PRODUCT == "GoldCare" -%}
+			{%- if tool.help -%}
+				{% set buttontitle = tool.help | removehotkey %}
+			{%- else -%}
+				{% set buttontitle = tool.tag | removehotkey %}
+			{%- endif -%}
+			<img class="large buttonimage"
+				src="{{url_for('static',filename=tool.filename)}}"
+				title="{{ buttontitle }}"
+				alt="{{ tool.tag | removehotkey }}">
+		{% else %}
+			{{ tool.tag | removehotkey }}
+			{% if hasdropdown %}
+			<span class="caret"></span>
+			{% endif %}
+		{% endif -%}
+	{%- endif -%}
+	</a>
+	{% if hasdropdown %}
+		<ul class="dropdown-menu" id="{{ commandbar.bands[tool.subband].getid() }}">
+			{% if inband is defined %}{{ outer_loop([commandbar.bands[tool.subband]]) }}{% else %}{% set band = commandbar.bands[tool.subband] %}{% include "commandbarband.html" %}{% endif %}
+		</ul>
+	{% endif %}
+</li>

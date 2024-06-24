@@ -1,0 +1,66 @@
+[20170210 09:51:09] **************************************************************************************
+[20170210 09:51:09] Log Started: 2017-02-10 09:51:09 AM; Version: 2017.1.2; Windows 6.1.7601 - Service Pack 1 - AMD64; Remote: False;
+[20170210 09:51:09] Data Path: C:\Users\dar\AppData\Local\Campana\AXIS\Data\; Port: 822;
+[20170210 09:51:09] **************************************************************************************
+
+[20170210 09:51:12] IN  - Initialize          | WIþAXIS for Windowsþ3
+[20170210 09:51:13] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170210 09:51:13] IN  - Spell Check Setup   | WSSþALLOW=ýIGNORE.NUM=ýIGNORE.MIXED=ýIGNORE.UPPER=ýSUGGEST=ýADD.TO=-1
+[20170210 09:51:13] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:51:13] IN  - Initialize          | WIþAXIS for Windowsþ3
+[20170210 09:51:13] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170210 09:51:13] IN  - Spell Check Setup   | WSSþALLOW=ýIGNORE.NUM=ýIGNORE.MIXED=ýIGNORE.UPPER=ýSUGGEST=ýADD.TO=-1
+[20170210 09:51:13] OUT - Data Sent To Host   | WinGem-2017.1.2
+[20170210 09:51:13] IN  - Status              | WSTþUSERýPORTþDAR on CAA.DEVý822 on cmwls-rhaxis/dev/pts/36
+
+[20170210 09:51:13] IN  - Menu Screen         | WNþ0þ1þMain MenuþCounter ServiceýMembershipýRoad ServiceýTravel AgencyýAuto TouringýHotel and Car ReservationsýMedical InsuranceýSundryýTravellers ChequesýSetupýUtilitiesýNavigatorýAccountingýBranch SchedulingýCash ManagementýInventoryýPurchasingýMember Request TrackingýIncentiveýLeads ManagementýMake Your Own ReportýEnterprise Information SystemýDatabase MarketingýLifetime ValueýDialog MarketingýPromotion Response TrackingýServices UtilizedýClient Feedbackþ6ý7ý8ý9ý10ý11ý12ý13ý14ý18ý19ý20ý6ý7ý8ý9ý10ý11ý12ý13ý17ý18ý19ý20ý21ý22ý23ý24þ4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44þClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýAXIS UtilitiesýAXIS UtilitiesýAXIS UtilitiesýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and Reportingþ4ý4ý4ý4ý4ý4ý4ý4ý4ý16ý16ý16ý4ý4ý4ý4ý4ý4ý4ý4ý15ý15ý15ý15ý15ý15ý15ý15þ8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48þ1ý2ý3ý4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý14ý15ý16ý17ý18ý19ý20ý21ý22ý23ý24ý25ý26ý27ý28þcounter_svc.icoýmembership.icoýroad_service.icoýtravel.icoýauto_touring.icoýhotel_car_res.icoýmed_ins.icoýsundry.icoýtrav_chq.icoýsetup.icoýutilities.icoýnavigator.icoýaccounting.icoýbranch_sch.icoýcash_mgmt.icoýinventoryb.icoýpurchasing.icoýmem_req_tracking.icoýincentive.icoýleads_mgmt.icoýmyorb.icoýent_info_sys.icoýdatabase_mkg.icoýlifetime_value.icoýdialog_mktg.icoýpromo_resp_tracking.icoýservices_utilized.icoýclient_feedback.icoþ1ý2ý3ý4ý5ý6ý7ý8ý9ý10ý11ý12ý20ý21ý22ý23ý24ý25ý26ý27ý30ý31ý32ý33ý34ý35ý36ý37þþLISTþ1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1
+[20170210 09:51:13] IN  - Header              | WHþCampana Systems Inc.
+[20170210 09:51:13] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:13] IN  - Prompt Menu Screen  | WPN
+[20170210 09:51:16] OUT - Data Sent To Host   | 10
+[20170210 09:51:16] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:16] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:51:16] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:16] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:16] IN  - Menu Screen         | WNþ0þ2þSetupþAXIS TablesýPOS TablesýProduct TablesýAXIS System ParametersýPOS Service Area Pay MethodýMoneris Swipe SetupýChase Swipe SetupýFirst Data RC Swipe SetupýFirst Data Swipe SetupýCaledon Swipe SetupýPOS ProcessorýAPIýAssign AppearancesýCube ParametersýMaintain Display MessagesýMerge Display MessagesýElement SetupýShift4 Setupþ4ý5ý6ý4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý14ý15ý16ý17ý18þ4ý4ý4ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44þ ý ý ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  þþþ-1ý-1ý-1ý-2ý-2ý-1ý-1ý-1ý-1ý-1ý-1ý-1ý-2ý-2ý-2ý-2ý-1ý-1þþ1ý2ý3ý20ý21ý22ý23ý24ý25ý26ý27ý28ý29ý30ý31ý32ý33ý34þþLISTþ1ý1ý1ý0ý0ý1ý1ý1ý1ý1ý1ý1ý0ý0ý0ý0ý1ý1
+[20170210 09:51:16] IN  - Header              | WHþSetup
+[20170210 09:51:16] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:16] IN  - Prompt Menu Screen  | WPN
+[20170210 09:51:19] OUT - Data Sent To Host   | 34
+[20170210 09:51:19] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:19] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:51:19] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:19] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:19] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:51:19] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:19] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:19] IN  - Menu Screen         | WNþ0þ3þSetup\Swipe Setup Menu (Shift4)þController ClassesýTerminal IDsýResponse MessagesýCVV ResponsesýAVS ResponsesýControllersýTest Credit CardsýSystem ParametersýShift4 Access ConfigýShift4 Configuration WorkspaceýPush Shift4 BlobsýCopy Response MessagesýCopy Messages to ApplicationsýQueue MaintenanceýQueue MonitoringýToken Managerþ6ý7ý8ý9ý10ý11ý12ý16ý17ý18ý19ý6ý7ý8ý9ý10þ4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý44ý44ý44ý44ý44þTable MaintenanceýTable MaintenanceýTable MaintenanceýTable MaintenanceýTable MaintenanceýTable MaintenanceýTable MaintenanceýSystem ParametersýSystem ParametersýSystem ParametersýSystem ParametersýUtilitiesýUtilitiesýUtilitiesýUtilitiesýUtilitiesþ4ý4ý4ý4ý4ý4ý4ý14ý14ý14ý14ý4ý4ý4ý4ý4þ8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý48ý48ý48ý48ý48þ-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-1ý-2ý-2þþ1ý2ý3ý4ý5ý6ý7ý10ý11ý12ý13ý20ý21ý22ý23ý24þþLISTþ0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý1ý0ý0
+[20170210 09:51:19] IN  - Header              | WHþSetup\Swipe Setup Menu (Shift4)
+[20170210 09:51:19] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:19] IN  - Prompt Menu Screen  | WPN
+[20170210 09:51:21] OUT - Data Sent To Host   | 10
+[20170210 09:51:21] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:21] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:51:21] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:21] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:21] IN  - Menu Screen         | WNþ0þ2þSetupþAXIS TablesýPOS TablesýProduct TablesýAXIS System ParametersýPOS Service Area Pay MethodýMoneris Swipe SetupýChase Swipe SetupýFirst Data RC Swipe SetupýFirst Data Swipe SetupýCaledon Swipe SetupýPOS ProcessorýAPIýAssign AppearancesýCube ParametersýMaintain Display MessagesýMerge Display MessagesýElement SetupýShift4 Setupþ4ý5ý6ý4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý14ý15ý16ý17ý18þ4ý4ý4ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44þ ý ý ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  ý  þþþ-1ý-1ý-1ý-2ý-2ý-1ý-1ý-1ý-1ý-1ý-1ý-1ý-2ý-2ý-2ý-2ý-1ý-1þþ1ý2ý3ý20ý21ý22ý23ý24ý25ý26ý27ý28ý29ý30ý31ý32ý33ý34þþLISTþ1ý1ý1ý0ý0ý1ý1ý1ý1ý1ý1ý1ý0ý0ý0ý0ý1ý1
+[20170210 09:51:21] IN  - Header              | WHþSetup
+[20170210 09:51:21] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:21] IN  - Prompt Menu Screen  | WPN
+[20170210 09:51:23] OUT - Data Sent To Host   | 0
+[20170210 09:51:23] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:51:23] IN  - Change Toolbar      | WCTþýýýýýYýýýMENU.QUITýýýýýýýýý
+[20170210 09:51:23] IN  - Change Toolbar      | WCTþýýýýýYýýýDisplay &Schemeýýýýýýýýý
+[20170210 09:51:23] IN  - Menu Screen         | WNþ0þ1þMain MenuþCounter ServiceýMembershipýRoad ServiceýTravel AgencyýAuto TouringýHotel and Car ReservationsýMedical InsuranceýSundryýTravellers ChequesýSetupýUtilitiesýNavigatorýAccountingýBranch SchedulingýCash ManagementýInventoryýPurchasingýMember Request TrackingýIncentiveýLeads ManagementýMake Your Own ReportýEnterprise Information SystemýDatabase MarketingýLifetime ValueýDialog MarketingýPromotion Response TrackingýServices UtilizedýClient Feedbackþ6ý7ý8ý9ý10ý11ý12ý13ý14ý18ý19ý20ý6ý7ý8ý9ý10ý11ý12ý13ý17ý18ý19ý20ý21ý22ý23ý24þ4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44þClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýClient ServicesýAXIS UtilitiesýAXIS UtilitiesýAXIS UtilitiesýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýCorporate OperationsýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and ReportingýMarketing and Reportingþ4ý4ý4ý4ý4ý4ý4ý4ý4ý16ý16ý16ý4ý4ý4ý4ý4ý4ý4ý4ý15ý15ý15ý15ý15ý15ý15ý15þ8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý8ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48ý48þ1ý2ý3ý4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý14ý15ý16ý17ý18ý19ý20ý21ý22ý23ý24ý25ý26ý27ý28þcounter_svc.icoýmembership.icoýroad_service.icoýtravel.icoýauto_touring.icoýhotel_car_res.icoýmed_ins.icoýsundry.icoýtrav_chq.icoýsetup.icoýutilities.icoýnavigator.icoýaccounting.icoýbranch_sch.icoýcash_mgmt.icoýinventoryb.icoýpurchasing.icoýmem_req_tracking.icoýincentive.icoýleads_mgmt.icoýmyorb.icoýent_info_sys.icoýdatabase_mkg.icoýlifetime_value.icoýdialog_mktg.icoýpromo_resp_tracking.icoýservices_utilized.icoýclient_feedback.icoþ1ý2ý3ý4ý5ý6ý7ý8ý9ý10ý11ý12ý20ý21ý22ý23ý24ý25ý26ý27ý30ý31ý32ý33ý34ý35ý36ý37þþLISTþ1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1ý1
+[20170210 09:51:23] IN  - Header              | WHþCampana Systems Inc.
+[20170210 09:51:23] IN  - Mail Status         | WMSþHIDE
+[20170210 09:51:23] IN  - Prompt Menu Screen  | WPN
+[20170210 09:51:24] OUT - Data Sent To Host   | F4
+[20170210 09:51:24] IN  - Close Menu Screen(s | WXNþ0þ0
+[20170210 09:51:24] IN  - Get Information     | WGIþDATAPATH
+[20170210 09:51:24] OUT - Data Sent To Host   | WHIR:C:\Users\dar\AppData\Local\Campana\AXIS\Data\
+[20170210 09:51:24] IN  - Non-Packet Data     | >
+
+[20170210 09:51:25] **************************************************************************************
+[20170210 09:51:25] Log Ended: 2017-02-10 09:51:25 AM
+[20170210 09:51:25] **************************************************************************************

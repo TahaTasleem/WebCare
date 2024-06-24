@@ -1,0 +1,18 @@
+<div class="menu" id="{{ menu.getid() }}_menu" data-menuid="{{ menu.getid() }}">
+	<h1 class="menutitle">{{ menu.mainmenutitle }}</h1>
+	{% for sectionkey in menu.sections %}
+	{% set section = menu.sections[sectionkey] %}
+	<div class="menusection">
+		<h3 class="wdheading">{{ section.title }}</h3>
+		{#% for menurow in section.menuitems | batch(8) %#}
+		{% for menuItem in section.menuitems %}
+		<div id="{{ menuItem.menuindex }}" class="menuitem"
+			onclick="WD.menuclick(this,'{{ menuItem.menuindex }}',false);">
+			<img src="{{url_for('static',filename=menuItem.menuicon)}}" alt="{{ menuItem.menutext }}">
+			<p class="menulabel" style="margin-bottom:0em;">{{ menuItem.menutext }}</p>
+		</div>
+		{% endfor %}
+		<div style="clear:both;"></div>
+	</div>
+	{% endfor %}
+</div>

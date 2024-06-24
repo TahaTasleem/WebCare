@@ -1,0 +1,2 @@
+docker stop wdsample
+docker rm wdsample

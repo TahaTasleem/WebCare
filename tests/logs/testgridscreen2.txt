@@ -1,0 +1,27 @@
+[20170112 15:28:28] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170112 15:28:28] IN  - Auto Complete       | WACþAXIS.PAY.METHOD.POSTDATEþADDýMPPMCüMPPAWüARDüMPPSBüQPOSTüMPPVüMPPDüAWüMPPAAAüAAACCüPDVüVüPDMCüMCüPDQüQ
+[20170112 15:28:28] IN  - Auto Complete       | WACþAXIS.PAY.METHOD.NON.POSTDATEþADDýMPPMCüMPPAWüARDüMPPSBüQPOSTüMPPVüMPPDüAWüMPPAAAüAAACCüPDVüVüPDMCüMCüPDQüQ
+[20170112 15:28:28] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170112 15:28:28] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ313 CAA.DEV AS CDBOU
+[20170112 15:28:28] IN  - Define Grid         | WWþ7þ1þ19þ72þ3þ6þDþþNþC3-4,5-6
+[20170112 15:28:28] IN  - Define Prompt       | WPþ1þ4þ1þFuture Post-date:þ4þ30þRý150ý5þDþINTþNumber of days in future allowed for a post-date on a paymentþ
+[20170112 15:28:28] IN  - Define Prompt       | WPþ2þ5þ1þFuture Post-date Processing:þ5þ30þRý150ý5þDþINTþNumber of days in future allowed for selection and process of post-datesþ
+[20170112 15:28:28] IN  - Define Prompt       | WPþ3þ7þ1þPost-dated Payment Methodþ8þ1þLý150ý8þDþTABLEþPost-dated payment method: code, ?? for tableþDDDýAC.LISTüAXIS.PAY.METHOD.POSTDATEüINORDER
+[20170112 15:28:28] IN  - Define Prompt       | WPþ4þ-1þ-1þþ8þ8þLý150ý25þSþþþ
+[20170112 15:28:28] IN  - Define Prompt       | WPþ5þ7þ37þRegular Payment Methodþ8þ37þLý150ý9þDþTABLEþCorresponding regular payment method: code, ?? for tableþDDDýAC.LISTüAXIS.PAY.METHOD.NON.POSTDATEüINORDER
+[20170112 15:28:28] IN  - Define Prompt       | WPþ6þ-1þ-1þþ8þ43þLý150ý26þSþþþ
+[20170112 15:28:28] IN  - Command             | WCþCLEARALLþ3
+[20170112 15:28:28] IN  - Command             | WCþCLEARALLþ4
+[20170112 15:28:28] IN  - Command             | WCþCLEARALLþ5
+[20170112 15:28:28] IN  - Command             | WCþCLEARALLþ6
+[20170112 15:28:28] IN  - Define Text         | WTþ1þ3þ34þ Post-Date þINVERSE
+[20170112 15:28:28] IN  - (un)Lock Screen     | WLSþ1
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ1ýþ30
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ2ýþ30
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ3ýþPDVýMPPMCýMPPAWýMPPSBýQPOSTýMPPVýMPPDýMPPAAAýPDVýPDMCýPDQ
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ4ýþPostdated VISAýMasterCard MPPýAuto withdrawal from bank MPPýBank withdrwawal MPPýPostdated cheque - for CAA.Q Bank Trans source batchesýVisa MPPýDEBIT MONTHLY PAYMENT PLANýAAACC MPPýPostdated VISAýPostdated MASTERCARDýPostdated cheque
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ5ýþVýMCýARDýAWýýVýAWýAAACCýVýMCýQ
+[20170112 15:28:28] IN  - Populate Prompt     | WDþ6ýþVISAýMasterCardýAuto Renew Bank DebitýAutomatic Bank WithdrawalýýVISAýAutomatic Bank WithdrawalýPNC ACCR Club CardýVISAýMasterCardýCHEQUE
+[20170112 15:28:28] IN  - (un)Lock Screen     | WLSþ0
+[20170112 15:28:28] IN  - Screen Command      | WSCþSHOW
+[20170112 15:28:28] IN  - Wait On Button      | WWBþOK

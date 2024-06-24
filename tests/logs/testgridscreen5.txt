@@ -1,0 +1,47 @@
+[20170116 10:14:58] IN  - Screen              | WSþ0þ3þMAINþ3þ0þ20þ79þINVERSEþSGþþVYN
+[20170116 10:14:58] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170116 10:14:59] IN  - Header              | WHþþ313 CAA.DEV AS CDBOU
+[20170116 10:14:59] IN  - Define Grid         | WWþ11þ1þ15þ74þ11þ13þSSþþNþC
+[20170116 10:14:59] IN  - Define Grid         | WWþ18þ1þ21þ47þ14þ15þSSþþNþC
+[20170116 10:14:59] IN  - Define Grid         | WWþ18þ50þ21þ74þ16þ16þSSþþNþC
+[20170116 10:14:59] IN  - Define Prompt       | WPþ1þ4þ1þO/S Login User:þ4þ15þLý150ý15þSþþO/S Login Userþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ2þ5þ1þAxis User:þ5þ15þLý150ý15þSþþAxis Userþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ3þ6þ1þAccount:þ6þ15þLý150ý15þSþþAccountþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ4þ7þ1þProd Account:þ7þ15þLý150ý15þSþþProd Accountþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ5þ8þ1þLine #:þ8þ15þLý150ý15þSþþLine #þ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ6þ4þ35þDatabase Type:þ4þ50þLý150ý25þSþþDatabase Typeþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ7þ5þ35þDatabase Serial#:þ5þ50þLý150ý25þSþþDatabase Serial#þ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ8þ6þ35þDatabase Version:þ6þ50þLý150ý25þSþþDatabase Versionþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ9þ7þ35þWorkstation Name:þ7þ50þLý150ý25þSþþWorkstation Nameþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ10þ8þ35þWorkstation IP:þ8þ50þLý150ý25þSþþWorkstation IPþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ11þ11þ5þCurrent Windowsþ12þ1þLý150ý46þSþþCurrent Windowsþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ12þ11þ46þVerþ12þ46þLý150ý5þSþþVerþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ13þ11þ56þCompiledþ12þ56þLý150ý13þSþDATEþCompiledþDDDýDDIüCALENDAR.ICO
+[20170116 10:14:59] IN  - Define Prompt       | WPþ14þ18þ5þEnteredþ19þ1þLý150ý17þSþþEnteredþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ15þ18þ28þIncludedþ19þ23þLý150ý27þSþþIncludedþ
+[20170116 10:14:59] IN  - Define Prompt       | WPþ16þ18þ55þWorkspacesþ19þ50þLý150ý22þSþþWorkspacesþ
+[20170116 10:14:59] IN  - Define Text         | WTþ1þ10þ1þWindows are shown in order of calling:þ
+[20170116 10:14:59] IN  - Define Text         | WTþ2þ17þ1þUser's Security Groupsþ
+[20170116 10:14:59] IN  - Command             | WCþCLEARALLþ11
+[20170116 10:14:59] IN  - Command             | WCþCLEARALLþ14
+[20170116 10:14:59] IN  - Command             | WCþCLEARALLþ16
+[20170116 10:14:59] IN  - Define Text         | WTþ3þ3þ1þ System Information þINVERSE
+[20170116 10:14:59] IN  - (un)Lock Screen     | WLSþ1
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ1ýþbouchcla
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ2ýþCDBOU
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ3ýþCAA.DEV
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ4ýþPROD
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ5ýþ313
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ6ýþUNIVERSE Linux
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ7ýþ20012187
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ8ýþ11.2.5
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ9ýþ
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ10ýþ
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ11ýþýAXIS$AXIS.GET.TELLER$MAINýSG$WHERE.HELP$MAIN
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ12ýþý1ý1
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ13ýþý15 FEB 16ý09 NOV 12
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ14ýþSAýUSER
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ15ýþý
+[20170116 10:14:59] IN  - Populate Prompt     | WDþ16ýþ
+[20170116 10:14:59] IN  - (un)Lock Screen     | WLSþ0
+[20170116 10:14:59] IN  - Screen Command      | WSCþSHOW

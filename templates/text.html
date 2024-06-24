@@ -1,0 +1,36 @@
+{#- No id given; matches WinGem limitation where can't update existing !TEXT element -#}
+{%- if True -%}
+{
+	"filename": "{{text.filename}}",
+	"heading": {{text.heading | py2js}},
+	"id": "{{text.getid()}}",
+	"src": "{{url_for('static',filename=text.filename)}}",
+	{%- if text.heading == True -%}
+		"left": "{{ screen.startcol|convertcolunittoem }}em",
+		"top": "{{ screen.startrow|convertrowunittoem }}em",
+	{%- else -%}
+		"left": "{{ (100 * ((text.col-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%",
+		"top": "{{ (text.row-screen.startrow)|convertrowunittoem }}em",
+	{%- endif -%}
+	"tag": "{{text.tag | safe}}"
+}
+{%- else -%}
+{%- if text.heading == True -%}
+	{# Could also use class of "wbheader" or even something totally different #}
+	<h4 id="{{ text.getid() }}" style="top: {{ screen.startrow|convertrowunittoem }}em; left: {{ screen.startcol|convertcolunittoem }}em; min-height: {{ 0.75 | convertrowunittoem }}em;" class="screencaption">
+		{{ text.tag }}
+	</h4>
+{%- else -%}
+	{% if text.texttype == "IMAGE" -%}
+		<img class = "image" 
+			src="{{url_for('static',filename=text.filename)}}"
+			alt="{{ text.filename }}"
+			style="top: {{ (text.row-screen.startrow)|convertrowunittoem }}em; left: {{ (100 * ((text.col-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+	{% else %}
+		<label class="wdlabel" 
+			style="top: {{ (text.row-screen.startrow)|convertrowunittoem }}em; left: {{ (100 * ((text.col-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+				{{ text.tag }}
+		</label>
+	{% endif %}
+{%- endif -%}
+{%- endif -%}

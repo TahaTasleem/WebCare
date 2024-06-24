@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "include": [
+        "static/js"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jquery",
+            "bootstrap",
+            "jqueryui"
+        ]
+    }
+}

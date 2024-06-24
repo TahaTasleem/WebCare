@@ -1,0 +1,56 @@
+[20170309 10:08:31] **************************************************************************************
+[20170309 10:08:31] Log Started: 2017-03-09 10:08:31 AM; Version: 2017.1.3; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170309 10:08:31] Data Path: C:\Users\cdbou\AppData\Local\Campana\AXIS\Data\; Port: 313;
+[20170309 10:08:31] **************************************************************************************
+
+[20170309 10:08:32] IN  - Close Message       | WXM
+[20170309 10:08:32] IN  - Application Command | WAþSET.SCREEN.OFFSETþ0ý0
+[20170309 10:08:32] IN  - Screen              | WSþ0þ2þMAINþ4þ64þ20þ79þBOXþSGþþHYY
+[20170309 10:08:32] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170309 10:08:32] IN  - Header              | WHþMaintain AXIS Userþ313 CAA.DEV AS CDBOU
+[20170309 10:08:32] IN  - Define Grid         | WWþ6þ65þ18.4þ96þ1þ10þSSþþYþC
+[20170309 10:08:32] IN  - Define Prompt       | WPþ1þ6þ67þþ7þ65þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ2þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ3þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ4þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ5þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ6þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ7þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ8þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ9þ6þ136þþ7þ135þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Define Prompt       | WPþ10þ6þ155þþ7þ154þLý150ý0þSþþþ
+[20170309 10:08:32] IN  - Command             | WCþCLEARALLþ1
+[20170309 10:08:32] IN  - Define Text         | WTþ1þ4þ65þ AXIS Users þINVERSE
+[20170309 10:08:32] IN  - Define Text         | WTþ2þ1þ85þ(AXIS.USER)þ
+[20170309 10:08:32] IN  - (un)Lock Screen     | WLSþ1
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ1ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ2ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ3ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ4ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ5ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ6ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ7ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ8ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ9ýþ
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ10ýþ
+[20170309 10:08:32] IN  - (un)Lock Screen     | WLSþ0
+[20170309 10:08:32] IN  - Screen Command      | WSCþSHOW
+[20170309 10:08:32] IN  - Define Prompt       | WPþ1þ6þ67þDescriptionþ7þ65þLý12ý12þSþþDescription þ
+[20170309 10:08:32] IN  - Define Text         | WTþ3þ20þ65þRows: 365þ
+[20170309 10:08:32] IN  - (un)Lock Screen     | WLSþ1
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ1ýþ<color=FFFFFF bgcolor=00A0A0>CWPU       ý<color=FFFFFF bgcolor=00A0A0>CSIERSV    ý<color=FFFFFF bgcolor=00A0A0>CDBOU      ý<color=FFFFFF bgcolor=00A0A0>MWH2       ý	ý008        ý009        ý1          ý12         ý2          ý3          ý300        ý4          ý4A         ý4JPV       ý5          ý500GAR     ý500SUP     ý503        ý6          ý600        ý600A       ý600GAR     ý600SUP     ý7          ý900        ý901        ý984        ý985        ý985-SUP    ý999        ýAAAPENN    ýAAS        ýABC        ýACAMPBELL  ýACB        ýACR        ýADAMR      ýAEG        ýAEJ        ýAGZ        ýAJB        ýAJH        ýAJH1       ýAKD        ýAKD2       ýALAN       ýALAN1      ýAMA        ýAMC        ýANB        ýAPH        ýAQS12      ýARH        ýASUPPORT   ýATW        ýAXISAH     ýAXISJS     ýAXISWEB    ýAYC        ýAYF        ýAYWANG     ýAZW        ýBAT        ýBBS        ýBDP        ýBECKER1    ýBECKER2    ýBECKERSUP  ýBGB        ýBGBP       ýBJC        ýBJC2       ýBMD        ýBMM        ýBNH        ýBSUPPORT   ýCAAQ       ýCAD        ýCAH        ýCDB        ýCDBOU      ýCDW        ýCEG        ýCEW        ýCFG2HTML   ýCHF        ýCLC        ýCLF        ýCLF.OLD    ýCLF2       ýCLH        ýCLT        ýCMK        ýCMR        ýCMS        ýCPH        ýCSI        ýCSI.CDW    ýCSI1       ýCSIADMIN   ýCSIERSV    ýCSITEST2   ýCSI_AMC    ýCSI_DAR    ýCSI_LFCC   ýCSI_MAS    ýCSI_PAH    ýCT1        ýCT1A       ýCT1B       ýCT1C       ýCWP-CONTR1 ýCWP-JPV    ýCWP-USER1  ýCWPC       ýCWPU       ýCZHAN      ýD600A      ýD601J      ýDAR        ýDAR2       ýDART       ýDAW        ýDBR        ýDDMAIL     ýDDSD       ýDECAIROB   ýDEMO       ýDEMO1      ýDEVDW      ýDGD        ýDGD2       ýDJG        ýDLH        ýDSB        ýDSDD       ýDSU        ýDSU_TEST   ýDVN        ýDVNTEST    ýDW4        ýDWD        ýDWD2       ýDZD        ýEJU        ýEMZ        ýERSCWP     ýERSDW      ýERSM       ýERSTEST    ýERU        ýEWG        ýFATIMARU   ýFAX        ýFAXSRV     ýFAXSRV1    ýFAXSRV2    ýFAXUSER    ýFJI        ýFRED       ýFTPUSER    ýG600       ýG601       ýG602       ýGAR400     ýGENISGER   ýGGW        ýGGW1       ýGGWA       ýGGWX10     ýGGWX11     ýGMM        ýGMR        ýGPD        ýGUEST      ýHDEIBNAB   ýHEROS      ýHKC        ýHLC        ýHLM        ýHML        ýHPSMH      ýIBM        ýIWWW       ýJAA        ýJAW        ýJCM        ýJCM2       ýJGW        ýJGW2       ýJGW3       ýJGW4       ýJGWDW      ýJHGF       ýJHO        ýJJV        ýJLAM       ýJLZ        ýJMH        ýJMH2       ýJMLAI      ýJNC        ýJOEBLOW    ýJPV        ýJPVTESTSIG ýJRH        ýJRM        ýJS2        ýJSK        ýJSM        ýJSM4       ýJSMQ       ýJVO        ýK3DES      ýKAB        ýKGB        ýKMB        ýKML        ýKOURIER    ýKRC        ýKSL        ýKTG        ýKTG2       ýKTG3       ýKTGTEST1   ýKTGTEST2   ýKTGTEST3   ýLAH        ýLAT        ýLFCC       ýLJO        ýLML        ýLMM        ýLMR        ýLNU        ýLWN        ýMAB        ýMACDOGRA   ýMAF        ýMARIO      ýMAS        ýMAS.TEST   ýMCKENLOR   ýMCMARJUL   ýMCR        ýMEG        ýMEHUL      ýMETRO747   ýMFG        ýMFW        ýMFWZZZ     ýMGE        ýMGE2       ýMGE3       ýMIR        ýMJA        ýMJH        ýMMT        ýMON        ýMON2       ýMPM        ýMWH        ýMWH2       ýMWH3       ýNAGIOS     ýNALA       ýNBE        ýNEWJMH     ýNFL        ýNIH        ýOAA        ýOACCONV1   ýOACCONV2   ýOACCONV3   ýOAG        ýOLDUSER    ýOMNI       ýOPC_OP     ýOPMAN      ýOSM        ýOWWW       ýPAE        ýPAH        ýPAH2       ýPAHTEST    ýPCH        ýPCN        ýPCN2       ýPG         ýPJL        ýPJP        ýPJP2       ýPPD        ýPPD2       ýPPD3       ýPWRSYNC    ýPYANG      ýQSUPPORT   ýRAE        ýRAPPC      ýRGW        ýRHS        ýRMK        ýRNDOC      ýRNPUB      ýRNUSER     ýROB        ýROOT       ýRPC        ýRSC        ýRST        ýRWO        ýSADIQSAL   ýSAH        ýSAW        ýSAW1       ýSBB        ýSBBTEST    ýSCS        ýSFMDB      ýSKO        ýSLJ        ýSLS        ýSLV        ýSLV2       ýSMF        ýSMH        ýSML        ýSPS        ýSRD        ýSTS        ýSULLICHR   ýSYSAPP     ýTALEV      ýTDEVQ      ýTEST1      ýTEST2      ýTEST3      ýTEST33     ýTEST55     ýTESTXXUSER ýTEST_PAH   ýTFTP       ýTJT        ýTLB        ýTMG        ýTRAIN1     ýTRAIN2     ýTRAIN3     ýTRAIN4     ýTRAIN7     ýTRAIN8     ýTSUP       ýTTS        ýUG         ýVMR        ýVUK        ýWALKME     ýWILKIANN   ýWRIGHCIN   ýWSB        ýWSH        ýWTR        ýXYZABC
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ2ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ3ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ4ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ5ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ6ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ7ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ8ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ9ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - Populate Prompt     | WDþ10ýþ<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>ý<color=FFFFFF bgcolor=00A0A0>
+[20170309 10:08:32] IN  - (un)Lock Screen     | WLSþ0
+[20170309 10:08:32] IN  - Screen Command      | WSCþSHOW
+[20170309 10:08:32] IN  - Populate & Prompt   | WPDþ1ý6þ008
+[20170309 10:08:38] **************************************************************************************
+[20170309 10:08:38] Log Ended: 2017-03-09 10:08:38 AM
+[20170309 10:08:38] **************************************************************************************

@@ -1,0 +1,67 @@
+[20170317 14:17:04] **************************************************************************************
+[20170317 14:17:04] Log Started: 2017-03-17 02:17:04 PM; Version: 2017.1.4; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170317 14:17:04] Data Path: C:\Users\jho.CAMPANA\AppData\Local\Campana\AXIS\Data\; Port: 185;
+[20170317 14:17:04] **************************************************************************************
+[20170317 14:17:05] IN  - Screen              | WSþ1þ3þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170317 14:17:05] IN  - Auto Complete       | WACþSUN.INCENTIVE.TELLERþADDýTDEVüJHO
+[20170317 14:17:05] IN  - Auto Complete       | WACþPRODUCTþADDý
+[20170317 14:17:05] IN  - Define Button       | WDBþ13þCý<img= >InquiryýEýWGUF:2:1:INQUIRYýýYýýýINQUIRYþCý<img= >ManualýEýWGUF:2:1:MANUALýýYýýýMANUALþCý<img= >ReversalýEýWGUF:2:1:REVERSALýýYýýýREVERSALþCý<img= >RefundýEýWGUF:2:1:REFUNDýýYýýýREFUNDþCý<img= >EntryýEýWGUF:2:1:ENTRYýýNýýýENTRY
+[20170317 14:17:05] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170317 14:17:06] IN  - Header              | WHþCounter Serviceþ185 CAA.DEV AS JHO
+[20170317 14:17:06] IN  - Define Grid         | WWþ7þ1þ9þ35þ5þ5þDþþNþC
+[20170317 14:17:06] IN  - Define Grid         | WWþ11þ1þ15.5þ83þ8þ17þDþþNþC8-9,15-16
+[20170317 14:17:06] IN  - Define Prompt       | WPþ1þ4þ1þþ4þ10þLý150ý26þSþþþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ2þ4þ41þClient:þ4þ49þLý150ý35þSþþClientþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ5þ7þ1þþ8þ1þLý30ý32þDþWORDWRAPþþEDIT.PARMSüCC.SCAN
+[20170317 14:17:06] IN  - Define Prompt       | WPþ8þ11þ1þProductþ12þ1þLý150ý17þDþPRODUCTþProduct: code, search string, ?? for tableþDDDýAC.LISTüPRODUCTüINORDER
+[20170317 14:17:06] IN  - Define Prompt       | WPþ9þ11þ15þþ12þ15þLý150ý17þSþþþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ10þ11þ38þQtyþ12þ38þRý150ý5þDþINTþQuantityþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ11þ11þ44þPromoþ12þ44þLý150ý2þDþþPromoþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ12þ11þ47þPriceþ12þ47þRý150ý9þDþDOLLARþPriceþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ13þ11þ53þDiscountþ12þ53þRý150ý9þDþDOLLARþDiscountþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ14þ11þ59þAþ11þ59þLý150ý2þDþþAþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ15þ11þ62þAmountþ12þ62þRý150ý9þSþDOLLARþAmountþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ16þ11þ70þþ12þ70þRý150ý3þSþþþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ17þ11þ72þDomesticþ12þ72þRý150ý9þSþDOLLARþDomesticþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ18þ17þ61þþ17þ64þRý150ý20þSþDOLLARþþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ19þ18þ61þþ18þ64þRý150ý20þSþDOLLARþþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ20þ19þ57þTotalþ19þ64þRý150ý20þSþDOLLARþTotalþ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ21þ17.1þ28þAffinity Credits Earned:þ17.1þ46þRý150ý7þSþDOLLARþAffinity Credits Earnedþ
+[20170317 14:17:06] IN  - Define Group Box    | WGBþGBOX1þ10.25þ0.25þ16.25þ83.75þ
+[20170317 14:17:06] IN  - Define Button       | WDBþ10þCý<img=BLACKARROW.ICO>ýEýEAFFINITY.CREDITSýýNý17ý43.5ýEAFFINITY.CREDITSýýýýý1ý2.4
+[20170317 14:17:06] IN  - Command             | WCþCLEARALLþ5
+[20170317 14:17:06] IN  - Command             | WCþCLEARALLþ6
+[20170317 14:17:06] IN  - Command             | WCþCLEARALLþ8
+[20170317 14:17:06] IN  - Define Text         | WTþ1þ4þ5þRef #   :þ
+[20170317 14:17:06] IN  - Define Text         | WTþ2þ3þ33þ TRANSACTION þINVERSE
+[20170317 14:17:06] IN  - Define Prompt       | WPþ5þ7þ1þDescriptionþ8þ1þLý30ý32þDþWORDWRAPþDescriptionþEDIT.PARMSüCC.SCANýEDIT.PARMSüCC.SCAN
+[20170317 14:17:06] IN  - Define Text         | WTþ3þ17þ57þHST  þ
+[20170317 14:17:06] IN  - Define Text         | WTþ4þ18þ57þPST  þ
+[20170317 14:17:06] IN  - Define Prompt       | WPþ8þ11þ1þProductþ12þ1þLý150ý17þDþPRODUCTþProduct: code, search string, ?? for tableþDDDýAC.LISTüPRODUCTüINORDER
+[20170317 14:17:06] IN  - Define Button       | WCBþýýýýýNýýýEAFFINITY.CREDITSýýýýýýýýý
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ21ýþ
+[20170317 14:17:06] IN  - (un)Lock Screen     | WLSþ1
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ1ýþNEW
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ2ýþGEN GEOFF HOTMAN
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ5ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ8ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ9ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ10ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ11ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ12ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ13ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ14ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ15ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ16ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ17ýþ
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ18ýþ0.00
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ19ýþ0.00
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ20ýþ0.00
+[20170317 14:17:06] IN  - Populate Prompt     | WDþ21ýþ
+[20170317 14:17:06] IN  - (un)Lock Screen     | WLSþ0
+[20170317 14:17:06] IN  - Screen Command      | WSCþSHOW
+[20170317 14:17:06] IN  - Define Text         | WTþ5þ3þ25þ SUN - ENTRY :  TRANSACTION þ
+[20170317 14:17:06] IN  - Populate & Prompt   | WPDþ5ý1þ
+[20170317 14:17:11] **************************************************************************************
+[20170317 14:17:11] Log Ended: 2017-03-17 02:17:11 PM
+[20170317 14:17:11] **************************************************************************************

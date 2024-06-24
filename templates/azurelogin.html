@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script src="{{ url_for('static', filename='js/msal-browser.min.js') }}"></script>
+    </head>
+    <body></body>
+<script>
+    const msalConfig = {
+        auth: {
+            clientId: "{{clientid}}",
+            authority: "https://login.microsoftonline.com/{{tenantid}}",
+        },
+        cache: {
+            cacheLocation: "sessionStorage", // This configures where your cache will be stored
+            storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+        }
+    };
+
+    // Add scopes here for ID token to be used at Microsoft identity platform endpoints.
+    const loginRequest = {
+        scopes: ["openid", "profile", "User.Read"]
+    };
+
+    const myMSALObj = new msal.PublicClientApplication(msalConfig);
+
+    // Redirect: once login is successful and redirects with tokens
+    myMSALObj.handleRedirectPromise().then(handleResponse).catch(err => {
+        console.error(err);
+    });
+
+    function handleResponse(resp) {
+        if (resp !== null) {
+            const redirect_url = (window.location != window.parent.location) ? document.referrer : document.location.href;
+            window.location.replace(redirect_url + (redirect_url.includes("?") ? "&" : "?") + "auth_token=" + resp.accessToken)
+        } else {
+            myMSALObj.loginRedirect(loginRequest);
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html style="overflow:hidden;">
+<head>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+	{% endif %}
+	{% if config.PRODUCTION %}
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='css/wd.min.css', build=config.BUILD) }}">
+    {% else %}
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='css/jquery_ui.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='css/webdirect.css') }}">
+    {% endif %}
+
+	<script>
+		function getFrameWindow(frameElement) {
+			return frameElement.contentWindow? frameElement.contentWindow : frameElement.contentDocument.defaultView;
+		}
+
+		function iFramePrint() {
+			var tempFrame = $('#externalsource')[0];
+			var tempFrameWindow = getFrameWindow(tempFrame);
+			var tempWindowBody = tempFrameWindow.document.body;
+			var contentFrame = $(tempWindowBody).find("[name=CSIMain]")[0];
+			
+			// If main frame is nested then print only it
+			if (contentFrame) {
+				tempFrameWindow = getFrameWindow(contentFrame);
+			}
+
+			var dtprint = $(tempWindowBody).find("button.dt-button.buttons-print")[0];
+			if (dtprint) {
+				dtprint.click();
+				return false;
+			}
+
+			tempFrameWindow.focus();
+			tempFrameWindow.print();
+		}
+
+		function iFrameExcel() {						
+			var tempFrame = $('#externalsource')[0];
+			var tempFrameWindow = getFrameWindow(tempFrame);
+			var tempWindowBody = tempFrameWindow.document.body;
+			var dtexcel = $(tempWindowBody).find("button.dt-button.buttons-excel")[0];
+			if (dtexcel) {
+				dtexcel.click();
+			}
+		}
+	</script>
+</head>
+<body class="externalbrowser{%- if config.PRODUCT == "GoldCare" %} gc{%- endif -%}">
+	<script>
+		var sid = "{{sessionid}}";
+		var approot = "{{url_for('wdmain')}}";
+	</script>
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/webdirect.js',build=config.BUILD) }}"></script>
+	<div id="externalsource_print"></div>
+    <div id="externalsource_wrapper" >
+		<iframe id="externalsource" class="rptbrowser" src="{{ url_for('wdmain')}}{{ target }}" onload="WD.updateiframefunctions(this);"></iframe>
+		<div id="externalsource_buttons" style="min-height: 3.2em;">
+			<button onclick="window.close();" class="wdbutton btn btn-primary" style="bottom: 8px; right: 1.8em; width: 7.2em; height: 2.2em;">
+				{{ "IDS_CAP0067" | loadstring }}
+			</button>
+			<button onclick="iFramePrint();" class="wdbutton btn btn-primary" style="bottom: 8px; right: 9.4em; width: 7.2em; height: 2.2em;">
+				{{ "IDS_WEB0006" | loadstring }}
+			</button>
+			<button onclick="iFrameExcel();" id="iframe_excel" class="wdbutton btn btn-primary" style="bottom: 8px; right: 17em; width: 7.2em; height: 2.2em;">
+				Excel
+			</button>
+		</div>
+	</div>
+	
+	<script>
+		$(window).on("load", function() {
+			var urlaction = getUrlParameter('action');
+			if (urlaction == 'print') {
+				// window.print();
+				iFramePrint();
+				window.close();
+			} else {
+				var iframesrc = document.getElementById("externalsource").src;
+				if (iframesrc.length > 0 ) {
+					iframesrc = iframesrc.substring(iframesrc.lastIndexOf('/')+1);
+					if (iframesrc.substring(0,2).toUpperCase() == "WG") {
+						$("#externalsource_buttons").show();
+					}
+				}
+			}
+		});
+		function showExcelButton() {
+			$("#iframe_excel").show();
+		}
+
+		$(window).on("beforeprint", WD.beforeprint);
+
+		function getUrlParameter(name) {
+    		name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    		var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    		var results = regex.exec(location.search);
+    		return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+		};
+	</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+#Ignore python compile files
+*.pyc
+.idea
+#coverage html report
+htmlcov/
+
+# ignore guid folders
+# and uploads
+static/**/*-*/
+/uploads/
+
+#log folder
+/logs/
+
+# ignore docker folder
+# saved samples sourced in extras/docker instead
+/docker/
+
+# ignore nodemodules
+/node_modules/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ignore blobbed files
+# these will be delivered separately
+static/scripts/
+static/gifs/
+static/images/
+static/data/
+V*/
+
+# Restore Monaco Editor files
+!monaco-editor
+!static/monaco-editor/**/*
+!editor-languages
+
+# ignore generated files
+.coverage
+.project
+.pydevproject
+.settings/
+bin/
+
+# ignore virtual env
+.pyenv
+
+# Ignore build files
+*.egg-info/
+build/
+dist/
+.eggs
+
+# Ignore vs code editor files
+.history
+.vscode
+.noseids
+
+# Ignore files related to gc login
+gclogin.pem
+static/gclogin
+config/*

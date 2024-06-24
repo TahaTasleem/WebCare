@@ -1,0 +1,102 @@
+[20170310 16:03:25] **************************************************************************************
+[20170310 16:03:25] Log Started: 2017-03-10 04:03:25 PM; Version: 2017.1.2; Windows 6.1.7601 - Service Pack 1 - AMD64; Remote: False;
+[20170310 16:03:25] Data Path: C:\Users\dar\AppData\Local\Campana\AXIS\Data\; Port: 822;
+[20170310 16:03:25] **************************************************************************************
+
+[20170310 16:03:27] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.PMþADDýEMVüVAüVMAüVSüVüVIüVCAüAMEXüDSCüMCüMPPMCüMPPVüAXüAEüVUS
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.PM.REVERSALþADDýEMVüVAüVMAüVSüVüVIüVCAüAMEXüDSCüMCüMPPMCüMPPVüAXüAEüVUS
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.BRANCHþADDýSTCMüSTCEüTüWüSTC
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.BRANCH.CTRL.CLASSþADDýSWIPES4üFDRC
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.BRANCH.SUPERþADDý
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.BATCH.CONTROLLERSþADDýSWIPES4BATCH1üSWIPES4
+[20170310 16:03:27] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170310 16:03:27] IN  - Header              | WHþSwipe System Parametersþ822 CAA.DEV AS DAR
+[20170310 16:03:27] IN  - Define Grid         | WWþ9þ6þ12þ85þ20þ26þDþþNþC
+[20170310 16:03:27] IN  - Define Grid         | WWþ13þ6þ16þ85þ27þ34þDþþNþC
+[20170310 16:03:27] IN  - Define Grid         | WWþ17þ6þ19þ74þ36þ37þDþþNþC36-37
+[20170310 16:03:27] IN  - Define Prompt       | WPþ3þ5þ1þDefine Bal. IDs:þ5þ20þLý150ý4þDþONLYþDefine balance IDs: (Y/N)þ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ5þ6þ1þReport Format:þ6þ20þLý150ý4þDþONLYþReport format: (S/RB/CCS/FD)þ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ6þ7þ1þPayment Report:þ7þ20þLý150ý4þDþNORYþPrint Approved Payment Report when swipe batch closed: (Y/N)þ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ14þ5þ42þError Email Addr.:þ5þ63þLý150ý23þDþTEXTþEnter an email address to be used for internal swipe error messagesþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ17þ7þ42þMax No. of Trans:þ7þ63þLý150ý12þDþINTþMaximum number of transactions allowed in a bank batchþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ18þ8þ42þPost-Date Attempts:þ8þ63þRý150ý4þDþINTþMaximum number of authorization attempts in post-dated payment processingþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ20þ9þ1þPay Methodþ10þ6þLý150ý11þDþTABLEþPayment method: code, ?? for tableþDDDýAC.LISTüSWIPE.PMüINORDER
+[20170310 16:03:27] IN  - Define Prompt       | WPþ21þ9þ16þBank PMþ10þ16þLý150ý10þDþONLYþBank payment method codeþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ22þ9þ35þStatusþ10þ33þLý150ý7þDþONLYþStatus of swipe for this payment method: (A)ctive, (I)nactiveþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ24þ9þ33þR/Cþ10þ33þLý150ý4þDþONLYþPay method is used for 'R'etail purchases OR 'C'ash/trav.checksþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ25þ9þ46þCodeþ10þ41þLý150ý5þSþTEXTþProcess code, currently '00' for retail purchase pay methods, '01' for cash/trav.checksþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ26þ9þ52þCategoryþ10þ46þLý150ý20þDþTEXTþCategory, currently '8675' retail purchases, '6051' cash/trav.checksþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ27þ13þ1þBranchþ14þ6þLý150ý7þDþTABLEþBranch: code, ?? for tableþDDDýAC.LISTüSWIPE.BRANCHüINORDER
+[20170310 16:03:27] IN  - Define Prompt       | WPþ28þ13þ9þController Classþ14þ9þLý150ý17þDþTABLEþController class: code, ?? for tableþDDDýAC.LISTüSWIPE.BRANCH.CTRL.CLASSüINORDER
+[20170310 16:03:27] IN  - Define Prompt       | WPþ29þ13þ30þStatusþ10þ30þLý150ý7þDþONLYþStatus of swipe for this payment method: (A)ctive, (I)nactiveþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ30þ13þ27þPINpad IDþ14þ27þLý150ý10þDþONLYþPINpad ID method: (P)ort, (W)orkcenter,(I)P addressþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ33þ13þ38þCall Centerþ14þ38þLý150ý12þDþNORYþBranch is a call center: (Y/N)þ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ34þ13þ57þPhoneþ14þ57þLý150ý15þDþPHONEþBranch phone number for inquiriesþ
+[20170310 16:03:27] IN  - Define Prompt       | WPþ36þ17þ1þBatch Controllersþ18þ6þLý150ý18þDþTABLEþBatch controller: code, ?? for tableþDDDýAC.LISTüSWIPE.BATCH.CONTROLLERSüINORDER
+[20170310 16:03:27] IN  - Define Prompt       | WPþ37þ12þ26þþ18þ20þLý150ý50þSþþþ
+[20170310 16:03:27] IN  - Command             | WCþCLEARALLþ20
+[20170310 16:03:27] IN  - Command             | WCþCLEARALLþ27
+[20170310 16:03:27] IN  - Command             | WCþCLEARALLþ36
+[20170310 16:03:27] IN  - Define Text         | WTþ1þ3þ31þ Basic - Shift4 þINVERSE
+[20170310 16:03:27] IN  - Auto Complete       | WACþSWIPE.BATCH.CONTROLLERSþADDýSWIPES4BATCH1üSWIPES4
+[20170310 16:03:27] IN  - Define Prompt       | WPþ36þ17þ1þBatch Controllersþ18þ6þLý150ý18þDþTABLEþBatch controllers: code, ?? for tableþDDDýAC.LISTüSWIPE.BATCH.CONTROLLERSüINORDER
+[20170310 16:03:27] IN  - (un)Lock Screen     | WLSþ1
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ3ýþN
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ5ýþS
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ6ýþY
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ14ýþadam.rosenquist@campana.com
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ17ýþ9999991
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ18ýþ10
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ20ýþVýVIýVAýVMAýMCýAXýDSCýEMVýVCAýVUSýBMýBVýBA
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ21ýþVSýVSýVSýVSýMCýAXýNSýEMVýEMVýVSýMCýVSýAX
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ22ýþAýAýAýAýAýAýAýAýAýAýAýAýA
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ24ýþRýRýRýRýRýRýRýRýRýCýRýRýR
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ25ýþ00ý00ý00ý00ý00ý00ý00ý00ý00ý00ý00ý00
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ26ýþ8675ý8675ý8675ý8675ý8675ý8675ý8675ý8675ý8675ý6051ý8675ý8675ý
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ27ýþSTCýSTCMýSTCE
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ28ýþSWIPES4ýSWIPES4ýSWIPES4
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ29ýþAýAýA
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ30ýþWýý
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ33ýþNýYýN
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ34ýþý555 123-1234
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ36ýþSWIPES4ýSWIPES4BATCH1
+[20170310 16:03:27] IN  - Populate Prompt     | WDþ37ýþShift 4 ControllerýShift 4 Controller
+[20170310 16:03:27] IN  - (un)Lock Screen     | WLSþ0
+[20170310 16:03:27] IN  - Screen Command      | WSCþSHOW
+[20170310 16:03:27] IN  - Wait On Button      | WWBþOK
+[20170310 16:03:29] OUT - Data Sent To Host   | J27.1
+
+[20170310 16:03:29] IN  - Populate & Prompt   | WPDþ27ý1þSTC
+[20170310 16:03:32] OUT - Data Sent To Host   | J27.2
+
+[20170310 16:03:32] IN  - Populate Prompt     | WDþ27ý1þSTC
+[20170310 16:03:32] IN  - Populate & Prompt   | WPDþ27ý2þSTCM
+[20170310 16:03:34] OUT - Data Sent To Host   | F8
+
+[20170310 16:03:34] IN  - Insert MV           | WIVþ27ý2
+[20170310 16:03:34] IN  - Populate Prompt     | WDþ27ý2þ
+[20170310 16:03:34] IN  - Populate & Prompt   | WPDþ27ý2þ
+[20170310 16:03:36] OUT - Data Sent To Host   | TþR
+
+[20170310 16:03:36] IN  - Auto Complete       | WACþSWIPE.BRANCHþADDýT
+[20170310 16:03:36] IN  - Populate Prompt     | WDþ27ý2þT
+[20170310 16:03:36] IN  - Populate & Prompt   | WPDþ28ý2þ
+[20170310 16:03:41] OUT - Data Sent To Host   | SWIPES4þR
+
+[20170310 16:03:41] IN  - Auto Complete       | WACþSWIPE.BRANCH.CTRL.CLASSþADDýSWIPES4
+[20170310 16:03:41] IN  - Populate Prompt     | WDþ28ý2þSWIPES4
+[20170310 16:03:41] IN  - Populate & Prompt   | WPDþ29ý2þ
+[20170310 16:03:42] OUT - Data Sent To Host   | AþR
+
+[20170310 16:03:42] IN  - Populate Prompt     | WDþ29ý2þA
+[20170310 16:03:42] IN  - Populate & Prompt   | WPDþ30ý2þ
+[20170310 16:03:42] OUT - Data Sent To Host   | R
+
+[20170310 16:03:42] IN  - Populate Prompt     | WDþ30ý2þ
+[20170310 16:03:42] IN  - Populate & Prompt   | WPDþ33ý2þN
+[20170310 16:03:42] OUT - Data Sent To Host   | R
+
+[20170310 16:03:43] IN  - Populate Prompt     | WDþ33ý2þN
+[20170310 16:03:43] IN  - Populate & Prompt   | WPDþ27ý3þSTCM
+[20170310 16:03:43] OUT - Data Sent To Host   | F2

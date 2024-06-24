@@ -1,0 +1,14 @@
+<div class="bgbrowser" id="{{ browser.browserid }}" style="
+{% if not browser.visible -%}
+    display:none;
+{%- endif %}
+{% if browser.width -%}
+    width: {{ browser.width | float }}em;
+{%- endif %}
+"
+{% if browser.zorder -%}
+    data-zorder="{{ browser.zorder }}"
+{%- endif %}
+>
+    <iframe data-browserid="{{ browser.browserid }}" src="{%- if cmd == 'login' and browser.url != 'about:blank' and browser.url != '' -%}..\{%- endif -%}{{ browser.url }}" onload="WD.updateiframefunctions(this);" ></iframe>
+</div>

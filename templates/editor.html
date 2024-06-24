@@ -1,0 +1,55 @@
+{% if not editorwrapper %}
+<nav class="navbar navbar-default" style="flex:0 0 auto">
+    <div class="navbar-collapse collapse off" id="wdeditnavbar">
+        <ul class="nav navbar-nav no-collapse">
+            <li>
+                {% if config.PRODUCT == "AXIS" %}
+                    <img class="header" alt="AXIS" src="{{url_for('static',filename='wdres/axlogo.svg') }}">
+                {% else %}
+                    <img class="header" alt="GoldCare" src="{{url_for('static',filename='wdres/gclogo.svg') }}">
+                {% endif %}
+            </li>
+            <li>
+                <a href="#" id="wdeditsave" title="CTRL + S">
+                Save and Exit
+                </a>
+            </li>
+            <li>
+                <a href="#" id="wdeditcancel" title="CTRL + Q">
+                    {{ "IDS_WEB0004" | loadstring }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% endif %}
+{% if editortitle %}
+<div id="editortitle" class="wdheading">
+    <img class="header" alt="{{editortitle}}" src="{{url_for('static',filename='wdres/msg_man.svg') }}"> <span>{{editortitle}}</span>
+</div>
+{% endif %}
+<div class="form-inline">
+    <div class="form-group">
+        <label for="language-picker">Language:</label>
+        <select id="language-picker"></select>
+    </div>
+    <div class="form-group">
+        <label for="theme-picker">&nbsp;Theme:</label>
+        <select id="theme-picker">
+            <option>vs</option>
+            <option>vs-dark</option>
+            <option>hc-black</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="inline-diff">
+        <input id="inline-diff" type="checkbox" value="">Inline diff</label>
+    </div>
+    <div class="form-group">
+        <label>Differences:</label>
+        <button id="diffnavprev" onclick="WD.prevdiff();">Prev</button>
+        <button id="diffnavnext" onclick="WD.nextdiff();">Next</button>
+    </div>
+    <span id="editorlabel">&nbsp;</span>
+</div>
+<div id="editfilecontainer"></div>

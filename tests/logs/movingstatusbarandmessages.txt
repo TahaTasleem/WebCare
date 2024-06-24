@@ -1,0 +1,895 @@
+[20170217 14:38:26] **************************************************************************************
+[20170217 14:38:26] Log Started: 2017-02-17 02:38:26 PM; Version: 2017.1.2; Windows 6.1.7601 - Service Pack 1 - AMD64; Remote: False;
+[20170217 14:38:26] Data Path: C:\Users\dar\AppData\Local\Campana\AXIS\Data\; Port: 822;
+[20170217 14:38:26] **************************************************************************************
+[20170217 14:38:28] IN  - Status Bar          | WSBþINITþComplete
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ3
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ4
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ5
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ6
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ7
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ8
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ9
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ10
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ11
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ12
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ13
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ14
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ15
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ16
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ17
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ18
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ19
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ20
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ21
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ22
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ23
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ24
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ25
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ26
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ27
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ28
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ29
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ30
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ31
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ32
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ33
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ34
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ35
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ36
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ37
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ38
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ39
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ40
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ41
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ42
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ43
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ44
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ45
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ46
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ47
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ48
+[20170217 14:38:28] IN  - Status Bar          | WSBþUPDATEþ49
+[20170217 14:38:28] IN  - Message             | WMþTELLþAT 49
+[20170217 14:38:29] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:29] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:38:29] IN  - Message             | WMþTELLþCLEARED
+[20170217 14:38:30] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:30] IN  - Status Bar          | WSBþINITþComplete
+[20170217 14:38:30] IN  - Message             | WMþTELLþREFRESHED
+[20170217 14:38:31] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:31] IN  - Status Bar          | WSBþMESSAGEþTEXT
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:31] IN  - Message             | WMþTELLþAT 50
+[20170217 14:38:31] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ51
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ52
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ53
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ54
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ55
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ56
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ57
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ58
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ59
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ60
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ61
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ62
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ63
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ64
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ65
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ66
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ67
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ68
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ69
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ70
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ71
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ72
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ73
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ74
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ75
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ76
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ77
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ78
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ79
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ80
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ81
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ82
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ83
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ84
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ85
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ86
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ87
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ88
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ89
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ90
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ91
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ92
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ93
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ94
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ95
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ96
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ97
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ98
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ99
+[20170217 14:38:31] IN  - Status Bar          | WSBþUPDATEþ100
+[20170217 14:38:31] IN  - Message             | WMþTELLþAT 100
+[20170217 14:38:32] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:32] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:38:32] IN  - Status Bar          | WSBþINITþTITLE
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ3
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ4
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ5
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ6
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ7
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ8
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ9
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ10
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ11
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ12
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ13
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ14
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ15
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ16
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ17
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ18
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ19
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ20
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ21
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ22
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ23
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ24
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ25
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ26
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ27
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ28
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ29
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ30
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ31
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ32
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ33
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ34
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ35
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ36
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ37
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ38
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ39
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ40
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ41
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ42
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ43
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ44
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ45
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ46
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ47
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ48
+[20170217 14:38:32] IN  - Status Bar          | WSBþUPDATEþ49
+[20170217 14:38:32] IN  - Message             | WMþTELLþAT 49
+[20170217 14:38:32] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:32] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:38:32] IN  - Message             | WMþTELLþCLEARED
+[20170217 14:38:33] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:33] IN  - Status Bar          | WSBþINITþTITLE
+[20170217 14:38:33] IN  - Message             | WMþTELLþREFRESHED
+[20170217 14:38:33] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:33] IN  - Status Bar          | WSBþMESSAGEþTEXT
+[20170217 14:38:33] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:33] IN  - Message             | WMþTELLþAT 50
+[20170217 14:38:34] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ51
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ52
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ53
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ54
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ55
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ56
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ57
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ58
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ59
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ60
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ61
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ62
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ63
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ64
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ65
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ66
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ67
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ68
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ69
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ70
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ71
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ72
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ73
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ74
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ75
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ76
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ77
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ78
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ79
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ80
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ81
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ82
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ83
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ84
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ85
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ86
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ87
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ88
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ89
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ90
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ91
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ92
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ93
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ94
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ95
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ96
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ97
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ98
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ99
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ100
+[20170217 14:38:34] IN  - Message             | WMþTELLþAT 100
+[20170217 14:38:34] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:34] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:38:34] IN  - Status Bar          | WSBþINITþComplete
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ100
+[20170217 14:38:34] IN  - Status Bar          | WSBþMESSAGEþ0 Complete
+[20170217 14:38:34] IN  - Status Bar          | WSBþUPDATEþ99
+[20170217 14:38:34] IN  - Status Bar          | WSBþMESSAGEþ1 Complete
+[20170217 14:38:34] IN  - Message             | WMþTELLþCOUNT AT 1
+[20170217 14:38:35] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ98
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ1 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ97
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ2 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ96
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ3 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ95
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ4 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ94
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ5 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ93
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ6 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ92
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ7 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ91
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ8 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ90
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ9 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ89
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ10 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ88
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ11 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ87
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ12 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ86
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ13 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ85
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ14 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ84
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ15 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ83
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ16 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ82
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ17 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ81
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ18 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ80
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ19 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ79
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ20 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ78
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ21 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ77
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ22 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ76
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ23 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ75
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ24 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ74
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ25 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ73
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ26 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ72
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ27 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ71
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ28 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ70
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ29 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ69
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ30 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ68
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ31 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ67
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ32 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ66
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ33 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ65
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ34 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ64
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ35 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ63
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ36 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ62
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ37 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ61
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ38 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ60
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ39 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ59
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ40 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ58
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ41 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ57
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ42 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ56
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ43 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ55
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ44 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ54
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ45 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ53
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ46 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ52
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ47 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ51
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ48 Complete
+[20170217 14:38:35] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:35] IN  - Status Bar          | WSBþMESSAGEþ49 Complete
+[20170217 14:38:35] IN  - Message             | WMþTELLþAT 49
+[20170217 14:38:37] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:37] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:38:37] IN  - Message             | WMþTELLþCLEARED
+[20170217 14:38:39] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:39] IN  - Status Bar          | WSBþINITþComplete
+[20170217 14:38:39] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:39] IN  - Status Bar          | WSBþMESSAGEþ49 Complete
+[20170217 14:38:39] IN  - Message             | WMþTELLþREFRESHED
+[20170217 14:38:41] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:41] IN  - Status Bar          | WSBþMESSAGEþTEXT
+[20170217 14:38:41] IN  - Status Bar          | WSBþUPDATEþ49
+[20170217 14:38:41] IN  - Status Bar          | WSBþMESSAGEþ50 Complete
+[20170217 14:38:41] IN  - Message             | WMþTELLþAT 50
+[20170217 14:38:42] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:42] IN  - Status Bar          | WSBþUPDATEþ48
+[20170217 14:38:42] IN  - Status Bar          | WSBþMESSAGEþ51 Complete
+[20170217 14:38:42] IN  - Status Bar          | WSBþUPDATEþ47
+[20170217 14:38:42] IN  - Status Bar          | WSBþMESSAGEþ52 Complete
+[20170217 14:38:42] IN  - Status Bar          | WSBþUPDATEþ46
+[20170217 14:38:42] IN  - Status Bar          | WSBþMESSAGEþ53 Complete
+[20170217 14:38:42] IN  - Status Bar          | WSBþUPDATEþ45
+[20170217 14:38:42] IN  - Status Bar          | WSBþMESSAGEþ54 Complete
+[20170217 14:38:42] IN  - Status Bar          | WSBþUPDATEþ44
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ55 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ43
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ56 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ42
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ57 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ41
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ58 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ40
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ59 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ39
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ60 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ38
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ61 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ37
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ62 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ36
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ63 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ35
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ64 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ34
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ65 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ33
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ66 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ32
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ67 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ31
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ68 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ30
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ69 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ29
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ70 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ28
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ71 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ27
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ72 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ26
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ73 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ25
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ74 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ24
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ75 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ23
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ76 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ22
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ77 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ21
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ78 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ20
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ79 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ19
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ80 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ18
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ81 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ17
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ82 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ16
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ83 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ15
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ84 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ14
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ85 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ13
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ86 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ12
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ87 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ11
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ88 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ10
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ89 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ9
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ90 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ8
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ91 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ7
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ92 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ6
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ93 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ5
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ94 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ4
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ95 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ3
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ96 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ97 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ98 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ0
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ99 Complete
+[20170217 14:38:43] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:43] IN  - Status Bar          | WSBþMESSAGEþ100 Complete
+[20170217 14:38:43] IN  - Message             | WMþTELLþAT 100, STARTING LOOP
+[20170217 14:38:49] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ100 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ3
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ101 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ4
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ102 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ5
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ103 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ6
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ104 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ7
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ105 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ8
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ106 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ9
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ107 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ10
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ108 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ11
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ109 Complete
+[20170217 14:38:49] IN  - Status Bar          | WSBþUPDATEþ12
+[20170217 14:38:49] IN  - Status Bar          | WSBþMESSAGEþ110 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ13
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ111 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ14
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ112 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ15
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ113 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ16
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ114 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ17
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ115 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ18
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ116 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ19
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ117 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ20
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ118 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ21
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ119 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ22
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ120 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ23
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ121 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ24
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ122 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ25
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ123 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ26
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ124 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ27
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ125 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ28
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ126 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ29
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ127 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ30
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ128 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ31
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ129 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ32
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ130 Complete
+[20170217 14:38:50] IN  - Status Bar          | WSBþUPDATEþ33
+[20170217 14:38:50] IN  - Status Bar          | WSBþMESSAGEþ131 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ34
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ132 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ35
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ133 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ36
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ134 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ37
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ135 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ38
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ136 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ39
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ137 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ40
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ138 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ41
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ139 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ42
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ140 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ43
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ141 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ44
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ142 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ45
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ143 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ46
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ144 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ47
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ145 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ48
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ146 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ49
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ147 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ148 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ51
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ149 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ52
+[20170217 14:38:51] IN  - Status Bar          | WSBþMESSAGEþ150 Complete
+[20170217 14:38:51] IN  - Status Bar          | WSBþUPDATEþ53
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ151 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ54
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ152 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ55
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ153 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ56
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ154 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ57
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ155 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ58
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ156 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ59
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ157 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ60
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ158 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ61
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ159 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ62
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ160 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ63
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ161 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ64
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ162 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ65
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ163 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ66
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ164 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ67
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ165 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ68
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ166 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ69
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ167 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ70
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ168 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ71
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ169 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ72
+[20170217 14:38:52] IN  - Status Bar          | WSBþMESSAGEþ170 Complete
+[20170217 14:38:52] IN  - Status Bar          | WSBþUPDATEþ73
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ171 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ74
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ172 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ75
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ173 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ76
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ174 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ77
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ175 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ78
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ176 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ79
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ177 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ80
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ178 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ81
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ179 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ82
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ180 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ83
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ181 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ84
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ182 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ85
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ183 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ86
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ184 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ87
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ185 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ88
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ186 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ89
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ187 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ90
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ188 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ91
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ189 Complete
+[20170217 14:38:53] IN  - Status Bar          | WSBþUPDATEþ92
+[20170217 14:38:53] IN  - Status Bar          | WSBþMESSAGEþ190 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ93
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ191 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ94
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ192 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ95
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ193 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ96
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ194 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ97
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ195 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ98
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ196 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ99
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ197 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ100
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ198 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ99
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ199 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ98
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ200 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ97
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ201 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ96
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ202 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ95
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ203 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ94
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ204 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ93
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ205 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ92
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ206 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ91
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ207 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ90
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ208 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ89
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ209 Complete
+[20170217 14:38:54] IN  - Status Bar          | WSBþUPDATEþ88
+[20170217 14:38:54] IN  - Status Bar          | WSBþMESSAGEþ210 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ87
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ211 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ86
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ212 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ85
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ213 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ84
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ214 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ83
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ215 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ82
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ216 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ81
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ217 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ80
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ218 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ79
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ219 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ78
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ220 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ77
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ221 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ76
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ222 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ75
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ223 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ74
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ224 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ73
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ225 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ72
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ226 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ71
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ227 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ70
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ228 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ69
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ229 Complete
+[20170217 14:38:55] IN  - Status Bar          | WSBþUPDATEþ68
+[20170217 14:38:55] IN  - Status Bar          | WSBþMESSAGEþ230 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ67
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ231 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ66
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ232 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ65
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ233 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ64
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ234 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ63
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ235 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ62
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ236 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ61
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ237 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ60
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ238 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ59
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ239 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ58
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ240 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ57
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ241 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ56
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ242 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ55
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ243 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ54
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ244 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ53
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ245 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ52
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ246 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ51
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ247 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ50
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ248 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ49
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ249 Complete
+[20170217 14:38:56] IN  - Status Bar          | WSBþUPDATEþ48
+[20170217 14:38:56] IN  - Status Bar          | WSBþMESSAGEþ250 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ47
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ251 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ46
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ252 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ45
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ253 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ44
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ254 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ43
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ255 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ42
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ256 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ41
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ257 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ40
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ258 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ39
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ259 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ38
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ260 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ37
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ261 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ36
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ262 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ35
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ263 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ34
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ264 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ33
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ265 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ32
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ266 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ31
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ267 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ30
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ268 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ29
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ269 Complete
+[20170217 14:38:57] IN  - Status Bar          | WSBþUPDATEþ28
+[20170217 14:38:57] IN  - Status Bar          | WSBþMESSAGEþ270 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ27
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ271 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ26
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ272 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ25
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ273 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ24
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ274 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ23
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ275 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ22
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ276 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ21
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ277 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ20
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ278 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ19
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ279 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ18
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ280 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ17
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ281 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ16
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ282 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ15
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ283 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ14
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ284 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ13
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ285 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ12
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ286 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ11
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ287 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ10
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ288 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ9
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ289 Complete
+[20170217 14:38:58] IN  - Status Bar          | WSBþUPDATEþ8
+[20170217 14:38:58] IN  - Status Bar          | WSBþMESSAGEþ290 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ7
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ291 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ6
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ292 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ5
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ293 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ4
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ294 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ3
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ295 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ296 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ297 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ0
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ298 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ1
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ299 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ300 Complete
+[20170217 14:38:59] IN  - Status Bar          | WSBþINITþComplete
+[20170217 14:38:59] IN  - Status Bar          | WSBþUPDATEþ2
+[20170217 14:38:59] IN  - Status Bar          | WSBþMESSAGEþ300 Complete
+[20170217 14:38:59] IN  - Message             | WMþTELLþREFRESHED FOR COUNT
+[20170217 14:39:01] OUT - Data Sent To Host   | WHIR:
+
+[20170217 14:39:01] IN  - Status Bar          | WSBþCLOSE
+[20170217 14:39:01] IN  - Close Screen(s)     | WXþ0þ0
+[20170217 14:39:01] IN  - Get Information     | WGIþDATAPATH
+[20170217 14:39:01] OUT - Data Sent To Host   | WHIR:C:\Users\dar\AppData\Local\Campana\AXIS\Data\
+
+[20170217 14:39:01] IN  - Application Command | WAþENABLEEXIT
+[20170217 14:39:01] IN  - Change Toolbar      | WCTþýýýýýYýýýMENU.QUITýýýýýýýýý
+[20170217 14:39:01] IN  - Change Toolbar      | WCTþýýýýýYýýýDisplay &Schemeýýýýýýýýý
+[20170217 14:39:01] IN  - Menu Screen         | WNþ0þ2þSG TestSuite\Specific Tests MenuþWindow and Grid TestsýBrowser TestsýStatus Bar TestýCheckboxesý!BOX TestýWeb BrowserýPost/Receive files on/from PCýTest DATA.TRANSFER (BLK macros)ýBlkfile (raw) testerýToolbarýRadio ButtonsýStacked InputýStacked input fromýTest menu Get-ListýWinGem LogýDisplay links in a gridýSet Colour TestýSecurity Testsþ4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý14ý15ý16ý4ý5ý6ý7ý8þ4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý4ý44ý44ý44ý44ý44þ ý ý ý ý ý ý ý ý ý ý ý ý ý  ý  ý  ý  ý  þþþ-1ý-1ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý-2ý1ý-2ý-2ý2ý-2þREPORTMENUITEM.ICOýAKBAR.ICOþ1ý2ý3ý4ý5ý6ý7ý8ý9ý10ý11ý12ý13ý20ý21ý22ý23ý24þþLISTþ1ý1ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0ý0
+[20170217 14:39:01] IN  - Header              | WHþSG TestSuite\Specific Tests Menu
+[20170217 14:39:01] IN  - Mail Status         | WMSþHIDE
+[20170217 14:39:01] IN  - Prompt Menu Screen  | WPN
+[20170217 14:39:03] **************************************************************************************
+[20170217 14:39:03] Log Ended: 2017-02-17 02:39:03 PM
+[20170217 14:39:03] **************************************************************************************

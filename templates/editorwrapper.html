@@ -1,0 +1,50 @@
+<!doctype html>
+{%- if action == "DIFF" -%}
+	{%- set editortitle='Comparing "' + origfilepath|namefrompath + '" (original) to "' + modfilepath|namefrompath + '" (modified)' -%}
+{%- else -%}
+	{%- set editortitle='Viewing "' + origfilepath|namefrompath + '" (ReadOnly)' -%}
+{%- endif -%}
+{%- set editorwrapper=True -%}
+<html>
+<head>
+<title>{{editortitle}}</title>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+	{% endif %}
+<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/jquery.smartmenus.bootstrap.css') }}">
+<!--<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/xterm.css') }}">-->
+<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/webdirect.css', build=config.BUILD) }}">
+</head>
+<body data-origtitle='{{editortitle}}'>
+	<script>
+		var sid = "{{sessionid}}";
+		var approot = "{{url_for('wdmain')}}";
+	</script>
+	<!--<div id="toast" class="alert alert-dismissible" role="alert" style="display:none;" onclick="$(this).hide();">
+		<span id="toastmessage"></span>
+	</div>-->
+	<div id="editorcontainer" style="display:none;">{% include "editor.html" %}</div>
+	{% include "message.html" %}
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.smartmenus.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.smartmenus.bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery_ui.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/hotkeys.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='monaco-editor/min/vs/loader.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/webdirect.js', build=config.BUILD) }}"></script>
+	<script>
+    	$().ready(function() {
+    		// Run standalone "editor"
+    		WD.standaloneeditorinit("{{action}}",{{modfilepath|tojson}},{{origfilepath|tojson}});
+		});
+	</script>
+</body>
+</html>

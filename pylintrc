@@ -1,0 +1,17 @@
+# Pylint for Automatic Runs in Pipeline
+
+[MESSAGES CONTROL]
+# For pipeline, we don't care about factoring
+# We don't want the local disabling of invalid name (I0011)
+# Ignore TODO: for now (W0511)
+disable=R,I0011,W0511,W1201
+
+
+[REPORTS]
+reports=no
+msg-template= {C}: {line:3d},{column}: {obj}:{msg} ({symbol}|{msg_id})
+
+
+[BASIC]
+# Good variable names which should always be accepted, separated by a comma
+good-names=i,j,k,ex,Run,_,x,y,z,AM,VM,SM,am,vm,sm,id

@@ -1,0 +1,49 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "gulp": "gulp -f gulpfile.cjs",
+    "devbuild": "webpack --config webpack.dev.cjs",
+    "watch": "webpack --config webpack.dev.cjs --watch",
+    "prodbuild": "webpack --config webpack.prod.cjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "immer": "^10.1.1",
+    "memoize-one": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-virtualized-auto-sizer": "^1.0.24",
+    "react-window": "^1.8.10"
+  },
+  "name": "WebDirect",
+  "description": "Steps to get development of this application up and running.",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ACartier@bitbucket.org/tdevwebdirect/webdirect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tdevwebdirect/webdirect#readme"
+}

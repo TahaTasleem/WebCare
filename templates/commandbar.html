@@ -1,0 +1,27 @@
+{% if config.PRODUCT == "GoldCare" %}
+<div id="gccolourbridge"></div>
+{% endif %}
+<nav class="navbar navbar-default">
+	<div class="navbar-collapse collapse off" id="wdnavbar">
+		{% set band = commandbar.bands["bndMenuStandard"] %}
+		<ul class="nav navbar-nav no-collapse" id="{{ band.getid() }}">
+			{% if config.PRODUCT == "AXIS" %}
+				<li>
+					<img class="header" alt="AXIS" src="{{url_for('static',filename='wdres/axlogo.svg') }}">
+				</li>
+			{% endif %}
+			{% include "commandbarband.html" %}
+		</ul>
+	</div>
+</nav>
+{% if config.PRODUCT == "AXIS" %}
+{% set band = commandbar.bands["bndToolbarStandard"] %}
+<ul class="toolbar" id="{{ band.getid() }}">
+	{% include "commandbarband.html" %}
+</ul>
+{% set band = commandbar.bands["bndToolbarDebug"] %}
+<ul class="toolbar" id="{{ band.getid() }}">
+	{% include "commandbarband.html" %}
+</ul>
+{% endif %}
+<div style="clear:both"></div>

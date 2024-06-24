@@ -1,0 +1,34 @@
+<div class="wdmenubar" {% if screen.position == "FULLSCREEN" %} style="bottom: 0px; width: 100%;
+{% else %}
+ style=" top: {{ screen.height + (screen.startrowdraw | convertrowunittoem) }}em; width: {{ screen.width }}em; {% endif %} {%- if not menubar.draw -%} display:none; {%- endif %} overflow-y: auto; height: 2.8em; " id=" {{ menubar.promptid() }}" name="{{ menubar.promptid() }}" data-live="{{menubar.live|int}}" data-screenid="{{ menubar.screenid }}">
+    <ul class="nav nav-pills" id="{{ menubar.promptid() }}_menu">
+        {% for tab in menubar.tabs -%}
+        <li role="presentation" id="{{menubar.promptid()}}_{{loop.index}}" data-value="{{ tab|upper }}" {%- if menubar.subtabs[loop.index-1] -%} onclick="if (!$(this).hasClass('disabled')) {$('#{{ menubar.promptid() }}_menu').hide(); $('#' + this.id + '_submenu').show();}" {%- else -%} onclick="WD.setmenubar(this, {{menubar.live|int}}, '{{tab|upper}}');" {%- endif -%} {%- if loop.index0 == menubar.currenttab -%} class="active" {%- endif %}>
+            <a href="#">{{ tab }}
+                {% if menubar.subtabs[loop.index-1] %}
+                <span class="caret"></span>
+                {% endif %}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% for subtabs in menubar.subtabs -%}
+    {% if subtabs %}
+    <ul class="submenubar nav nav-pills" style="display:none;" id="{{ menubar.promptid() }}_{{ loop.index }}_submenu">
+        {% set tabindex = loop.index %}
+        {% for subtab in subtabs -%}
+        <li role="presentation" id="{{ menubar.promptid() }}_{{ tabindex }}_{{ loop.index }}" data-value="{{menubar.tabs[tabindex-1] | upper}},{{ subtab | upper }}" onclick="WD.setmenubar(this,{{menubar.live|int}},'{{ menubar.tabs[tabindex-1] | upper}},{{ subtab | upper }}');" {%- if loop.index == 1 -%} class="active" {%- endif %}>
+            <a href="#">{{ subtab }}</a>
+        </li>
+        {% endfor %}
+        <li role="presentation" id="{{ menubar.promptid() }}_{{ loop.index }}_final" onclick="if (!$(this).hasClass('disabled')) {$('.submenubar').hide();$('#{{ menubar.promptid() }}_menu').show();}">
+            <a href="#">
+                {{ menubar.tabs[loop.index-1] }}
+                <span class="dropup"><span class="caret"></span></span>
+            </a>
+        </li>
+    </ul>
+    {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}</title>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+	{% endif %}
+	{% if not config.PRODUCTION %}
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/jquery_ui.css') }}">
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/jquery.smartmenus.bootstrap.css') }}">
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/xterm.css') }}">
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/webdirect.css') }}">
+	{% else %}
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/wd.min.css', build=config.BUILD) }}">
+	{% endif %}
+</head>
+<body {% if config.PRODUCT == "GoldCare" -%}class="gc"{%- endif %} data-origtitle="{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}">
+	{% if config.PRODUCT == "AXIS" %}
+		<div id="wdbg_axis" class="wdbg">
+		</div>
+		<div id="logoutbutton"  class="toprighticon">
+			<button type="button" title="Exit" class="close" style="font-size: 2em; padding: 0.1em;"
+			onclick="WD.requestlogout();" >&times;</button>
+		</div>
+	{% else %}
+		<div id="wdbg_gc" class="wdbg">
+		</div>
+	{% endif %}
+	{% if not config.PRODUCTION %}
+    <div id="devout" class="toprighticon">
+        <img src="{{ url_for('static', filename='wdres/critical.svg') }}"
+            style="height: 2em; width: 2em; cursor: pointer;" onclick="WD.logout();" /><br/>
+    </div>
+    {% endif %}
+	<script>
+		var sid = "{{sessionid}}";
+		var approot = "{{url_for('wdmain')}}";
+		var loginserver = "{{loginserver}}";
+		var serveroverride = "{{serveroverride}}";
+		var accountoverride = "{{accountoverride}}";
+	</script>
+	<div id="toast" class="alert alert-dismissible" role="alert" style="display:none;" onclick="$(this).hide();">
+		<span id="toastmessage"></span>
+	</div>
+	<div id="commandbarcontainer" style="display:none;"></div>
+	<div id="editorcontainer" style="display:none;">{% include "editor.html" %}</div>
+	<div id="windowcontainer" style="display:none;"></div>
+	<div id="tcl">{% include "terminal.html" %}</div>
+	<div id="question">{% include "question.html" %}</div>
+	<div id="start"{% if config.PRODUCT == "GoldCare" %} class="gcstart"{% endif %}>
+		
+	{% if not autologin %}
+		{% if not config.PRODUCTION -%}
+		<div>
+			<ul  class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#login">Login</a></li>
+				<li><a href="#logfile" data-toggle="tab">Logfile</a></li>
+			</ul>
+			<div class="tab-content">
+		{% endif %}
+		{% include "login.html" %}
+		{% if not config.PRODUCTION -%}
+			{% include "logfile.html" %}
+			</div>
+		</div>
+		{% endif %}
+	{% endif %}
+	</div>
+	{% include "message.html" %}
+	{% include "manualprompt.html" %}
+	{% include "statusbar.html" %}
+	<div id="renderdata" class="hidden"></div>
+	{% include "upload.html" %}
+	{% with %}
+		{% set prompt = {'promptid': ['default'] ,'tlbicon':"iconname" } %}
+		{% set row = 1 %}
+		{% set promptid = 'default' %}
+		<div id="tlbtemplate_icon" class="hidden">{% include "tlb.html" %}</div>
+		{% set prompt = {'promptid': ['default'] ,'tlbicon':"" } %}
+		<div id="tlbtemplate_button" class="hidden">{% include "tlb.html" %}</div>
+	{% endwith %}
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+	{% if config.PRODUCTION %}
+	<script src="{{ url_for('static', filename='js/wdc.min.js', build=config.BUILD) }}" defer></script>
+	<script src="{{ url_for('static', filename='js/wd.min.js', build=config.BUILD) }}" defer></script>
+	<script src="{{ url_for('static', filename='monaco-editor/min/vs/loader.js') }}" defer></script>
+	{% else %}
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/jquery.smartmenus.min.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/jquery.smartmenus.bootstrap.min.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/jquery_ui.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/xterm.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/hotkeys.min.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/bowser.min.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/socket_io.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='monaco-editor/min/vs/loader.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/wdcomponents.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/webdirect.js') }}" defer></script>
+	{% if config.PRODUCT == "GoldCare" -%}
+	<script src="{{ url_for('static', filename='js/msal-browser.min.js') }}" defer></script>
+	{%- endif %}
+
+	{% endif %}
+	<script>
+    	$().ready(function() {
+    		// Run WebDirect Client Engine
+			WD.init();
+			WD.setlanguageobject({{ languageobject|tojson }})
+			{% if autologin %}		
+			WD.autoconnect();
+			{% endif %}
+			
+			const base_url = (window.location != window.parent.location) ? document.referrer : document.location.href;
+			history.replaceState("","",base_url.split("?")[0]);
+    	});
+	</script>
+</body>
+</html>

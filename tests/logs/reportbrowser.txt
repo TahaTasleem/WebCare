@@ -1,0 +1,5 @@
+[20170403 09:42:12] IN  - Browse              | EBRþDISPLAYþ./V20171/save.pngþ
+[20170403 09:42:12] IN  - Browse              | WFTþOPENþHOLDþWRITEþV20171\314\UV314-8401.html
+[20170403 09:42:12] IN  - Browse              | WFTþWRITEþHOLDþPGh0bWw+PGJvZHk+SGkhPC9ib2R5PjwvaHRtbD4=
+[20170403 09:42:12] IN  - Browse              | WFTþCLOSEþHOLD
+[20170403 09:42:12] IN  - Browse              | EBRþDISPLAYþV20171\314\UV314-8401.htmlþTAGütest1ýTITLEüTesting Report Browsers!

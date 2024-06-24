@@ -1,0 +1,1 @@
+docker run -d --name wdsample -v /webdirect/static/data:/webdirect/static/data -v /webdirect/configs/sample.ini:/webdirect/webdirect.ini:ro webdirect:latest

@@ -1,0 +1,1168 @@
+html,
+body,
+.reactscreen,
+.wdlabel,
+.image,
+.wdbutton,
+.grid {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    position: relative;
+}
+html,
+body {
+    height: 100%;
+    position: relative;
+    min-width: 768px;
+}
+.waiting,
+.waiting * {
+    cursor: wait !important;
+}
+/* Login & About Window background and logo*/
+.wdbg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+#wdbg_axis {
+    background-image: url('../wdres/login_bg_axis.jpg');
+}
+#wdbg_gc {
+    background-image: linear-gradient(#ffffff, #3d85c670);
+}
+.wdlogo {
+    display: block;
+    margin: auto;
+    height: 4em;
+}
+.toprighticon {
+    position: fixed;
+    top: 0;
+    right: 0.2em;
+    width: 2em;
+    height: 2em;
+    z-index: 3000;
+    display: none;
+}
+#devout {
+    right: 3em;
+}
+/* Login Window */
+.nav-tabs,
+#login,
+#logfile {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+iframe {
+    background-color: white;
+}
+#login input[type="text"],
+#login input[type="password"],
+#login select {
+    font-size: 14px;
+    height: 34px;
+    padding: 5px 10px;
+    width: 18em;
+}
+#login .loggingsessioncheck>span {
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+}
+#start #login button {
+    width: 6em;
+}
+#start #login {
+    border: 1px solid #3d85c696;
+    border-radius: 12px;
+    padding: 20px;
+}
+#start #login button {
+    height: 34px;
+    width: 100%;
+}
+#start.gcstart #login button {
+    border: 0;
+    background-color: #b2411a;
+    color: white;
+}
+#start.gcstart #login button:hover {
+    background-color: #b2411add;
+}
+#start.gcstart #login button:active,
+#start.gcstart #login button.active,
+#start.gcstart #login button:focus,
+#start.gcstart #login button.focus {
+    filter: brightness(80%);
+}
+/* About Window */
+#about .modal-content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#about .gcabout .modal-dialog {
+    margin-bottom: 0;
+}
+#about .gcabout .modal-content {
+    bottom: 2em;
+}
+#badbrowser {
+    padding: 3px;
+}
+/* WebDirect Specific Styles */
+.promptcontainer,
+.grid {
+    position: absolute;
+}
+.promptcontainer {
+    display: inline-block;
+}
+.prompt:disabled {
+    text-overflow: ellipsis;
+}
+.bgbrowser,
+.screenbrowser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.bgbrowser {
+    background-color: white;
+}
+.bgbrowser#WGBGB_1 {
+    bottom: 2em;
+    height: auto;
+    top: calc(1.5em + 39px);
+    width: 15em;
+    border-right: 1px solid #aaa;
+}
+.bgbrowser>iframe {
+    border: 0;
+    height: calc(100% - 3px);
+    width: 100%;
+}
+.rptbrowser {
+    height: 100%;
+    width: 100%;
+    border-width: 0;
+    overflow: hidden;
+}
+.reactscreen {
+    position: absolute;
+    border: 1px ridge #aaa;
+    border-radius: 3px;
+    background: #fff;
+    overflow: hidden;
+}
+.subscreen {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.subscreen .scrollable {
+    top: 1.8em;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 2.9em;
+    border-bottom: 1px solid lightgrey;
+}
+.subscreen button.close {
+    margin-right: 4px;
+}
+.wdmenubar {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #aaa;
+}
+.image {
+    position: absolute;
+    padding-top: 0.5em;
+}
+/* Main Window Styling */
+#wdeditnavbar .dropdown-menu li a {
+    padding: 8px 20px;
+}
+.centerbox {
+    position: relative;
+    flex: 0 0 auto;
+    width: 700px;
+}
+.window {
+    border-radius: 3px;
+    border: 1px ridge grey;
+    background: #fff;
+}
+.windowheading {
+    font-size: 1.35em;
+    font-weight: bold;
+    padding: 3px;
+    background-color: #dfeffc;
+    color: #003478;
+}
+#windowcontainer {
+    background-color: #fff;
+    position: fixed;
+    top: calc(1.5em + 39px);
+    bottom: 2em;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 1;
+}
+#windowblock {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(102, 102, 102, 0.2);
+    cursor: not-allowed;
+}
+.screencaption {
+    margin: 3px;
+    background-color: #dfeffc;
+    color: #003478;
+    padding: 2px 0 2px 5px;
+}
+.wdheading {
+    background-color: #dfeffc;
+    color: #003478;
+    padding: 3px 0 3px 5px;
+    margin-bottom: 0.3em;
+    min-height: 1em;
+}
+#start {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/* label styling */
+.wdlabel {
+    position: absolute;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    white-space: nowrap;
+}
+.grid .wdlabel {
+    white-space: normal;
+    position: static;
+}
+.wdlabel,
+label {
+    font-weight: normal;
+}
+/* Input Box Styling */
+*:focus {
+    outline: none !important;
+}
+input,
+textarea,
+select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: #333;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+input:focus[type=text],
+input:focus[type=number],
+input:focus[type=password],
+textarea:focus,
+select:focus {
+    border: 1px solid #003478;
+    border-radius: 3px;
+}
+input[type=radio],
+input[type=checkbox],
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+    padding: 0;
+    border: 0;
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0;
+}
+input[type=radio]:disabled~label,
+input[type=checkbox]:disabled~label,
+input[type=radio]:disabled,
+input[type=checkbox]:disabled {
+    cursor: not-allowed;
+    color: #888;
+}
+input[type=checkbox]:focus+label,
+input[type=radio]:focus+label {
+    border: 1px solid #aaa;
+}
+input[type=checkbox]+label,
+input[type=radio]+label {
+    border: 1px solid #fff;
+}
+.promptcontainer input[type=text] {
+    position: absolute;
+}
+.promptcontainer input.tlbright,
+.promptcontainer input.tlbright:focus {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.promptcontainer input.tlbleft,
+.promptcontainer input.tlbleft:focus {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    position:static;
+}
+.rblabel {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0.75em;
+    white-space: nowrap;
+}
+.rightjustified {
+    text-align: right;
+}
+.inputset {
+    white-space: nowrap;
+}
+/* buttons */
+.wdbutton {
+    position: absolute;
+}
+.buttonimage {
+    vertical-align: middle;
+    height: 80%;
+}
+button.wdtlb {
+    font-size: 0.75em;
+}
+.wdtlb {
+    border-top-color: #aaa;
+    border-bottom-color: #aaa;
+}
+.wdtlb.tlbright {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.tlbright {
+    border-right-color: #aaa;
+}
+.wdtlb.tlbleft {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.tlbleft {
+    border-left-color: #aaa;
+}
+.wdtlb {
+    height: 2em;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+}
+.wdtlbicon {
+    height: 1em;
+    padding: 0;
+    width: 1em;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.wdtlbcalendar {
+    height: 1.5em;
+    width: 1.5em;
+}
+.wdtlbcusticon {
+    height: 1.5em;
+    width: 1.5em;
+    filter: grayscale(100%);
+}
+.wdtlb.tlbleft {
+    left: 0;
+    right: auto;
+}
+/* Grid Styling */
+.grid {
+    padding: 0;
+    border: 0px solid #aaa;
+    border-radius: 3px;
+}
+.grid tbody {
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #aaa;
+    border-top: 0 solid #aaa;
+    /* border-top-width: 0px; */
+    /* flex:1 1 auto; */
+}
+.grid tbody:only-child, .grid .tbody:only-child {
+    border-top-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.grid thead{
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.grid .thead {
+    display: flex;
+    padding-right: 17px;
+}
+.grid tr {
+    display: flex;
+    align-items: stretch;
+}
+.grid .wdtlb {
+    padding-left: 0;
+    vertical-align: bottom;
+}
+.grid .tlbleft {
+    left: 3px;
+}
+.grid table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.grid th, .grid .col-header {
+    text-align: left;
+    padding: 2px 2px 2px 4px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-left: 1px solid #aaa;
+}
+.grid th.sortable label {
+    cursor: pointer;
+}
+.grid thead th:last-child,
+.grid tbody td:last-child {
+    flex: 1 1 auto;
+}
+.grid thead th:first-child, .grid .col-header:first-child {
+    border-left: 0;
+}
+.grid th .wdlabel, .grid .thead .wdlabel {
+    font-weight: bold;
+    padding: 0;
+    padding-top: 1px;
+    width: 100%;
+}
+.grid td {
+    vertical-align: top;
+}
+.grid .promptcontainer {
+    position: static;
+    padding: 1px;
+    width: 100%;
+}
+.grid .wdtlb {
+    position: static;
+}
+.grid input,
+.grid input:active,
+.grid textarea,
+.grid textarea:active,
+.grid input[type=text] {
+    border-width: 1px;
+    /*border-color: #fff;*/
+    padding: 1px;
+    margin: 0;
+    width: 100%;
+    position: static;
+}
+.grid input:focus[type=text],
+.grid input:focus[type=number],
+.grid textarea:focus {
+    border-color: #003478;
+    border-width: 1px;
+    padding: 1px;
+}
+.grid input:disabled,
+.grid textarea:read-only {
+    border-width: 0;
+    background-color: #fff;
+    padding: 2px;
+}
+input[type=text]:disabled,
+textarea:read-only {
+    pointer-events: none
+}
+.grid textarea, .grid .promptreadonly>.prompttext {
+    overflow: hidden;
+    resize: none;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+    line-height: 1.2em;
+}
+.grid input[type=checkbox],
+.grid input[type=checkbox]:focus {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 1.25em;
+}
+.grid .freezecol {
+    position: sticky;
+    background-color: white;
+}
+.lastfreezecol {
+    border-right: 1px solid #aaa;
+}
+.sshighlight,
+.sshighlight textarea,
+.sshighlight td,
+.sshighlight input,
+.sshighlight .promptcontainer,
+.sshighlight input:disabled,
+.sshighlight textarea:read-only {
+    background-color: #B0E0E6 !important;
+    border-color: #B0E0E6 !important;
+}
+.singleselect,
+.singleselect input,
+.singleselect td,
+.singleselect textarea,
+.singleselect input:disabled,
+textarea:disabled {
+    cursor: pointer;
+}
+/* Fixed grid headers and scrolling body */
+.grid table {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.grid table, .grid table tr {
+    display: flex;
+}
+.grid thead tr {
+    min-height: 1.55em;
+}
+.grid table thead {
+    overflow: hidden;
+    display: block;
+}
+.grid table tbody {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.grid table th,
+.grid table td {
+    display: block;
+}
+/* Status Bar Styling */
+#statusbar {
+    position: fixed;
+    bottom: 0;
+    height: 2em;
+    width: 100%;
+    border: 2px grey ridge;
+    background-color: white;
+    display: none;
+}
+.statustext {
+    float: left;
+}
+#progresspanel {
+    position: relative;
+    height: 100%;
+    width: 35%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    float: left;
+}
+#progresslabel {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: visible;
+}
+#infopanel {
+    height: 100%;
+}
+.tclwaiting {
+    background-color: red;
+}
+.tclactivity {
+    background-color: yellow;
+}
+.terminal * {
+    font-family: Consolas, Sans-Serif;
+}
+.xterm-viewport {
+    min-width: 100%;
+}
+#output {
+    overflow-x: auto;
+}
+#promptliteral,
+.infoboxes {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+#promptliteral {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.infoboxes {
+    height: 100%;
+    float: right;
+    border-left: 1px solid grey;
+}
+/* Groupbox Classes */
+.groupbox {
+    position: absolute;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.singlegroupbox {
+    border: 1px solid #aaa;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.groupboxcaption {
+    position: absolute;
+    top: -0.5em;
+    left: 1em;
+    display: inline-block;
+    background: #fff;
+    white-space: nowrap;
+}
+/* generic classes */
+.hidden {
+    display: none !important;
+}
+/* Menu Styles */
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    padding: 1em;
+    overflow: auto;
+}
+.menutitle {
+    margin-bottom: 0.5em;
+    min-height: 1em;
+}
+.menusection {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    clear: both;
+}
+.menuitem {
+    box-sizing: border-box;
+    height: 8em;
+    width: 12em;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menuitem.selected {
+    background-color: #c8e3fa;
+}
+.menuitem img {
+    display: block;
+    height: 64px;
+    width: 64px;
+    margin: auto auto;
+}
+.menulabel {
+    max-width: 10em;
+    margin: auto;
+    white-space: normal;
+    min-height: 3.1em;
+    text-align: center;
+}
+.menurow {
+    clear: left;
+}
+img[src=""] {
+    display: none;
+}
+/* Messages */
+.messageicon {
+    width: 2em;
+    height: 2em;
+}
+.tbutton {
+    min-width: 4em;
+}
+#toast {
+    position: fixed;
+    left: 0;
+    top: 12px;
+    z-index: 1100;
+    padding: 13px;
+    width: 330px;
+    display: none;
+    border: 0.5px solid #8c8f7b;
+    border-radius: 5px;
+}
+#toast.alert-warning {
+    background-color: #ffffe1;
+}
+#toast>#toastmessage {
+    color: black;
+    font-size: 15px;
+    font-weight: 780;
+    line-height: normal;
+}
+#popupmessagetext {
+    word-wrap: break-word;
+}
+/* File Editor Styles */
+#editorcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    z-index: 500;
+    background-color: white;
+}
+#editfilecontainer {
+    flex: 1 1 auto;
+    overflow: hidden;
+    border: 1px solid grey;
+    height: 100%;
+}
+#editorcontainer label {
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+#editorcontainer .form-group:not(:first-child) {
+    margin-left: 2em;
+}
+#editorcontainer input,
+#editorcontainer select {
+    vertical-align: middle;
+}
+#editortitle * {
+    vertical-align: middle;
+}
+#editortitle img {
+    margin: 0;
+}
+#editorlabel {
+    float: right;
+    margin-top: 0.25em;
+    margin-right: 1em;
+}
+/* Command Bar Styles */
+#commandbarcontainer {
+    border-bottom: 2px solid grey;
+    border-color: #e7e7e7;
+    background-color: #f8f8f8;
+}
+#commandbarcontainer .dropdown-menu .divider:nth-child(1) {
+    display: none;
+}
+.mnubtnplaceholder {
+    display: inline-block;
+}
+.navbar img,
+.mnubtnplaceholder {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+}
+.navbar img.large {
+    height: 1.8em;
+    width: 1.8em;
+}
+img.header {
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 1.5em;
+    width: 1.5em;
+}
+.toolbar {
+    list-style: none;
+    margin: 3px;
+    padding: 0;
+    float: left;
+    /* Could eventualy be basis for drag-bars
+    margin-left:2px;
+    padding-left:2px;
+    border-left: 5px double #909090;
+    */
+}
+.toolbar li {
+    float: left;
+    list-style: none;
+    margin: 2px;
+}
+.toolbar img {
+    height: 1.5em;
+    width: 1.5em
+}
+.disabled img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/* other */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.flash {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+/******************************************************************************************
+Bootstrap customizations / adjustments (from GC package.css)
+******************************************************************************************/
+@media screen and (min-width: 768px) {
+    .modal-xl {
+        width: 80%;
+        /* either % (e.g. 60%) or px (400px) */
+    }
+}
+@media print {
+    a[href]:after {
+        content: none;
+    }
+}
+body.modal-open .modal[style]:not([style='display: none;']),
+.modal.show {
+    display: flex !important;
+    height: 100%;
+}
+body.modal-open .modal[style]:not([style='display: none;']) .modal-dialog,
+.modal.show .modal-dialog {
+    margin: auto;
+}
+ul.dropdown-menu li {
+    list-style: none;
+}
+a,
+.text-primary,
+.btn-primary .badge,
+.btn-link {
+    color: #135a97;
+}
+ul.nav {
+    margin-left: 0;
+}
+.btn[disabled] img {
+    opacity: 0.45;
+}
+.btn[disabled] {
+    opacity: 0.35;
+}
+.btn {
+    font-weight: 600;
+}
+/* Heading Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0;
+    color: #003478;
+}
+#login #server:disabled,
+#login #account:disabled {
+    background-color: #ddd;
+}
+/* jqueryui piece */
+ui-draggable-handle {
+    -ms-touch-action: none;
+    touch-action: none
+}
+#connectingdialog .progress-bar-striped.active {
+    animation-duration: 0.5s;
+}
+/*no collapse*/
+.navbar-collapse.collapse.off {
+    display: block !important;
+}
+.navbar-collapse.collapse.off ul {
+    margin: 0;
+}
+.navbar-nav.no-collapse>li,
+.navbar-nav.no-collapse {
+    float: left !important;
+}
+.navbar-right.no-collapse {
+    float: right !important;
+}
+/* Chromium Bug Fixes 
+    https://stackoverflow.com/questions/46501097/background-pixels-flickering-on-bootstrap-modal
+    https://bugs.chromium.org/p/chromium/issues/detail?id=770354
+    https://bugs.chromium.org/p/chromium/issues/detail?id=770733
+    https://bugs.chromium.org/p/chromium/issues/detail?id=770701
+    https://github.com/twbs/bootstrap/issues/24233
+*/
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: rgba(255, 255, 255, 1);
+    background-clip: border-box;
+}
+.modal-backdrop.in,
+.modal.modal-backdrop.show,
+.modal.show {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+.fade.in {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#externalsource_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#externalsource {
+    flex-grow: 1;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#externalsource_buttons {
+    display: none;
+    border-top: 1px solid #c8e3fa;
+    background-color: #fff;
+    padding: 10px;
+}
+#iframe_excel {
+    display: none;
+}
+@media screen {
+    #externalsource_print {
+        display: none;
+    }
+    body.externalbrowser {
+        overflow: hidden;
+    }
+}
+@media print {
+    #externalsource_print {
+        display: block;
+    }
+    #externalsource_print pre.csilastpage {
+        background-color: inherit;
+        border: 0;
+    }
+    #externalsource_wrapper {
+        display: none;
+    }
+    body.externalbrowser {
+        overflow: visible;
+    }
+}
+/* Making WebDirect look the same */
+.screencaption {
+    background: #84b3d8;
+}
+.groupbox {
+    background-color: #dfeffc !important;
+    height: 1.3em;
+    border-style: none;
+    border-radius: 0px;
+}
+.groupboxborder {
+    position: absolute;
+    border: 1px solid #dfeffc;
+}
+.groupboxcaption {
+    top: 0.15em;
+    left: 1em !important;
+    font-weight: bold !important;
+    background-color: #c8e3fa;
+    color: #003478;
+}
+.singlegroupbox .groupboxcaption {
+    position: absolute;
+    top: -0.5em;
+    left: 1em;
+    display: inline-block;
+    background: #fff;
+    white-space: nowrap;
+    color: #003478;
+}
+.singlegroupbox {
+    height: 0.1em;
+}
+.wdtlb {
+    background-color: white !important;
+}
+/* GoldCare overrides */
+body.gc #commandbarcontainer {
+    background: #fff url('../wdres/colourbar2.png') repeat-y left top;
+    height: 100%;
+    padding-left: 5px;
+    width: 41px;
+}
+body.gc #commandbarcontainer .disabled img {
+    -webkit-filter: grayscale(100%) opacity(60%);
+    filter: grayscale(100%) opacity(60%);
+}
+body.gc #commandbarcontainer .navbar {
+    border-radius: 0;
+}
+body.gc #commandbarcontainer .nav>li>a {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+body.gc #windowcontainer {
+    left: 41px;
+    top: 0;
+}
+body.gc .bgbrowser#WGBGB_1 {
+    top: 0;
+    left: 41px;
+}
+body.gc nav.navbar-default {
+    background-color: #fff;
+    margin: 2px;
+}
+body.gc .subscreen button.close {
+    display: none;
+}
+#gccolourbridge {
+    display: block;
+    background: #06003a;
+    height: 5px;
+}
+body.gc #windowblock {
+    opacity: 0;
+}
+@media print{
+  #commandbarcontainer, #statusbar{
+    display: none !important;
+  }
+  #windowcontainer{
+    left:0!important;
+  }
+}
+
+/* overflow-wrap is giving extra space to first line adding padding to the parent and adding negative margin to div itself */
+.grid .promptreadonly {
+    padding: 4px 3px;
+}
+
+.grid .promptreadonly>.prompttext{
+    overflow-wrap: break-word;
+    pointer-events: none;
+    display: inline;
+    color: #333;
+}
+
+.grid .promptreadonly>textarea {
+    padding: 0;
+    height: 0;
+    width: 0;
+}
+
+.promptcontainer>input.prompttlb:not(:last-child) {
+    width: calc(100% - 1.5em) !important;
+}
+
+.subscreen div.promptcontainer {
+    min-height: 12px;
+}
+
+#login #optionsToggleIcon {
+    margin-right: 1px;
+    font-size: smaller;
+}
+
+#login #optionsToggleIcon::before {
+    content: "\2212"
+}
+
+#login #optionsToggle[aria-expanded=false]>#optionsToggleIcon::before {
+    content: "\002b"
+}
+
+#optionsHeading>.panel-title{
+    font-weight: normal;
+    color: #555;
+}
+
+#optionsHeading{
+    padding: 8px 10px;
+}
+
+#optionCollapse>.panel-body{
+    padding: 10px;
+}
+
+#optionCollapse>.panel-body>label:last-child{
+    margin-bottom: 0;
+}
+
+.loginOptionsPanel {
+    border-color: #aaa;
+}
+
+.loginOptionsPanel>.panel-heading {
+    background-color: white;
+}
+
+.xterm-screen>.xterm-rows .xterm-cursor.xterm-cursor-block {
+    outline: 0 !important;
+    border: 1px solid #fff;
+}
+
+.grid.sessionbgcolour>table>thead {
+    background-color: #fff;
+}
+
+.invisiblepromptscreen {
+    visibility: hidden;
+}

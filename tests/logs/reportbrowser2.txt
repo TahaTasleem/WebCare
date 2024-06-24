@@ -1,0 +1,50 @@
+[20170406 15:23:17] **************************************************************************************
+[20170406 15:23:17] Log Started: 2017-04-06 03:23:17 PM; Version: 2017.1.3; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170406 15:23:17] Data Path: ; Port: 313;
+[20170406 15:23:17] **************************************************************************************
+[20170406 15:23:18] IN  - Header              | WHþþ313 UTIL.DEV AS CDBOU
+[20170406 15:23:18] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V20171\313\BROWSERTEST1.TXT
+[20170406 15:23:18] IN  - File Transfer       | WFTþWRITEþHOLDþVGhpcyBpcyB0aGUgZmlyc3QNCiBicm93c2VyIHdpbmRvdw==
+[20170406 15:23:18] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170406 15:23:19] IN  - Browse              | EBRþDISPLAYþ.\V20171\313\BROWSERTEST1.TXTþTITLEüBROWSER.TEST.1ýWTOPü10ýWLEFTü2ýWHEIGHTü10ýWWIDTHü40ýTAGüT1
+[20170406 15:23:19] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V20171\313\UV313-4320.html
+[20170406 15:23:19] IN  - File Transfer       | WFTþWRITEþHOLDþVGhpcyBpcyB0aGUgc2Vjb25kDQogYnJvd3NlciB3aW5kb3c=
+[20170406 15:23:19] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170406 15:23:20] IN  - Browse              | EBRþDISPLAYþ.\V20171\313\UV313-4320.htmlþTITLEüBROWSER.TEST.2ýWTOPü20ýWLEFTü12ýWHEIGHTü10ýWWIDTHü40ýTAGüT2
+[20170406 15:23:20] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V20171\313\BROWSERTEST3.TXT
+[20170406 15:23:20] IN  - File Transfer       | WFTþWRITEþHOLDþVGhpcyBpcyB0aGUgdGhpcmQNCiBicm93c2VyIHdpbmRvdw==
+[20170406 15:23:20] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170406 15:23:21] IN  - Browse              | EBRþDISPLAYþ.\V20171\313\BROWSERTEST3.TXTþTITLEüBROWSER.TEST.3ýWTOPü30ýWLEFTü22ýWHEIGHTü10ýWWIDTHü40ýTAGüT3
+[20170406 15:23:21] IN  - Get Information     | WGIþBROWSERS
+[20170406 15:55:10] IN  - Message             | WMþTELLþ3 windows should be present, going to update the first
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:23:32] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V20171\313\BROWSERTESTUPDATE.TXT
+[20170406 15:23:32] IN  - File Transfer       | WFTþWRITEþHOLDþVGhpcyBpcyBhbiB1cGRhdGVkIHdpbmRvdw==
+[20170406 15:23:32] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170406 15:23:32] IN  - Browse              | EBRþDISPLAYþ.\V20171\313\BROWSERTESTUPDATE.TXTþTAGüT1
+[20170406 15:55:12] IN  - Message             | WMþTELLþclose window 2
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:23:34] IN  - Browse              | EBRþCLOSEþþTAGüT2
+[20170406 15:55:13] IN  - Message             | WMþTELLþclose all windows
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:23:34] IN  - Browse              | EBRþCLOSEþþALL
+[20170406 15:23:34] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V20171\313\UV313-1887.html
+[20170406 15:23:34] IN  - File Transfer       | WFTþWRITEþHOLDþPGh0bWw+DQo8aGVhZD4NCjx0aXRsZT5GaXJlIEJyb3dzZXIgRXZlbnQ8L3RpdGxlPg0KPC9oZWFkPg0KPGJvZHk+DQpUaGlzIHBhZ2UgaXMgZm9yIHRlc3RpbmcgRklSRS5FWFRFUk5BTC5CUk9XU0VSLkVWRU5UDQo8Zm9ybSBuYW1lPSJ0ZXN0Zm9ybSIgYWN0aW9uPSJjc2ljbWQ6bG9jYWwiPg0KPGlucHV0IHR5cGU9ImhpZGRlbiIgb25jbGljaz0iYWxlcnQoJ2hpZGRlbmNsaWNrJyk7IiBuYW1lPSJoaWRkZW50ZXN0Ij4NCjxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJ0ZXN0dGV4dCI+DQo8aW5wdXQgdHlwZT0ic3VibWl0IiBWYWx1ZT0iU3VibWl0Ij4NCjxpbnB1dCB0eXBlPSJyZXNldCI+DQo8L2Zvcm0+DQo8L2JvZHk+DQo8L2h0bWw+
+[20170406 15:23:34] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170406 15:23:34] IN  - Browse              | EBRþDISPLAYþ.\V20171\313\UV313-1887.htmlþTAGüaction
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:55:14] IN  - Message             | WMþTELLþBrowser - hiddenclick
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:23:35] IN  - Fire Browser Event  | WFBþactionþhiddentestþCLICK
+[20170406 15:55:16] IN  - Message             | WMþTELLþBrowser - enter data and it will get picked up in 10 seconds
+[20170406 15:23:47] IN  - Fire Browser Event  | WFBþactionþtestformþSUBMIT
+[20170406 15:23:50] IN  - Fire Browser Event  | WFBþactionþtestformþRESET
+[20170406 15:23:50] IN  - Message             | WMþTELLþcleared input, will try error cases and close browser
+[20170406 15:55:12] IN  - Message             | WDPþPAUSEþ10
+[20170406 15:23:51] IN  - Fire Browser Event  | WFBþactionþjunkþSUBMIT
+[20170406 15:23:51] IN  - Fire Browser Event  | WFBþactionþtestformþjunk
+[20170406 15:23:51] IN  - Browse              | EBRþCLOSEþþTAGüaction
+[20170406 15:23:52] IN  - Close Screen(s)     | WXþ0þ0
+[20170406 15:23:54] **************************************************************************************
+[20170406 15:23:54] Log Ended: 2017-04-06 03:23:54 PM
+[20170406 15:23:54] **************************************************************************************

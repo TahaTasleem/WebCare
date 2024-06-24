@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}</title>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/webdirect.css', build=config.BUILD) }}">
+    <style>
+        .box {
+            display: flex;
+            align-items: stretch;
+        }
+        .sessionbox {
+            padding: 6px; 
+            margin: 5px; 
+            border: 1px solid black; 
+            border-radius: 5px;
+            min-width: 300px;
+        }
+    </style>
+</head>
+<body style="padding: 10px;">
+    <h3>WebDirect Status</h3>
+    <div style="padding: 5px;" >
+        Current sesions: {{ sessions | length }}
+    </div>
+    <div class="box">    
+    {% for sess in sessions %}
+    <div class="sessionbox" >
+        <h4>{{ sess }}</h4>
+        <ul style="margin: 2px;">      
+            <li>User: {{ sessions[sess].user }}</li>
+            <li>IP: {{ sessions[sess].clientip }}</li>
+            <li>Logged In: {{ sessions[sess].loggedin }}</li>
+            <li>Started: {{ sessions[sess].start.strftime('%Y-%m-%d @ %I:%M:%S %p') }}</li>
+        </ul>
+    </div>
+    {% endfor %}
+    </div>
+    
+</body>
+</html>

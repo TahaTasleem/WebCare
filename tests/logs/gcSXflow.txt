@@ -1,0 +1,136 @@
+[20170210 09:56:16] **************************************************************************************
+[20170210 09:56:16] Log Started: 2017-02-10 09:56:16 AM; Version: 2016.1.1; Windows 6.1.7601 - Service Pack 1 - AMD64; Remote: False;
+[20170210 09:56:16] Data Path: C:\Users\dar\AppData\Local\Campana\GoldCare\Data\; Port: 0;
+[20170210 09:56:16] **************************************************************************************
+
+[20170210 09:56:19] IN  - Initialize          | WIþGoldCareþ3
+[20170210 09:56:19] IN  - Mail Status         | WMSþSENDüEüF9ýICONüýHIDEýFLASH
+[20170210 09:56:19] IN  - Spell Check Setup   | WSSþALLOW=YýIGNORE.NUM=NýIGNORE.MIXED=NýIGNORE.UPPER=NýSUGGEST=YýADD.TO=-1
+[20170210 09:56:19] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþV18\84\started.flg
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:1ý0
+[20170210 09:56:19] IN  - File Transfer       | WFTþWRITEþHOLDþnotnull
+[20170210 09:56:19] IN  - File Transfer       | WFTþCLOSEþHOLD
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:1ýC:\Users\dar\AppData\Local\Campana\GoldCare\Data\V18\84\started.flgýWFTC
+[20170210 09:56:19] IN  - File Transfer       | WFTþDELETEþV18\84\started.flgþENDOFSESSION
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:1
+[20170210 09:56:19] IN  - File Transfer       | WFTþDELETEþ.\V18\84þENDOFSESSION
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:1
+[20170210 09:56:19] IN  - File Transfer       | WFTþCHECKFILEþ.\V18\cleanupdone2.flg
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:1ý7
+[20170210 09:56:19] IN  - File Transfer       | WFTþDELETEþ.\SETUP.EXE
+[20170210 09:56:19] OUT - Data Sent To Host   | WHIR:-1
+[20170210 09:56:19] OUT - Data Sent To Host   | WinGem-2016.1.1
+[20170210 09:56:20] IN  - Status              | WSTþPORTþ84 | Pid: 34040 on GCWLS-ZEUS
+[20170210 09:56:20] IN  - Toolbar Command     | WTBþRESET
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýHomeCancel.icoýEýEXITTOLEVELýCancel and Return HomeýYýýýGCSYS-EXIT-TOý&Commands/&Cancel and Return HomeýGCSYSý52ýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýSaveExit.icoýEýF2ýSave and ExitýNýýýGCSYS-F2ý&Commands/&Save and ExitýGCSYSý28ýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýInsertRow.icoýEýF8ýInsert LineýNýýýGCSYS-INSERT-LINEý&Commands/&Insert LineýGCSYSý34ýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýtransfer.icoýEýSYS_LOGTOýGoto AccountýYýýýGCSYS-LOGTOý&Commands/&Goto AccountýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýusers.icoýEýCLEAR-USERýClear User IDýYýýýGCSYS-CLEAR-USERý&Commands/Clear &User IDýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýlock_ws.icoýEýLOCKýLock WorkstationýYýýýGCSYS-LOCKý&Commands/&Lock WorkstationýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýmail.icoýEýF9ýGoldCare MailýYýýýGCSYS-MAILý&Commands/GoldCare &MailýGCSYSý35ýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýreminder2.icoýEýREMINDERýGoldCare RemindersýYýýýGCSYS-REMINDERý&Commands/GoldCare &ReminderýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýFONT-LEGENDýColour LegendýYýýýGCSYS-FONT-LEGENDý&Commands/Colour &Legendýýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýWINDOWTABýWindow Tab SelectýYýýýGCSYS-WINDOWTABý&Commands/Window Tab Selectýý20ýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýSCHEMEýControl Display SettingsýYýýýGCSYS-SCHEMEý&Session/Display &Scheme...ýýýýýýý0ýY
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýfax.icoýEýSENDFAXýSend FaxýYýýýGCSYS-FAXý&Commands/Send FaxýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýLabels.icoýEýLABELýLabel MakerýYýýýGCSYS-LABELý&Commands/Label MakerýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýMenuReport.icoýEýSYS_GLOBALMYORýView All MYORsýYýýýGCSYS-MYORý&Commands/View All MYORsýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýbriefcase.icoýEýBRIEFCASE-LOADýLoad BriefcaseýYýýýGCSYS-BRIEFCASE-LOADý&Commands/Load BriefcaseýGCSYSýýýýýýý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýGCLogo2.icoýEýGOLDCAREWEBýýYýýýGCSYS-GOLDCAREWEBý&Help/Gold&Care OnlineýýýýýýýHelp/1ýY
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýGCLogo2.icoýEýGOLDCAREWEBýGoldCare OnlineýYýýýGCSYS-GOLDCAREWEB2ý&Commands/GoldCare OnlineýGCSYSýýýýýýHelp/1ý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýWHERE-SERVERýRelease VersionýYýýýGCSYS-ABOUT-SERVERý&Help/&Release VersionýýýýýýýHelp/6ýY
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýWHEREýSystem InformationýYýýýGCSYS-ABOUT-WORKSTATIONý&Help/System &InformationýýýýýýýHelp/7ý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þMýýEýWHERE-WINDOWýWindow InformationýYýýýGCSYS-ABOUT-WINDOWý&Help/&Window InformationýýýýýýýHelp/8ý
+[20170210 09:56:20] IN  - Define Toolbar      | WDTþ1þTýýEýVýVendor InquiryýYýýýGCCUSTOM-Vý&Commands/Vendor InquiryýGCCUSTOMýýýýýýý
+[20170210 09:56:20] IN  - Get Information     | WGIþCOMPUTERNAME
+[20170210 09:56:20] OUT - Data Sent To Host   | WHIR:CMWLW-ROSENADA1
+[20170210 09:56:20] IN  - Get Information     | WGIþDATAPATH
+[20170210 09:56:20] OUT - Data Sent To Host   | WHIR:C:\Users\dar\AppData\Local\Campana\GoldCare\Data\
+[20170210 09:56:20] IN  - File Transfer       | WFTþCHECKFILEþ.\V18\scripts\BLOB_LIST.CSI
+[20170210 09:56:20] OUT - Data Sent To Host   | WHIR:1ý35431
+[20170210 09:56:20] IN  - Extended File Trans | WXTþHOSTþFTPýzeusüüüüSECUREüSCRIPTUSERþREMOTE.DIRü84ýHOST.STATUSü4þ.\V18\scripts\BLOB_LIST.CSI
+[20170210 09:56:20] OUT - Data Sent To Host   | WHIR:WXTCý0ýý1ü35431
+[20170210 09:56:26] IN  - Get Information     | WGIþDIRþC:\Users\dar\AppData\Local\Campana\GoldCare\Data\V18\scripts\
+[20170210 09:56:26] OUT - Data Sent To Host   | WHIR:.ü..üajax.jsüBLOB_LIST.CSIübootstrap.min.jsücommon.cssüedge.html1.jsüexcanvas.jsüform-submit.jsügc_wo_tree_menu_left.swfügc_wo_weather.swfügoldcare-base.cssügoldcare.cssüjqplot.barrenderer.jsüjqplot.canvasaxislabelrenderer.jsüjqplot.canvasaxistickrenderer.jsüjqplot.canvashack.jsüjqplot.canvastextrenderer.jsüjqplot.categoryaxisrenderer.jsüjqplot.enhancedlegendrenderer.jsüjqplot.highlighter.jsüjqplot.pierenderer.jsüjqplot.pointlabels.jsüjquery.jqplot.jsüjquery.jsüjquery.jstree.jsüjquery.multiselect.jsüjquery_ui.jsüjquery_ui_fr.jsüjson.jsümootools1.2-more.jsümootools1.2.jsüprocesslauncher.exeürsa.jsüscw.jsüsite_navigation.swfüwde.di.jsüwo.dashboard.jsýYüYüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNüNý-1ü-1ü5626ü35431ü37051ü0ü160081ü19589ü13629ü55743ü59751ü84306ü264ü13403ü8341ü3223ü979ü15882ü9662ü4813ü7496ü13647ü4658ü171626ü93439ü41019ü10655ü239019ü1000ü9046ü28601ü100028ü6144ü22104ü85518ü5443ü67330ü130881ýüü2017/02/02ü2017/02/09ü2017/02/02ü2017/02/02ü2017/02/09ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/02ü2017/02/09ü2017/02/09ýüü09:28:51ü17:07:25ü09:29:04ü09:28:53ü17:07:25ü09:28:50ü09:28:49ü09:28:16ü09:28:28ü09:29:17ü09:28:56ü09:29:07ü09:28:46ü09:29:14ü09:28:53ü09:28:40ü09:28:48ü09:29:05ü09:29:01ü09:29:13ü09:28:51ü09:28:44ü09:28:53ü09:29:02ü09:28:38ü09:29:10ü09:28:45ü09:28:54ü09:28:14ü09:28:29ü09:28:41ü09:28:53ü09:29:06ü09:28:01ü17:07:25ü17:07:25
+[20170210 09:56:26] IN  - File Transfer       | WFTþOPENþHOLDþWRITEþ.\V18\scripts\BLOB_LIST.CSI
+[20170210 09:56:26] OUT - Data Sent To Host   | WHIR:1ý0
+[20170210 09:56:26] OUT - Data Sent To Host   | WHIR:1ýC:\Users\dar\AppData\Local\Campana\GoldCare\Data\.\V18\scripts\BLOB_LIST.CSIýWFTC
+[20170210 09:56:26] IN  - File Transfer       | WFTþDELETEþ.\V18\scripts\BLOB_LIST.CSIþNEVER
+[20170210 09:56:26] OUT - Data Sent To Host   | WHIR:-1
+[20170210 09:56:27] IN  - Close Menu Screen(s | WXNþ2þ0
+[20170210 09:56:27] IN  - Header              | WHþSXII.DEV - SX System Menu
+[20170210 09:56:27] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:56:27] IN  - Application Command | WAþNORMAL
+[20170210 09:56:27] IN  - Header              | WHþSXII.DEV - SX System Menu
+[20170210 09:56:30] IN  - Non-Packet Data     | Phantom process started with process ID 
+
+[20170210 09:56:30] IN  - Non-Packet Data     | 27068.
+Phantom process started with process ID 30312.
+
+
+[20170210 09:56:30] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:56:30] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:56:30] IN  - Command Line        | WEþDISABLE
+[20170210 09:56:30] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-F2ýýýýýýýýýý
+[20170210 09:56:30] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-INSERT-LINEýýýýýýýýýý
+[20170210 09:56:30] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-LOGTOýýýýýýýýýý
+[20170210 09:56:30] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-BRIEFCASE-LOADýýýýýýýýýý
+[20170210 09:56:30] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-SCHEMEýýýýýýýýýý
+[20170210 09:56:30] IN  - Menu Screen         | WNþ0þ1þSX System MenuþLine/AccountýReport/Form RoutingýPrinter Number AssignmentýSite Pro^fileýDisplay Release VersionýOD^BC File ManagerýUser InquiryýMail GroupsýSecurityýAuditingýDelete Mail FoldersýCustomize CommandsýArchiveýUpdate Release in ^AccountýData^base UtilitiesýUniverse ^IndicesýTest PrinterýRe^view MessagesýAuto UpdateýLoad Version from this AccountýApplicationsýLo^ck ManagerýPhantom ManagerýReminder ManagerýSupplementsýCare AnywhereýPortalsýMobilityPlusýHost PDF Printers SetupýBatch User Designationþ6ý7ý8ý9ý10ý11ý15ý16ý17ý18ý19ý20ý21ý6ý7ý8ý9ý10ý11ý12ý15ý16ý18ý19ý20ý21ý22ý23ý24ýþ5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ýþEnvironment MaintenanceýSecurity/Mail MaintenanceýUtilitiesýSystem/Device Maintenanceþ4ý13ý4ý13þ4ý4ý44ý44þ1ý1ý1ý1ý1ý1ý2ý1ý3ý3ý1ý1ý3ý1ý3ý1ý1ý1ý1ý1ý3ý1ý3ý3ý3ý3ý3ý3ý1ý1þTABLE-NO-BORDER.PNGýPROFILE-COMMON-NO-BORDER.PNGýMENU-NO-BORDER.PNG
+[20170210 09:56:30] IN  - Prompt Menu Screen  | WPN
+[20170210 09:56:32] OUT - Data Sent To Host   | 10
+[20170210 09:56:32] IN  - Header              | WHþSXII.DEV - SX System Menu
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýMenuýýýýGCSYS-EXIT-TOýýýýýýýýýý
+[20170210 09:56:32] IN  - Header              | WHþSXII.DEV - System Auditing
+[20170210 09:56:32] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:56:32] IN  - Application Command | WAþNORMAL
+[20170210 09:56:32] IN  - Header              | WHþSXII.DEV - System Auditing
+[20170210 09:56:32] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:56:32] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:56:32] IN  - Command Line        | WEþDISABLE
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-F2ýýýýýýýýýý
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-INSERT-LINEýýýýýýýýýý
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-LOGTOýýýýýýýýýý
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-BRIEFCASE-LOADýýýýýýýýýý
+[20170210 09:56:32] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-SCHEMEýýýýýýýýýý
+[20170210 09:56:32] IN  - Menu Screen         | WNþ0þ2þSystem AuditingþAudit Browse / ReportýMYOR AuditýPurge AuditýSystem AuditingýAuditing EventsýAuditing Notify EventsýEncryption CheckýFile of Filesþ6ý8ý10ý12ý14ý15ý16ý18þ29ý35ý34ý32ý32ý32ý32ý32þþþþ1ý1ý2ý2ý2ý2ý2ý3þREPORT-NO-BORDER.PNGýTABLE-NO-BORDER.PNGýCONFIG-NO-BORDER.PNG
+[20170210 09:56:32] IN  - Prompt Menu Screen  | WPN
+[20170210 09:56:35] OUT - Data Sent To Host   | F4
+[20170210 09:56:35] IN  - Close Menu Screen(s | WXNþ0þ2
+[20170210 09:56:35] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a workspace.
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-F2ýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-INSERT-LINEýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-LOGTOýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-SCHEMEýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-BRIEFCASE-LOADýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýMenuýýýýGCSYS-EXIT-TOýýýýýýýýýý
+[20170210 09:56:35] IN  - Header              | WHþSXII.DEV - SX System Menu
+[20170210 09:56:35] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:56:35] IN  - Application Command | WAþNORMAL
+[20170210 09:56:35] IN  - Header              | WHþSXII.DEV - SX System Menu
+[20170210 09:56:35] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:56:35] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:56:35] IN  - Command Line        | WEþDISABLE
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-F2ýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-INSERT-LINEýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-LOGTOýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-BRIEFCASE-LOADýýýýýýýýýý
+[20170210 09:56:35] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-SCHEMEýýýýýýýýýý
+[20170210 09:56:35] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:56:35] IN  - Prompt Menu Screen  | WPN
+[20170210 09:56:36] OUT - Data Sent To Host   | F4
+[20170210 09:56:36] IN  - Close Menu Screen(s | WXNþ0þ1
+[20170210 09:56:36] IN  - Close Menu Screen(s | WXNþ0þ0
+[20170210 09:56:36] IN  - Command Line        | WEþENABLE
+[20170210 09:56:36] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a workspace.
+[20170210 09:56:36] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-F2ýýýýýýýýýý
+[20170210 09:56:36] IN  - Change Toolbar      | WCTþýýýýýYýýýGCSYS-INSERT-LINEýýýýýýýýýý
+[20170210 09:56:36] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-LOGTOýýýýýýýýýý
+[20170210 09:56:36] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-SCHEMEýýýýýýýýýý
+[20170210 09:56:36] IN  - Change Toolbar      | WCTþýýýýýNýýýGCSYS-BRIEFCASE-LOADýýýýýýýýýý
+[20170210 09:56:36] IN  - Non-Packet Data     | >
+
+[20170210 09:56:40] **************************************************************************************
+[20170210 09:56:40] Log Ended: 2017-02-10 09:56:40 AM
+[20170210 09:56:40] **************************************************************************************

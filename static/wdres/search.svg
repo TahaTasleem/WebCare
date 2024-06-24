@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<polygon id="XMLID_40_" fill="#364B68" points="29.734,7.008 31.643,8.442 29.734,9.874 23.051,11.783 24.96,7.008 "/>
+<polygon id="XMLID_39_" fill="#476289" points="24.96,7.008 24.96,11.783 20.186,9.874 18.276,8.442 20.186,7.008 "/>
+<polygon id="XMLID_38_" fill="#131A24" points="30.689,28.015 24.96,28.015 24.005,24.194 30.689,25.149 "/>
+<polygon id="XMLID_37_" fill="#243245" points="24.96,28.015 19.231,28.015 19.231,25.149 24.96,24.194 "/>
+<polygon id="XMLID_36_" fill="#131A24" points="30.689,11.783 30.689,23.239 23.051,23.239 24.96,11.783 "/>
+<rect id="XMLID_35_" x="19.231" y="11.783" fill="#243245" width="5.729" height="11.457"/>
+<polygon id="XMLID_34_" fill="#243245" points="24.96,22.286 24.005,23.718 24.96,25.149 30.689,25.149 30.689,22.286 "/>
+<rect id="XMLID_33_" x="19.231" y="22.286" fill="#364B68" width="5.729" height="2.864"/>
+<polygon id="XMLID_32_" fill="#243245" points="24.96,9.874 23.051,11.305 24.96,12.737 30.689,12.737 30.689,9.874 "/>
+<rect id="XMLID_31_" x="19.231" y="9.874" fill="#364B68" width="5.729" height="2.863"/>
+<polygon id="XMLID_30_" fill="#286BB5" stroke="#111235" stroke-miterlimit="10" points="29.734,2.235 41.19,2.235 41.19,7.008 
+	35.463,8.918 29.734,7.008 "/>
+<polygon id="XMLID_29_" fill="#131A24" points="29.734,9.874 41.19,13.692 41.19,7.008 29.734,7.008 "/>
+<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="29.7344" y1="23.002" x2="46.9199" y2="23.002">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.0757" style="stop-color:#FCFDFE"/>
+	<stop  offset="0.124" style="stop-color:#F4F7FB"/>
+	<stop  offset="0.1647" style="stop-color:#E5EDF7"/>
+	<stop  offset="0.201" style="stop-color:#D0DEF0"/>
+	<stop  offset="0.2346" style="stop-color:#B5CBE7"/>
+	<stop  offset="0.2661" style="stop-color:#94B4DD"/>
+	<stop  offset="0.2953" style="stop-color:#6D99D0"/>
+	<stop  offset="0.3042" style="stop-color:#6090CC"/>
+	<stop  offset="1" style="stop-color:#3953A5"/>
+</linearGradient>
+<polygon id="XMLID_28_" fill="url(#XMLID_2_)" stroke="#111235" stroke-miterlimit="10" points="29.734,9.874 44.058,9.874 
+	46.92,34.222 38.327,36.13 29.734,34.222 "/>
+<polygon id="XMLID_27_" fill="#243245" points="45.92,46.155 28.734,46.155 28.734,43.29 37.327,41.382 45.92,43.29 "/>
+<rect id="XMLID_26_" x="29.734" y="34.222" fill="#286BB5" stroke="#111235" stroke-miterlimit="10" width="17.186" height="9.068"/>
+<polygon id="XMLID_25_" fill="#286BB5" stroke="#111235" stroke-miterlimit="10" points="20.186,2.235 8.729,2.235 8.729,7.008 
+	14.458,8.918 20.186,7.008 "/>
+<polygon id="XMLID_24_" fill="#243245" points="20.186,9.874 8.729,13.692 8.729,7.008 20.186,7.008 "/>
+<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="3" y1="23.4795" x2="23.5145" y2="23.4795">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.0757" style="stop-color:#FCFDFE"/>
+	<stop  offset="0.124" style="stop-color:#F4F7FB"/>
+	<stop  offset="0.1647" style="stop-color:#E5EDF7"/>
+	<stop  offset="0.201" style="stop-color:#D0DEF0"/>
+	<stop  offset="0.2346" style="stop-color:#B5CBE7"/>
+	<stop  offset="0.2661" style="stop-color:#94B4DD"/>
+	<stop  offset="0.2953" style="stop-color:#6D99D0"/>
+	<stop  offset="0.3042" style="stop-color:#6090CC"/>
+	<stop  offset="1" style="stop-color:#3953A5"/>
+</linearGradient>
+<polygon id="XMLID_23_" fill="url(#XMLID_3_)" stroke="#111235" stroke-miterlimit="10" points="20.186,9.874 5.865,9.874 3,34.222 
+	11.593,37.085 20.186,34.222 "/>
+<polygon id="XMLID_22_" fill="#364B68" points="19.186,46.155 2,46.155 2,43.29 10.593,41.382 19.186,43.29 "/>
+<rect id="XMLID_21_" x="3" y="34.222" fill="#286BB5" stroke="#111235" stroke-miterlimit="10" width="17.186" height="9.068"/>
+</svg>

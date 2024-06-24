@@ -1,0 +1,41 @@
+{%- if True -%}
+{
+	"autoposition": {{button.autoposition | py2js}},
+	"enabled": {{button.enabled | py2js}},
+	"filename": "{{button.filename}}",
+	"height": "{{button.height|convertrowunittoem }}em",
+	"help": "{{button.help}}",
+	"id": "{{ button.getid() }}",
+	"left": "{{ (100 * ((button.col-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%",
+	"right": "{{(button.col)|convertcolunittoem }}em",
+	"sendtext": {{ button.sendtext|tojson }},
+	"sendtype": "{{button.sendtype}}",
+	"src": "{{url_for('static',filename=button.filename)}}",
+	"tag": "{{button.tag | safe}}",
+	"top": "{{ (button.row-screen.startrow)|convertrowunittoem }}em",
+	"width": "{{button.width|convertcolunittoem }}em"
+}
+{%- else -%}
+	<button class="wdbutton btn btn-primary" id="{{ button.getid() }}"
+{% if button.autoposition %}
+	style="bottom: 5px; right: {{(button.col)|convertcolunittoem }}em; width: {{button.width|convertcolunittoem }}em;height: {{button.height|convertrowunittoem }}em;"
+{% else %}
+	style="top: {{ (button.row-screen.startrow)|convertrowunittoem }}em; left: {{ (100 * ((button.col-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%; width: {{button.width|convertcolunittoem }}em;height: {{button.height|convertrowunittoem }}em;"
+{% endif%}
+		onclick='WD.buttonclick(this,{{ button.sendtext|tojson }}{%- if button.sendtype == "E" -%},true{%- endif -%});'
+		onfocus="WD.focuselement(event,this.id);"
+		onmousedown="$(this).attr('click',true);"
+	{% if button.help -%}
+		title="{{ button.help }}"
+	{% endif -%}
+	{% if not button.enabled -%}
+		disabled
+	{%- endif -%}>
+	{% if button.filename -%}
+		<img class="buttonimage" 
+		src="{{url_for('static',filename=button.filename)}}"
+		alt="{{button.filename}}">
+	{% endif -%}
+	{{ button.tag }} 
+</button>
+{%- endif -%}

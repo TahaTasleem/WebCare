@@ -1,0 +1,19 @@
+<div class="modal hidden" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 id="questionheader"></h3>
+			</div>
+			<div class="modal-body">
+                <p id="questionlabel"></p>
+                <br/>
+                <input id="questioninput" style="width: 75%;" />
+                <br/>
+			</div>
+			<div class="modal-footer">
+                <button type="button" class="btn btn-primary cancelbutton" onclick="WD.input(WD.ESCAPE);WD.destroymodaldraggable(this)" style="width: 6em;" data-dismiss="modal">{{ "IDS_CAP0006" | loadstring }}</button>
+			    <button type="button" class="btn btn-primary okbutton" onclick="WD.input(WD.ESCAPE + 'WHIR:' + $('#questioninput').val());WD.destroymodaldraggable(this)" style="width: 6em;" data-dismiss="modal">OK</button>
+	     	</div>
+	     </div>	
+	</div>
+</div>

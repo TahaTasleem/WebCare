@@ -1,0 +1,12 @@
+[20161206 08:57:09] IN  - Screen              | WSþ0þ3þMAINþ3þ0þ20þ79þBOXþSGþþHYYþ1.5ý9.9
+[20161206 08:57:09] IN  - Define Button       | WDBþ13þCý<img= >InquiryýEýWGUF:2:1:INQUIRYýýYýýýINQUIRYþCý<img= >QuoteýEýWGUF:2:1:QUOTEýýYýBadRowýBadColýQUOTEþCý<img= >MoveýEýWGUF:2:1:MOVEýýYýýýMOVEþCý<img= >RefundýEýWGUF:2:1:REFUNDýýYýýýREFUNDþCý<img= >ReversalýEýWGUF:2:1:REVERSALýýYýýýREVERSALþCý<img= >Payment OnlyýEýWGUF:2:1:PAYMENT ONLYýýYýýýPAYMENT ONLYþCý<img= >MembershipýEýWGUF:2:1:MEMBERSHIPýýYýýýMEMBERSHIP
+[20161206 08:57:09] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161206 08:57:09] IN  - Header              | WHþMEM Counter Serviceþ185 CAA.DEV AS JHO
+[20161206 08:57:09] IN  - Define Prompt       | WPþ1þ4þ1þMember #:þ4þ11þLý150ý23þSþþMember #þ
+[20161206 08:57:09] IN  - Define Prompt       | WPþ2þ4þ41þClient:þ4þ49þLý150ý23þSþþClientþ
+[20161206 08:57:09] IN  - (un)Lock Screen     | WLSþ1
+[20161206 08:57:09] IN  - Populate Prompt     | WDþ1ýþ620 084 177860700 4 PM
+[20161206 08:57:09] IN  - Populate Prompt     | WDþ2ýþGEN GEOFF HOTMAN
+[20161206 08:57:09] IN  - (un)Lock Screen     | WLSþ0
+[20161206 08:57:09] IN  - Screen Command      | WSCþSHOW
+[20161206 08:57:09] IN  - Wait On Button      | WWBþOK

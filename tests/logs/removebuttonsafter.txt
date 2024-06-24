@@ -1,0 +1,40 @@
+[20170330 15:38:21] IN  - Screen              | WSþ0þ4þMAINþ3þ0þ20þ79þBOXþSGþþVNC
+[20170330 15:38:21] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170330 15:38:21] IN  - Header              | WHþClient Inquiryþ186 CAA.DEV AS JHO
+[20170330 15:38:21] IN  - Define Grid         | WWþ8þ1þ19þ79þ9þ13þMSþþNþC
+[20170330 15:38:21] IN  - Define Prompt       | WPþ1þ4þ1þName:þ4þ9þLý150ý20þSþþNameþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ2þ5þ1þMember:þ5þ9þLý150ý20þSþþMemberþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ3þ6þ1þFlags:þ6þ9þLý150ý46þSþþFlagsþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ4þ4þ30þStatus:þ4þ39þLý150ý16þSþþStatusþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ5þ5þ30þRate Type:þ5þ39þLý150ý16þSþþRate Typeþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ6þ4þ57þExpiry:þ4þ68þLý150ý12þSþDATEþExpiryþDDDýDDIüCALENDAR.ICO
+[20170330 15:38:21] IN  - Define Prompt       | WPþ7þ5þ57þMem Since:þ5þ68þLý150ý12þSþþMem Sinceþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ8þ6þ57þLTV:þ6þ68þLý150ý12þSþþLTVþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ9þ8þ1þTellerþ9þ1þLý150ý8þSþþTellerþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ10þ8þ10þReasonþ9þ10þLý150ý11þSþþReasonþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ11þ8þ22þDateþ9þ22þLý150ý8þSþþDateþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ12þ8þ31þOTCþ9þ31þLý150ý5þSþþOTCþ
+[20170330 15:38:21] IN  - Define Prompt       | WPþ13þ8þ35þCommentsþ9þ31þLý150ý41þSþþCommentsþ
+[20170330 15:38:21] IN  - Define Button       | WDBþ10þCý<img= >ExpandýEýCEXPANDýýYýýýEXPANDþCý<img= >AddýEýNEWýýYýýýNEW
+[20170330 15:38:21] IN  - Command             | WCþCLEARALLþ9
+[20170330 15:38:21] IN  - Define Text         | WTþ1þ3þ34þ Comments þINVERSE
+[20170330 15:38:24] IN  - (un)Lock Screen     | WLSþ1
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ1ýþGEN GEOFF HOTMAN
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ2ýþ620 084 177860700 4 PM
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ3ýþADDRESS TEST FLAG, CLUB DIRECTOR
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ4ýþActive
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ5ýþREGULAR
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ6ýþ15 OCT 06
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ7ýþ04 OCT 04
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ8ýþ<color=FFFFFF bgcolor=B41932 style=B>D
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ9ýþKTGýýýýýýJHO
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ10ýþM/SýýýM/SýýýM/S
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ11ýþ04FEB15ýýý19MAR14ýýý16DEC13
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ12ýþYýýýYýýýY
+[20170330 15:38:24] IN  - Populate Prompt     | WDþ13ýþCARD REQUESTED - 10:41:39amýFOR - MýFUNCTION - MembershipýCARD PRINTED - 02:19:47pmýFOR - MýFUNCTION - Batch Card PrintýCARD REQUESTED - 08:49:20amýFOR - MýFUNCTION - Name changeýCARD EXPIRY - Current
+[20170330 15:38:24] IN  - (un)Lock Screen     | WLSþ0
+[20170330 15:38:24] IN  - Screen Command      | WSCþSHOW
+[20170330 15:38:24] IN  - Populate & Prompt   | WPDþ9ý1þKTG
+[20170330 15:38:24] IN  - WD Playback         | WDPþPAUSEþ2
+[20170330 15:38:21] IN  - Define Button       | WCBþýýýýýXýýýEXPANDýýýýýýýýýþýýýýýXýýýNEWýýýýýýýýý
+

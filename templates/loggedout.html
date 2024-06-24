@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}</title>
+{% if config.PRODUCT == "AXIS" %}
+      <link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+{% else %}
+    <link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+{% endif %}
+{% if not config.PRODUCTION %}
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/jquery_ui.css') }}">
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/jquery.smartmenus.bootstrap.css') }}">
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/xterm.css') }}">
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/webdirect.css') }}">
+{% else %}
+<link rel="stylesheet" type="text/css"
+    href="{{ url_for('static', filename='css/wd.min.css', build=config.BUILD) }}">
+{% endif %}
+</head>
+<body {% if config.PRODUCT == "GoldCare" -%}class="gc"{%- endif %} data-origtitle="{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}">
+{% if config.PRODUCT == "AXIS" %}
+    <div id="wdbg_axis" class="wdbg">
+    </div>
+{% else %}
+    <div id="wdbg_gc" class="wdbg">
+    </div>
+{% endif %}
+    <div id="start"{% if config.PRODUCT == "GoldCare" %} class="gcstart"{% endif %}>
+        <div id="login" class="tab-pane fade in active">
+            {% if config.PRODUCT == "AXIS" %}
+                <img class="wdlogo" alt="AXIS" src="{{url_for('static',filename='wdres/logo_axis_full.svg')}}" />
+            {% else %}
+                <img class="wdlogo" alt="GoldCare" src="{{url_for('static',filename='wdres/logo_gc_full.png')}}" />
+            {% endif %}
+            <div style="padding-left: 4em; padding-top: 2em; padding-right: 4em;">
+            <br/>
+            {{"IDS_WEB0015"|loadstring}}
+            <br/><br/>
+            {% if loginserver %}
+            <button onclick="window.location = '{{url_for('wdmain')}}login/{{loginserver}}';" style="font-size: 1.25rem;">Login</button>
+            {% endif %}
+
+            </div>
+        </div>
+    </div>
+	<div id="toast" class="alert alert-dismissible" role="alert" style="display:none;" onclick="$(this).hide();">
+		<span id="toastmessage"></span>
+	</div>
+	<div id="windowcontainer" style="display:none;"></div>
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+	{% if config.PRODUCTION %}
+	<script src="{{ url_for('static', filename='js/wd.min.js', build=config.BUILD) }}" defer></script>
+	{% else %}
+	<script src="{{ url_for('static', filename='js/jquery_ui.js') }}" defer></script>
+	<script src="{{ url_for('static', filename='js/webdirect.js') }}" defer></script>
+	{% endif %}
+    <script>
+    $(document).ready(function() {
+        var storedmsg = sessionStorage.getItem("message");
+        if (storedmsg) {
+            WD.displaytoast({
+                "msg": storedmsg,
+                "msgtype": sessionStorage.getItem("msgtype")
+            });
+            sessionStorage.removeItem("message");
+            sessionStorage.removeItem("msgtype");
+        }
+    });
+    </script>
+</body>
+</html>

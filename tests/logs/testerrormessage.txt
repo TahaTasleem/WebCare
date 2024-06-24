@@ -1,0 +1,1 @@
+[20170224 14:44:54] IN  - Message             | WMþERRORþBODY MESSAGEþHEADINGüheading msg

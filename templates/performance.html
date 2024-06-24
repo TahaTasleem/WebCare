@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ config.PRODUCT }} {% if not config.PRODUCTION %}(Development){% endif %}</title>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/jquery.smartmenus.bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/xterm.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/webdirect.css', build=config.BUILD) }}">
+</head>
+<body>
+    <div class="centerbox" style="margin: 0em auto 0em auto; padding-top: 10em;">
+        <h3>Run Tests</h3>
+        <br/>
+        <button class="btn btn-primary" onclick="latencytest();">Latency Test</button>
+        <button class="btn btn-primary" onclick="uploadtest();">Upload Test</button>
+        <button class="btn btn-primary" onclick="downloadtest();">Download Test</button>
+        <button class="btn btn-primary" onclick="browsertest();">Browser Test</button>
+        <button class="btn btn-primary" onclick="alltests();">All Tests</button>
+    </div>        	
+    <div class="centerbox" style="margin: 2em auto;">
+        <h3>Results</h3><br/>
+        <div id="latency"></div><br/>
+        <div id="upload"></div><br/>
+        <div id="download"></div><br/>
+        <div id="browser"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bcrypt.js') }}"></script>
+    <script>
+        var bcrypt_opers = 50;
+        var z = 0;
+        var doall = false;
+        function formatNumber(number) {
+            var nf = new Intl.NumberFormat();
+            return nf.format(number); // "1,234,567,890"
+        }
+        function calctime(type, size) {
+            var perf = performance.getEntriesByType("resource");
+            perf = perf[perf.length-1];
+            var results = {};
+            switch (type) {
+                case "upload":
+                    // per second rate
+                    var speed = ((size / perf.duration) / 1000).toFixed(3);
+                    $("#upload").html("Upload speed is " + speed + " mb/s (" + formatNumber(size) + " bytes in " + formatNumber(perf.duration.toFixed(0)) + " ms)");
+                    if (doall) {
+                        downloadtest();
+                    }
+                    results["type"] = type;
+                    results["speed"] = speed + " mb/s";
+                    results["size"] = formatNumber(size);
+                    results['time'] = formatNumber(perf.duration.toFixed(0)) + " ms";
+                    break;
+                case "download":
+                    // per second rate
+                    var speed = ((size / perf.duration) / 1000).toFixed(3);
+                    $("#download").html("Download speed is " + speed + " mb/s (" + formatNumber(size) + " bytes in " + formatNumber(perf.duration.toFixed(0)) + " ms)");
+                    if (doall) {
+                        browsertest();
+                    }
+                    results["type"] = type;
+                    results["speed"] = speed + " mb/s";
+                    results["size"] = formatNumber(size);
+                    results['time'] = formatNumber(perf.duration.toFixed(0)) + " ms";
+                    break;
+                case "latency":
+                    // millisecond performance
+                    var perf3 = performance.getEntriesByType("resource");
+                    perf3 = perf3[perf3.length-1];
+                    $("#latency").html("Latency is " + formatNumber(perf3.duration.toFixed(2)) + " ms");
+                    if (doall) {
+                        uploadtest();
+                    }
+                    results["type"] = type;
+                    results["latency"] = formatNumber(perf3.duration.toFixed(2)) + " ms";
+                    break;
+                case "browser":
+                    performance.measure("browser","browser-start","browser-end");
+                    var perf4 = performance.getEntriesByName("browser")[0];
+                    var speed = perf4.duration / bcrypt_opers;
+                    $("#browser").html("Browser Test " + speed.toFixed(2) + " ms/operation (" + bcrypt_opers + " bcrypts in " + formatNumber(perf4.duration.toFixed(0)) + " ms)");
+                    performance.clearMarks();
+                    performance.clearMeasures();
+                    if (doall) {
+                        doall = false;
+                    }
+                    results["type"] = type;
+                    results["optime"] = speed.toFixed(2) + " ms/operation";
+                    results['operations'] = bcrypt_opers;
+                    results['time'] = formatNumber(perf4.duration.toFixed(0)) + " ms";
+                    break;
+            }
+            // log results
+            $.ajax({
+                url: "/perflog",
+                type: 'POST',
+                dataType: 'json',
+                data: JSON.stringify(results),
+                contentType: "application/json; charset=utf-8",
+            });
+            if (!doall) {
+                $("button").attr("disabled",false);
+            }
+        }
+        function alltests() {
+            doall = true;
+            latencytest();
+        }
+        function uploadtest() {
+            $("button").attr("disabled",true);
+            // test upload speed
+            // generate 1mb of data to upload
+            var formData = new FormData();
+            // 1 MB of Data
+            var content = "1010101010101010".repeat(1048576);
+            var blob = new Blob([content], { type: "text"});
+            formData.set("filedata", blob);
+            $.ajax({
+                url: "/perfupload",
+                type: 'POST',
+                data: formData,
+                success: function (data) {
+                    calctime("upload", content.length);
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        }
+        function latencytest() {
+            $("button").attr("disabled",true);
+            // test latency?
+            $.ajax({
+                url: "/perflatency",
+                type: 'GET',
+                success: function (data) {
+                    calctime("latency", 0);
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        }
+        function downloadtest() {
+            $("button").attr("disabled",true);
+            // test download speed
+            $.ajax({
+                url: "/perfdownload",
+                type: 'GET',
+                success: function (data) {
+                    calctime("download", data.length);
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        }
+        function browsertest() {
+            $("button").attr("disabled",true);
+            z = 0;
+            performance.mark("browser-start");
+            // really SLOW
+            var x = 0;
+            for (x = 0; x < bcrypt_opers; x++) {
+                var salt = gensalt(10);
+                hashpw("abc",salt, function(result) { z++; $("#browser").html(z + "/" + bcrypt_opers + " bcrypts complete")});
+            }
+            setTimeout(checkforbrowserdone, 100);
+        }
+        function checkforbrowserdone() {
+            if (z >= bcrypt_opers) {
+                performance.mark("browser-end");
+                calctime("browser", 0);
+            } else {
+                setTimeout(checkforbrowserdone, 100);
+            }
+        }
+    </script>
+</body>
+</html>

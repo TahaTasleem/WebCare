@@ -1,0 +1,12 @@
+[20170126 16:08:53] IN  - Mail Status         | WMSşUNREADü1ıSHOWıICONü
+[20170126 16:08:58] IN  - Mail Status         | WMSşHIDE
+[20170126 16:08:58] IN  - Mail Status         | WMSşUNREADü100ıSHOWıICONüUsers.ico
+[20170126 16:09:03] IN  - Mail Status         | WMSşHIDE
+[20170126 16:09:03] IN  - Mail Status         | WMSşUNREADü50ıTOTALü100ıSHOWıICONü
+[20170126 16:09:08] IN  - Mail Status         | WMSşHIDE
+[20170126 16:09:08] IN  - Mail Status         | WMSşUNREADü99ıSHOWıMSGüDAR CUSTOM MSGıICONü
+[20170126 16:09:13] IN  - Mail Status         | WMSşHIDE
+[20170126 16:09:13] IN  - Mail Status         | WMSşMSGüFLASH DEFAULT ICONıFLASHıSHOWıICONü
+[20170126 16:09:18] IN  - Mail Status         | WMSşHIDE
+[20170126 16:09:18] IN  - Mail Status         | WMSşMSGüFLASH CUSTOM ICONıFLASHıICONüUsers.icoıSHOW
+[20170126 16:09:23] IN  - Mail Status         | WMSşHIDE

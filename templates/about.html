@@ -1,0 +1,48 @@
+<div class= "modal fade{% if config.PRODUCT == "GoldCare" %} gcabout{% endif %}" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				{% if config.PRODUCT == "AXIS" %}
+					<img class="wdlogo" alt="AXIS" src="{{url_for('static',filename='wdres/logo_axis_full.svg')}}" />
+				{% else %}
+					<img class="wdlogo" alt="GoldCare" src="{{url_for('static',filename='wdres/logo_gc_full.svg')}}" />
+				{% endif %}
+			</div>
+			<div class="modal-body">
+				<h3 id="badbrowser" class="alert alert-warning" style="display:none;">Using unsupported browser: <span id="browseragent"></span></h3>					
+				Version {{config.VERSION}}, build {{ config.BUILD }}<br/>
+				Built: {{config.BUILDDATE | dateformat("%A, %B %d, %Y")}} - {{config.BUILDDATE | timeformat("%I:%M %p")}}<br/>
+				Session: {{sessionid}}<br/>
+				{% if config.PRODUCT == "AXIS" %}
+				&copy;<span id="year"></span> Campana Systems Inc<br/>
+				<br/>
+				<h3>System Requirements</h3>
+				<br/>
+				AXIS is certified for use in Chrome and Microsoft Edge only. Results in other browsers can vary.<br/>
+				Campana recommends a screen size of 1920 x 1080. AXIS runs on screens 1366 x768 or smaller, but these may require scrolling to access all functionality.
+				{% else %}
+				&copy;<span id="year"></span> GoldCare Inc<br/>
+				<br/>
+				<h3>System Requirements</h3>
+				<br/>
+				GoldCare is certified for use in Chrome and Microsoft Edge only. Results in other browsers can vary.<br/>
+				GoldCare recommends a screen size of 1920 x 1080. GoldCare runs on screens 1366 x768 or smaller, but these may require scrolling to access all functionality.
+				{% endif %}
+				<script>$("#year").html(new Date().getFullYear());</script>
+			</div>
+			<div class="modal-footer">
+				<span class="form-control-static pull-left">
+					{% if config.PRODUCT == "GoldCare" %}
+						<a href="{{url_for('static',filename='gc_system_reqs.html')}}" target="_blank">View GoldCare System Requirements</a>
+					{% endif %}
+				</span><button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+	     	</div>
+	     </div>	
+	</div>
+	<script>
+		if (!bowser.chrome && !bowser.msedge) {
+			$("#browseragent").html(navigator.userAgent);
+			$("#badbrowser").show();
+		}
+	</script>
+</div>

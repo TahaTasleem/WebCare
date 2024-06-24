@@ -1,0 +1,3 @@
+./stop_sample
+docker build -t webdirect:latest --build-arg branch=master --no-cache .
+./run_sample

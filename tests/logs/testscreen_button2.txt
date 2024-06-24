@@ -1,0 +1,47 @@
+[20161128 19:06:27] IN  - Screen              | WSþ0þ2þMAINþ2þ0þ20þ79þþSGþþVNC
+[20161128 19:06:27] IN  - Auto Complete       | WACþDOC$CALL.CENTERþADDýBUF
+[20161128 19:06:27] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161128 19:06:27] IN  - Header              | WHþþ185 CAA.DEV AS JHO
+[20161128 19:06:27] IN  - Define Prompt       | WPþ1þ4þ16þUser Initials:þ4þ33þLý150ý31þSþþUser Initialsþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ2þ4þ65þExt:þ4þ70þLý150ý8þSþþExtþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ3þ5þ16þDispatch Center:þ5þ33þLý150ý45þSþþDispatch Centerþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ4þ6þ16þDispatch Room:þ6þ33þLý150ý45þSþþDispatch Roomþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ5þ7þ16þCall Center:þ7þ33þLý150ý45þSþþCall Centerþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ7þ-1þ-1þþ-1þ-1þLý150ý3þDþVERIFYþEnter Your Initialsþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ8þ-1þ-1þþ-1þ-1þLý150ý5þDþTABLEþCall Center: code, ?? for tableþDDDýAC.LISTüDOC$CALL.CENTERüINORDER
+[20161128 19:06:27] IN  - Define Prompt       | WPþ9þ-1þ-1þþ-1þ-1þLý150ý3þDþTEXTþPhone extensionþ
+[20161128 19:06:27] IN  - Define Prompt       | WPþ10þ9þ16þCommand:þ9þ33þLý150ý45þDþERS.COMMANDþCommand (?? for table)þDDDýDDIüARROW_EMPTY.ICO
+[20161128 19:06:27] IN  - Define Prompt       | WPþ12þ-1þ-1þþ-1þ-1þLý150ý3þDþERS.CALL.NOþCall #þ
+[20161128 19:06:27] IN  - Define Group Box    | WGBþGBOX3þ11þ0þ21þ79þButton Commands
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Receive a CallýEýWGUF:2:10:REýýYý12ý63.5ýERS_REýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Receive & DispatchýEýWGUF:2:10:RDýýYý14ý63.5ýERS_RDýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >EnRouteýEýWGUF:2:10:ERýýYý20ý17ýERS_ERýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Dispatcher commentsýEýWGUF:2:10:DICýýYý12ý32.5ýERS_DICýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >On sceneýEýWGUF:2:10:OSýýYý20ý32.5ýERS_OSýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Duplicate CallýEýWGUF:2:10:DUýýYý16ý32.5ýERS_DUýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Under towýEýWGUF:2:10:UTýýYý20ý48ýERS_UTýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Inquire ýEýWGUF:2:10:INýýYý20ý63.5ýERS_INýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Tow ManualýEýWGUF:2:10:ITMýýYý18ý63.5ýERS_ITMýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >ChangeýEýWGUF:2:10:CHýýYý16ý63.5ýERS_CHýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Add CommentsýEýWGUF:2:10:ACýýYý12ý17ýERS_ACýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Call back NumberýEýWGUF:2:10:CBNýýYý18ý1.5ýERS_CBNýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Call back LocationýEýWGUF:2:10:CBLýýYý16ý1.5ýERS_CBLýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Call back DriverýEýWGUF:2:10:CBDýýYý12ý1.5ýERS_CBDýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Call back ClubýEýWGUF:2:10:CBCýýYý20ý1.5ýERS_CBCýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Call back SurnameýEýWGUF:2:10:CBSýýYý14ý1.5ýERS_CBSýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Update ETAýEýWGUF:2:10:ETAýýYý18ý32.5ýERS_ETAýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - Define Button       | WDBþ10þCý<img= >Auto ETA/PAýEýWGUF:2:10:IETAýýYý12ý48ýERS_IETAýýýýý1.4ý15ýýý
+[20161128 19:06:27] IN  - (un)Lock Screen     | WLSþ1
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ1ýþ
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ2ýþ
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ3ýþLONDON
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ4ýþNOT CONFIGURED
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ5ýþ
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ10ýþ
+[20161128 19:06:27] IN  - (un)Lock Screen     | WLSþ0
+[20161128 19:06:27] IN  - Header              | WHþReal-Time Club Dispatchingþ185 CAA.DEV AS JHO
+[20161128 19:06:27] IN  - Screen Command      | WSCþSHOW
+[20161128 19:06:27] IN  - Populate Prompt     | WDþ1ýþJHO  (JEFF HOLTHAM)
+[20161128 19:06:28] IN  - Populate Prompt     | WDþ5ýþBUFFALO CALL CENTER
+[20161128 19:06:28] IN  - Populate Prompt     | WDþ2ýþ123
+[20161128 19:06:28] IN  - Populate & Prompt   | WPDþ10ýþ

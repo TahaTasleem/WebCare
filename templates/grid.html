@@ -1,0 +1,312 @@
+{% set isgrid = True %}
+{%- if True -%}
+{
+"controltype": "{{grid.controltype}}",
+"endcol": {{grid.endcol}},
+"endprompt": {{grid.endprompt}},
+"endrow": {{grid.endrow}},
+"freezecol": {{grid.freezecols}},
+"gridfocus1":"{{grid.prompts[0].promptid()}}",
+"gridfocus2":"{{grid.prompts[1].promptid() if grid.prompts|length > 1 else ''}}",
+"headingstyle": "{{grid.headingstyle}}",
+"horizontallines": "{{grid.horizontallines}}",
+"id": "{{grid.gridid}}",
+"small": {{grid.small | py2js}},
+"startcol": {{grid.startcol}},
+"startprompt": {{grid.startprompt}},
+"startrow": {{grid.startrow}},
+"verticallines": "{{grid.verticallines}}",
+"top": "{{ (grid.startrow-screen.startrow)|convertrowunittoem }}em",
+"left": "{{ (100 * ((grid.startcol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%",
+"height": "{{ (grid.endrow - grid.startrow + 0.925 ) | convertrowunittoem}}em",
+"width": "{{ (100 * ((grid.endcol-grid.startcol + 1.1)|convertcolunittoem) / screen.guiwidth) | round(2)}}%",
+"headers": [
+{% set freeze = {'width':0} %}
+{%- for col in grid.column -%}
+{%set prompt = grid.getprompt(col[0]) -%}
+{%set endprompt = grid.getprompt(col[-1]) -%}
+{% set lastprompt=(endprompt.promptnum == grid.lastdisplayedprompt) %}
+{% set onlyprompt=(grid.column|length == 1) %}
+{% set display = {'width':0} %}
+{%- for fldnum in col -%}
+{% set fld = grid.getprompt(fldnum) %}
+{% if fld %}
+{% set newwidth = display.get('width') + fld.displaywidth %}
+{% if display.update({'width':newwidth}) %} {% endif %}
+{%- endif -%}
+{%- endfor -%}
+{
+"newwidth": "{{freeze.get('width')}}%",
+"width": "{{ (100 * display.get('width') / grid.getwidth()) | round(4)}}",
+"tag": "{{ prompt.tag | nl2br | safe |urlencode }}"
+}{{ "," if not loop.last }}
+{%- set freezewidth = freeze.get('width') + 100 * (prompt.displaywidth  / grid.getwidth()) -%}
+{% if freeze.update({'width':freezewidth}) %}{% endif %}
+{%- endfor -%}
+],
+"prompts": [
+{%- for row in range(1, grid.getnumrows()+1) -%}
+[
+{% for prompt in grid.prompts -%}
+{% set rowpos = 1 if not row is defined else row %}
+{% if rowpos == 1 %}
+{% include "prompt.html" %}
+{% else %}
+{
+"name": "{{ prompt.promptid(row) }}",
+"rowpos":"{{rowpos}}",
+"value": "{{ prompt.value[rowpos-1] |urlencode}}",
+"bgcolour": "{{ '#' + prompt.bgcolour[rowpos-1] if prompt.bgcolour[rowpos-1]|length > 0 else '' }}",
+"textcolour": "{{ '#' + prompt.textcolour[rowpos-1] if prompt.textcolour[rowpos-1]|length > 0 else '' }}",
+"numrows": {{ prompt.numrows(rowpos-1) }}
+}
+{% endif %}
+{{ "," if not loop.last }}
+{% endfor %}
+]{{ "," if not loop.last }}
+{%- endfor -%}
+]
+}
+{%- else -%}
+{% if grid.startrow <= screen.endrow and grid.startrow>= 0 %}
+	<div id="{{grid.gridid}}" class="grid
+		{% if grid.verticallines == " Y" %} verticalgrid {% endif %} {% if grid.horizontallines=="Y" %} horizontalgrid {%
+		endif %} {% if grid.small %} small {% endif %} {% if not grid.controltype or grid.controltype in ("ES","MES") %}
+		editgrid {% endif %} {% if grid.controltype in ("SS","DS","MSS","MS","ES","MES") %} showselect {% endif %} {% if
+		grid.controltype in ("MS","MSS","MES") %} multiselect {% endif %} " style=" top: {{
+		(grid.startrow-screen.startrow)|convertrowunittoem }}em; left: {{ (100 *
+		((grid.startcol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%; height: {{ (grid.endrow
+		- grid.startrow + 0.925 ) | convertrowunittoem}}em; width: {{ (100 * ((grid.endcol-grid.startcol +
+		1.1)|convertcolunittoem) / screen.guiwidth) | round(2)}}%;">
+		<table>
+			{% if grid.headingstyle != "F" and grid.headingstyle != "N" -%}
+			<thead>
+				{% set freeze = {'width':0} %}
+				{% for col in grid.column %}
+				{%set prompt = grid.getprompt(col[0]) -%}
+				{%set endprompt = grid.getprompt(col[-1]) -%}
+				{% if prompt and prompt.visible() %}
+				{% set lastprompt=(endprompt.promptnum == grid.lastdisplayedprompt) %}
+				{% set onlyprompt=(grid.column|length == 1) %}
+				{% set display = {'width':0} %}
+				{% for fldnum in col %}
+				{% set fld = grid.getprompt(fldnum) %}
+				{% if fld %}
+				{% set newwidth = display.get('width') + fld.displaywidth %}
+				{% if display.update({'width':newwidth}) %} {% endif %}
+				{% endif %}
+				{% endfor %}
+				<th class="
+						{%- if grid.wrapoption == " N" %}inputset{% endif -%} {%- if grid.sortable %} sortable{% endif -%} {%- if
+					grid.freezecols>= loop.index %} freezecol
+					{%- if grid.freezecols == loop.index %} lastfreezecol{% endif -%}
+					{% endif -%}
+					" colspan="{{col|length}}"
+					{%- if not(onlyprompt) %} style="
+					{%- if lastprompt %}min-{% endif -%}
+					width: {{ (100 * display.get('width') / grid.getwidth()) | round(4)}}%;
+					{%- if not lastprompt or not grid.small -%}
+					max-width: {{ (100 * display.get('width') / grid.getwidth()) | round(4)}}%;
+					{%- endif -%}
+					{%- if grid.freezecols >= loop.index -%}
+					{%- if loop.index == 1 %} left:0;
+					{%- else %} left: calc({{freeze.get('width')}}% - 3px);
+					{%- endif -%}
+					{%- set freezewidth = freeze.get('width') + 100 * (display.get('width') / grid.getwidth()) -%}
+					{% if freeze.update({'width':freezewidth}) %} {% endif %}
+					{%- endif -%}
+					{%- endif -%}
+					"
+					{% if grid.sortable %}onclick="WD.input(WD.ESCAPE + 'SORT' + WD.VM + '{{prompt.promptnum}}');"{%
+					endif %}
+					>
+					{% if prompt.tag == "" and (col|length > 1) %}
+					{% set prompt = grid.getprompt(col[1]) %}
+					{% include "label.html" -%}
+					{% else %}
+					{% include "label.html" -%}
+					{% endif %}
+				</th>
+				{% endif %}
+				{% endfor %}
+			</thead>
+			{% endif %}
+			<tbody>
+				{% for row in range(1, grid.getnumrows()+1) -%}
+				<tr data-promptno="{{ grid.startprompt }}" {% if grid.controltype in ("SS","ES") -%}
+					class="selectgrid" onclick="WD.ssclick(this,{{row}},false,true)" ondblclick="WD.ssdblclick(this,{{row}},true,true);" {%
+					elif grid.controltype=="MSS" %} class="selectgrid" onclick="WD.ssclick(this,{{row}},false,false)"
+					ondblclick="WD.ssdblclick(this,{{row}},true,true);" {% elif grid.controltype=="DS" -%}
+					class="singleselect selectgrid" onclick="WD.ssclick(this, {{row}}, true, true)" {% elif grid.controltype=="MS"
+					%} class="selectgrid" onclick="WD.ssclick(this, {{row}}, false, false)" {% endif %}>
+					{% set freeze = {'width':0} %}
+					{% for prompt in grid.prompts -%}
+					{% if prompt and prompt.visible() %}
+					{% set lastprompt=(prompt.promptnum == grid.lastdisplayedprompt) %}
+					{% set onlyprompt=(grid.prompts|length == 1) %}
+					<td style="
+							{%- if not(onlyprompt) %}
+								{%- if lastprompt -%}min-{%- endif -%}
+								width: {{ (100 * prompt.displaywidth / grid.getwidth()) | round(4)}}%;
+								{%- if not lastprompt -%}
+								max-width: {{ (100 * prompt.displaywidth / grid.getwidth()) | round(4)}}%;
+								min-width: {{ (100 * prompt.displaywidth / grid.getwidth()) | round(4)}}%;
+								{%- endif -%}
+							{%- endif -%}
+							{%- if prompt.bgcolour[row-1] -%}background-color: #{{ prompt.bgcolour[row-1] }};{% endif -%}
+							{%- if prompt.textcolour[row-1] -%}color: #{{ prompt.textcolour[row-1] }};{% endif -%}
+							{%- if grid.freezecols >= loop.index -%}
+								left: {{freeze.get('width')}}%;
+								{%- set freezewidth = freeze.get('width') + 100 * (prompt.displaywidth  / grid.getwidth()) -%}
+								{% if freeze.update({'width':freezewidth}) %}{% endif %}
+							{% endif -%}
+								" {%- if grid.freezecols>= loop.index%} class="freezecol
+						{%- if grid.freezecols == loop.index %} lastfreezecol{% endif -%}
+						"{%- endif -%}
+						>
+						{# This code is duplicated from prompt.html for performance reasons. Changes made here should be
+						made there and vice versa #}
+						{% set islastprompt = False if not lastprompt is defined else lastprompt %}
+						{% set isonlyprompt = False if not onlyprompt is defined else onlyprompt %}
+						{% set rowpos = 1 if not row is defined else row %}
+						{% if prompt.displaywidth <= 0 -%} {% elif prompt.edittype=="RADIO-BUTTON" or
+							prompt.edittype=="RADIO.BUTTON" or prompt.edittype=="RADIOBTN" -%} {% if
+							prompt.radiobuttonposition=="VERTICAL" %} <span class="promptcontainer"
+							id="{{ prompt.promptid(row) }}"
+							style="top: {{ (prompt.datarow-screen.startrow)|convertrowunittoem  }}em; left: {{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+							{% elif prompt.radiobuttonposition == "MANUAL" %}
+							<span id="{{ prompt.promptid(row) }}">
+								{% endif %}
+								{% for rbitem in prompt.radiobuttonitems -%}
+								{%- if prompt.radiobuttonposition == "MANUAL" -%}
+								<span class="promptcontainer"
+									style="top: {{ (( rbitem[3] |  float) - screen.startrow) |convertrowunittoem  }}em; left: {{ (100 * (((rbitem[4] | float) - screen.startcol) |convertcolunittoem) / screen.guiwidth) | round(2) }}%; padding-top: 2px;">
+									{% endif %}
+									<span class="inputset">
+										<input type="radio" id="{{ prompt.promptid(row) }}_{{ rbitem[0] }}"
+											name="{{ prompt.promptid(row) }}" value="{{ rbitem[0] }}" {% if
+											prompt.prompttype=="S" -%} disabled {% endif %} {% if rbitem[5]=="N" %}
+											disabled {% endif %} {% if rbitem[0]==prompt.value[0] %} checked {% endif %}
+											class="prompt gridprompt" />
+										<label for="{{ prompt.promptid(row) }}_{{ rbitem[0] }}" class="rblabel">
+											{{ rbitem[1] }}
+										</label>
+									</span>
+									{%- if prompt.radiobuttonposition == "MANUAL" -%}
+								</span>
+								{% endif %}
+								{% if prompt.radiobuttonposition == "VERTICAL" %}
+								<br />
+								{% endif %}
+								{% endfor %}
+							</span>
+							{% elif (prompt.edittype == "WP" or prompt.edittype =="WORDWRAP" or prompt.edittype
+							=="SCH.SCHEDULE") -%}
+							<span class="promptcontainer {% if prompt.prompttype == " S" %} promptreadonly{% endif -%}"
+								title="{{ prompt.value[rowpos-1] }}">
+								<textarea ondragstart="return false" draggable="false" {% if prompt.prompttype=="S" -%}
+									readonly {% endif %} class="prompt 
+									{%- if prompt.bgcolour[rowpos-1] %}
+										bgcoloured
+									{%- endif %}
+									gridprompt
+									{%- if prompt.textcolour[rowpos-1] %}
+										textcoloured
+									{%- endif -%}
+									" data-promptliteral="{{ prompt.promptliteral }}" style="overflow:hidden;
+									{%- if prompt.bgcolour[rowpos-1] -%}
+										background-color: #{{ prompt.bgcolour[rowpos-1] }};
+									{%- endif -%}
+									{%- if prompt.textcolour[rowpos-1] -%}
+										color: #{{ prompt.textcolour[rowpos-1] }};
+									{%- endif -%}
+									" name="{{ prompt.promptid(row) }}" maxlength="4096" rows="{{ prompt.numrows(rowpos-1) }}"
+									id="{{ prompt.promptid(row) }}" class="prompt"
+									data-orig="{{ prompt.value[rowpos-1] }}">{{ prompt.value[rowpos-1] }}</textarea>
+								{% if prompt.prompttype == "S" %}
+								<div class="prompttext">{{prompt.value[rowpos-1]}}</div>
+								{% endif %}
+							</span>
+							{% elif prompt.edittype == "CHECKBOX" -%}
+							<span class="promptcontainer">
+								<input type="checkbox" {% if prompt.prompttype=="S" and (grid.controltype=="" ) -%}
+									disabled {%- endif -%} {% if prompt.value[rowpos-1]==prompt.checkedvalue %} checked
+									{%- endif %} data-checkedvalue="{{ prompt.checkedvalue }}"
+									data-uncheckedvalue="{{ prompt.uncheckedvalue }}" name="{{ prompt.promptid(row) }}"
+									id="{{ prompt.promptid(row) }}" onclick="if (!WD.focused('{{grid.prompts[1].promptid()}}') && !WD.focused('{{grid.prompts[0].promptid()}}')) {
+										 WD.senddata(WD.getjump('{{grid.prompts[1].promptid(row)}}')); } $(this).parents('tr').click(); 
+										 WD.updateelement(event,this,'{{ rowpos }}');
+										  event.stopPropagation(); return false;" class="prompt gridprompt" value="{{ prompt.value[rowpos-1] }}" />
+							</span>
+							{% else -%}
+							<div class="promptcontainer" style="
+									{%- if prompt.bgcolour[rowpos-1] -%}
+										background-color: #{{ prompt.bgcolour[rowpos-1] }};
+									{%- endif -%}
+									" {%- if prompt.edittype !="PASSWORD" -%}title="{{ prompt.value[rowpos-1] }}" {%- endif -%}>
+								<input draggable="false" {%- if prompt.aclist %} data-list="{{ prompt.aclist[0] }}" {%
+									endif -%} {% if prompt.edittype=="PASSWORD" -%} type="password" {% if
+									prompt.prompttype !="S" -%} autocomplete="off" readonly {%- endif %} {% else -%}
+									type="text" autocomplete="off" {% endif %} {% if prompt.prompttype=="S" -%} disabled
+									{% elif prompt.required -%} required {% endif %} style="
+									{%- if prompt.tlb -%}
+										width: calc(100% - {{2 * 0.75}}em ); 
+									{%- else -%}
+										width: 100%;
+									{%- endif -%}
+									{%- if prompt.bgcolour[rowpos-1] %}
+										background-color: #{{ prompt.bgcolour[rowpos-1] }};
+									{%- endif -%}
+									{%- if prompt.textcolour[rowpos-1] -%}
+										color: #{{ prompt.textcolour[rowpos-1] }};
+									{%- endif -%}
+									" name="{{ prompt.promptid(row) }}" data-orig="{{ prompt.value[rowpos-1] }}"
+									{%- if prompt.maxlength > 0 %} maxlength="{{ prompt.maxlength }}" {% endif -%}
+									data-promptliteral="{{ prompt.promptliteral }}"
+									id="{{ prompt.promptid(row) }}" class="prompt 
+									{%- if prompt.checkbox %} checkboxlabel {% endif -%}
+									{%- if prompt.bgcolour[rowpos-1] %} bgcoloured{%- endif -%}
+									{%- if prompt.textcolour[rowpos-1] %} textcoloured{%- endif %}
+									gridprompt
+									{%- if prompt.tlb -%}
+										{%- if prompt.tlbleft %} tlbleft
+										{%- else %} tlbright
+										{%- endif -%}
+									{%- endif -%}
+									{%- if prompt.justification == "R" %} rightjustified{%- endif -%}
+									" value="{{ prompt.value[rowpos-1] }}"
+									{%- if prompt.edittype != "PASSWORD" -%} title="{{ prompt.value[rowpos-1] }}"{%- endif -%}
+									/>
+									{%- if prompt.tlb -%}
+										{% set promptid = prompt.promptid(row) %}
+										{% include "tlb.html" %}
+									{%- endif -%}
+									{%- if prompt.aclist and rowpos < 2 -%}
+										<datalist id="{{prompt.aclist[0]}}">
+											{%- for item in screen.aclists[prompt.aclist[0]] -%}
+											<option>{{item}}</option>
+											{%- endfor -%}
+										</datalist>
+									{%- endif -%}
+							</div>
+							{% endif %}
+					</td>
+					{% endif %}
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	{% if inscreen %}
+	{% if grid.headingstyle == "F" -%}
+	{% set isgrid = False %}
+	{% for prompt in grid.prompts -%}
+	{% if prompt.displaywidth > 0 %}
+	{% include "label.html" -%}
+	{% endif %}
+	{% endfor %}
+	{% endif -%}
+	{% endif -%}
+	{% endif %}
+	{%- endif -%}

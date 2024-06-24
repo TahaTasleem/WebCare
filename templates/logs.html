@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    {% if config.PRODUCT == "AXIS" %}
+      	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/axlogo.ico') }}">
+    {% else %}
+    	<link rel="shortcut icon" href="{{url_for('static',filename='wdres/gclogo.ico') }}">
+    {% endif %}
+<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css"
+	href="{{ url_for('static', filename='css/webdirect.css') }}">
+</head>
+<body>
+<div style="border:1px solid black">
+<h2>Active User Search</h2>
+<form method="post">
+	<label for="userid">User ID:</label>
+	<input type="text" id="userid" name="userid" value=""/><br/>
+	<input type="submit" value="Search Users"/>
+</form>
+{% if usersessions %}
+<h3>Found User Sessions</h3>
+<ul>
+{% for usersguids in usersessions %}
+<li>{{usersguids}}</li>
+{% endfor %}
+</ul>
+{% endif %}
+</div>
+<div style="border:1px solid black">  
+<h2>Log File Search</h2>
+<form method="post" action="/getlog">
+	<label for="userguid">User GUID:</label>
+	<input type="text" id="userguid" name="userguid" value=""/><br/>
+	<input type="submit" value="Search Logs"/>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+[20161130 11:40:54] IN  - Status Bar          | WSBþINITþComplete
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ1
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ2
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ3
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ4
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ5
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ6
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ7
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ8
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ9
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ10
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ11
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ12
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ13
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ14
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ15
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ16
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ17
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ18
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ19
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ20
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ21
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ22
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ23
+[20161130 11:40:54] IN  - Status Bar          | WSBþUPDATEþ24
+
+[20161130 11:41:00] IN  - Status Bar          | WSBþUPDATEþ98
+[20161130 11:41:00] IN  - Status Bar          | WSBþMESSAGEþ1 Complete
+[20161130 11:41:00] IN  - Status Bar          | WSBþUPDATEþ97
+[20161130 11:41:00] IN  - Status Bar          | WSBþMESSAGEþ2 Complete
+[20161130 11:41:00] IN  - Status Bar          | WSBþUPDATEþ96
+[20161130 11:41:00] IN  - Status Bar          | WSBþMESSAGEþ3 Complete
+[20161130 11:41:00] IN  - Status Bar          | WSBþUPDATEþ95
+[20161130 11:41:00] IN  - Status Bar          | WSBþMESSAGEþ4 Complete
+[20161130 11:41:00] IN  - Status Bar          | WSBþUPDATEþ94

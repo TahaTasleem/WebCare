@@ -1,0 +1,47 @@
+[20170111 14:42:04] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170111 14:42:04] IN  - Auto Complete       | WACþAXIS.DELINQUENT.PRICE.TYPEþADDý
+[20170111 14:42:04] IN  - Auto Complete       | WACþAXIS.AUX.MEMBER.CARD.TYPEþADDý
+[20170111 14:42:04] IN  - Auto Complete       | WACþAXIS.AUX.MEMBER.PRICE.TYPEþADDý
+[20170111 14:42:04] IN  - Auto Complete       | WACþAXIS.POSRQ.SERVICE.TYPEþADDý
+[20170111 14:42:04] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170111 14:42:04] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ313 16.2.UTIL.DEV AS CDBOU
+[20170111 14:42:04] IN  - Define Grid         | WWþ6þ1þ10þ33þ3þ4þDþþNþC
+[20170111 14:42:04] IN  - Define Grid         | WWþ4þ41þ7þ54þ14þ14þDþþNþC
+[20170111 14:42:04] IN  - Define Prompt       | WPþ1þ4þ1þPrice Types:þ4þ26þLý150ý8þDþNORYþUser-defined price types: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ2þ5þ1þStatus Price Type:þ5þ26þLý150ý8þDþTABLEþPrice type for delinquent or suspended members: code, ?? for tableþDDDýAC.LISTüAXIS.DELINQUENT.PRICE.TYPEüINORDER
+[20170111 14:42:04] IN  - Define Prompt       | WPþ3þ6þ1þAux Member Card Typeþ7þ1þLý150ý21þDþTABLEþAux Member card type: code, ?? for tableþDDDýAC.LISTüAXIS.AUX.MEMBER.CARD.TYPEüINORDER
+[20170111 14:42:04] IN  - Define Prompt       | WPþ4þ6þ23þPrice Typeþ7þ23þLý150ý11þDþTABLEþPrice type: code, ?? for tableþDDDýAC.LISTüAXIS.AUX.MEMBER.PRICE.TYPEüINORDER
+[20170111 14:42:04] IN  - Define Prompt       | WPþ5þ12þ1þSun CDBatch Report:þ12þ22þLý150ý12þDþONLYþSUN CD batch reporting option: (RG=Product Summary by Report Group, NULL=None)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ6þ12þ41þReception Queuing Used:þ12þ67þLý150ý8þDþNORYþReception queuing used: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ7þ13þ41þRQ Pop-up Refresh:þ13þ67þLý150ý8þDþINTþReception queuing pop-up refresh interval in secondsþ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ8þ14þ41þCancel Reason Prompt:þ14þ67þLý150ý8þDþNORYþPrompt for cancel reason in reception queuing: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ9þ15þ41þUse Pager or Bakery:þ15þ67þLý150ý8þDþONLYþReception queuing use pager number or bakery numberþ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ10þ16þ41þService Type (auto-created):þ16þ67þLý150ý8þDþTABLEþService Type to record on auto-created orders: code, ?? for tableþDDDýAC.LISTüAXIS.POSRQ.SERVICE.TYPEüINORDER
+[20170111 14:42:04] IN  - Define Prompt       | WPþ11þ13þ1þBypass POS Memlink:þ13þ22þLý150ý12þDþNORYþBypass memlink interface in POS: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ12þ14þ1þRecord POS Traffic:þ14þ22þLý150ý12þDþNORYþRecord POS Traffic by client and date: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ13þ15þ1þStore CC Track:þ15þ22þLý150ý12þDþYORNþStore credit card track data during processing of transaction: (Y/N)þ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ14þ4þ41þSwipe Banksþ5þ41þLý150ý12þDþONLYþBanks used with swipe interface: MON/CCS/FD/CHA/FDRC/ELEMþ
+[20170111 14:42:04] IN  - Define Prompt       | WPþ15þ8þ41þAuth Prompt:þ8þ61þLý150ý14þDþNORYþPrompt for credit card authorization number: (Y/N)þ
+[20170111 14:42:04] IN  - Define Group Box    | WGBþGBOX1þ11þ40þ17þ77þReception Queuing
+[20170111 14:42:04] IN  - Command             | WCþCLEARALLþ3
+[20170111 14:42:04] IN  - Command             | WCþCLEARALLþ14
+[20170111 14:42:04] IN  - Define Text         | WTþ1þ3þ35þ BASIC2 þINVERSE
+[20170111 14:42:04] IN  - (un)Lock Screen     | WLSþ1
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ1ýþY
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ2ýþN
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ3ýþBAýPLýPMýALýPVýRV
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ4ýþNýNýPRýMýPRýP
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ5ýþRG
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ6ýþY
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ7ýþ90
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ8ýþY
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ9ýþP
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ10ýþAUTO
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ11ýþN
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ12ýþY
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ13ýþY
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ14ýþFDýMONýCCSýCHAýFDRCýELEMýS4
+[20170111 14:42:04] IN  - Populate Prompt     | WDþ15ýþY
+[20170111 14:42:04] IN  - (un)Lock Screen     | WLSþ0
+[20170111 14:42:04] IN  - Screen Command      | WSCþSHOW
+[20170111 14:42:04] IN  - Wait On Button      | WWBþOK

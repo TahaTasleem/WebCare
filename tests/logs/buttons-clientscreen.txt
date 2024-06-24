@@ -1,0 +1,62 @@
+[20170324 09:27:16] **************************************************************************************
+[20170324 09:27:16] Log Started: 2017-03-24 09:27:16 AM; Version: 2017.1.4; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170324 09:27:16] Data Path: C:\Users\jho.CAMPANA\AppData\Local\Campana\AXIS\Data\; Port: 186;
+[20170324 09:27:16] **************************************************************************************
+[20170324 09:27:17] IN  - Screen              | WSþ0þ2þAXIS.CLIENT.SCREENþ3þ0þ20þ79þBOXþSGþþVNNþ1.35ý12
+[20170324 09:27:17] IN  - Auto Complete       | WACþCUST$CS.CLUB.NOþADDý
+[20170324 09:27:17] IN  - Auto Complete       | WACþCUST$CITYþADDý
+[20170324 09:27:17] IN  - Auto Complete       | WACþCUST$PROVINCEþADDý
+[20170324 09:27:17] IN  - Auto Complete       | WACþDOC$PRICE.TYPEþADDýP
+[20170324 09:27:17] IN  - Auto Complete       | WACþDOC$CHANNELþADDý
+[20170324 09:27:17] IN  - Auto Complete       | WACþCUST$CS.FLAG.NOþADDý
+[20170324 09:27:17] IN  - Mail Status         | WMSþSENDüEüýICONüýHIDE
+[20170324 09:27:17] IN  - Header              | WHþAd Hoc Cardsþ186 TEST1 AS JHO
+[20170324 09:27:17] IN  - Define Grid         | WWþ11þ11þ12þ38þ10þ10þDþþNþF
+[20170324 09:27:17] IN  - Define Grid         | WWþ15þ11þ17þ38þ17þ17þSSþþNþF
+[20170324 09:27:17] IN  - Define Grid         | WWþ18þ11þ19þ38þ18þ18þDþþNþF
+[20170324 09:27:17] IN  - Define Grid         | WWþ15þ41þ19þ78þ32þ33þDþþNþC32-33
+[20170324 09:27:17] IN  - Define Prompt       | WPþ3þ6þ1þClub:þ6þ11þLý150ý8þDþCLUBþClub: number, Prov/State, ?? for tableþDDDýAC.LISTüCUST$CS.CLUB.NOüINORDER
+[20170324 09:27:17] IN  - Define Prompt       | WPþ4þ7þ1þMember:þ7þ11þLý150ý28þDþþMemberþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ5þ-1þ-1þþ-1þ-1þLý150ý4þDþONLYþCard type: (Ba)sic, (Pl)us, PL(RV), (Al)acarteþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ6þ8þ1þLTV:þ8þ11þLý150ý6þSþþLTVþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ7þ8þ22þþ8þ17þLý150ý22þSþþþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ8þ9þ22þþ9þ17þLý150ý22þSþþþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ9þ10þ1þName:þ10þ11þLý150ý28þDþTEXTþNameþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ10þ11þ1þAddressþ11þ11þLý150ý25þDþþAddressþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ11þ13þ1þCity:þ13þ11þLý150ý28þDþAXIS.CITYþCity: code, ?? for tableþDDDýAC.LISTüCUST$CITYüINORDER
+[20170324 09:27:17] IN  - Define Prompt       | WPþ12þ-1þ-1þUse Auto Spot to correct address: (Y/N)þ-1þ-1þLý150ý3þDþNORYþUse Auto Spot to correct address (Y/N)þ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ13þ14þ1þProv/St:þ14þ11þLý150ý8þDþTABLEþProvince or state: code, ?? for tableþDDDýAC.LISTüCUST$PROVINCEüINORDER
+[20170324 09:27:17] IN  - Define Prompt       | WPþ14þ14þ20þPostal/Zip:þ14þ28þLý150ý11þDþPOSTALþPostal/Zip Codeþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ15þ-1þ-1þDoes the Member want to 'Transfer In' at Expiry (Y/N)þ-1þ-1þLý150ý3þDþNORYþDoes the Member want to 'Transfer In' at Expiry (Y/N)þ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ16þ15þ1þþ-1þ-1þLý150ý3þDþþþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ17þ15þ1þContactþ15þ11þLý150ý27þSþþContactþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ18þ18þ1þNotesþ18þ11þLý150ý27þSþþNotesþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ19þ6þ41þBalance:þ6þ52þLý150ý24þSþþBalanceþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ20þ7þ41þStatus:þ7þ52þLý150ý24þSþþStatusþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ21þ8þ41þRate Type:þ8þ52þLý150ý24þSþþRate Typeþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ22þ9þ41þExpiry:þ9þ52þLý150ý12þDþDATEþExpiry DateþDDDýDDIüCALENDAR.ICO
+[20170324 09:27:17] IN  - Define Prompt       | WPþ23þ10þ41þJoin Yr:þ10þ52þLý150ý7þDþYEARþJoin yearþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ24þ11þ41þMem Since:þ11þ52þLý150ý7þSþYEARþMem Sinceþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ25þ11þ41þþ11þ59þLý150ý17þDþDATEþDate this person became a client at this clubþDDDýDDIüCALENDAR.ICO
+[20170324 09:27:17] IN  - Define Prompt       | WPþ26þ12þ41þDL#:þ12þ52þLý150ý24þDþDRIVER.LICþDriver's license numberþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ32þ15þ41þFlagsþ16þ41þLý150ý8þDþTABLEþFlag: code, ?? for tableþDDDýAC.LISTüCUST$CS.FLAG.NOüINORDER
+[20170324 09:27:17] IN  - Define Prompt       | WPþ33þ16þ50þþ16þ47þLý150ý27þSþþþ
+[20170324 09:27:17] IN  - Define Button       | WDBþ10þCý<img=BLACKARROW.ICO>ýEýRELATED.CLIENTSýýYý7ý8ýRELATED.CLIENTSýýýýý1ý2.4þCý<img=BLACKARROW.ICO>ýEýWGUF:2:16:PREFER.CONTACTýýYý15ý8ýPREFER.CONTACTýýýýý1ý2.4þCý<img= >CancelýEýF4ýýYýýýCANCELþCý<img= >OKýEýF2ýýYýýýOKþCý<img= >Re-findýEýWGUF:2:35:RE-FINDýýYý21.215ý72.00ýRE-FINDýýýýý1.35ý12þCý<img= >RecentýEýRECENT.CLIENTSýýYý21.215ý59.25ýRECENT.CLIENTSýýýýý1.35ý12þCý<img= >ProfileýEýWGUF:2:35:PROFILEýýYý21.215ý46.50ýPROFILEýýýýý1.35ý12þCý<img= >Import DetailsýEýWGUF:2:35:IMPORT DETAILSýýYý21.215ý33.75ýIMPORT DETAILSýýýýý1.35ý12þCý<img= >FutureýEýWGUF:2:35:FUTUREýýNýýýFUTUREþCý<img= >JoinýEýWGUF:2:35:JOINýýNýýýJOINþCý<img= >HistoryýEýWGUF:2:35:HISTORYýýNýýýHISTORYþCý<img= >InsuranceýEýWGUF:2:35:INSURANCEýýNýýýINSURANCEþCý<img= >AccrýEýWGUF:2:35:ACCRýýNýýýACCRþCý<img= >SurveyýEýWGUF:2:35:SURVEYýýNýýýSURVEYþCý<img= >CommentsýEýWGUF:2:35:COMMENTSýýNýýýCOMMENTSþCý<img= >PromotionsýEýWGUF:2:35:PROMOTIONSýýNýýýPROMOTIONSþCý<img= >SubstituteýEýWGUF:2:35:SUBSTITUTEýýNýýýSUBSTITUTE
+[20170324 09:27:17] IN  - Command             | WCþCLEARALLþ10
+[20170324 09:27:17] IN  - Command             | WCþCLEARALLþ17
+[20170324 09:27:17] IN  - Command             | WCþCLEARALLþ18
+[20170324 09:27:17] IN  - Command             | WCþCLEARALLþ32
+[20170324 09:27:17] IN  - Define Text         | WTþ1þ3þ35þ Client þINVERSE
+[20170324 09:27:17] IN  - Define Prompt       | WPþ23þ10þ41þJoin Yr:þ10þ52þLý150ý7þDþYEARþYear joined CAAþ
+[20170324 09:27:17] IN  - Screen Command      | WSCþSHOW
+[20170324 09:27:17] IN  - Populate Prompt     | WDþ3ýþ084
+[20170324 09:27:17] IN  - Define Button       | WCBþýýýýýYýýýRECENT.CLIENTSýýýýýýýýý
+[20170324 09:27:17] IN  - Define Button       | WCBþýýýýýNýýýPREFER.CONTACTýýýýýýýýý
+[20170324 09:27:17] IN  - Define Button       | WCBþýýýýýNýýýRELATED.CLIENTSýýýýýýýýý
+[20170324 09:27:17] IN  - Define Button       | WCBþýýýýýNýýýIMPORT DETAILSþýýýýýNýýýPROFILEþýýýýýNýýýRE-FIND
+[20170324 09:27:17] IN  - Define Prompt       | WPþ4þ7þ1þMember:þ7þ11þLý150ý28þDþMEMBERþMemberþ
+[20170324 09:27:17] IN  - Define Prompt       | WPþ4þ7þ1þMember:þ7þ11þLý150ý28þDþMEMBERþMember number, name, phone number or email addressþ
+[20170324 09:27:17] IN  - Populate & Prompt   | WPDþ4ýþ
+[20170324 09:27:19] **************************************************************************************
+[20170324 09:27:19] Log Ended: 2017-03-24 09:27:19 AM
+[20170324 09:27:19] **************************************************************************************

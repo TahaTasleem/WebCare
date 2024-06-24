@@ -1,0 +1,1 @@
+[20170224 14:45:10] IN  - Message             | WMþFATALþBODY MESSAGEþHEADINGüheading msg

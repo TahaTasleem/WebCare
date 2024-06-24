@@ -1,0 +1,21 @@
+<button class="btn btn-primary wdtlb 
+{% if prompt.tlbleft %}
+   tlbleft
+{% else %}
+   tlbright
+{%- endif -%}
+   " tabindex="-1" id="{{ promptid }}_tlb" name="{{ promptid }}_tlb" 
+      onclick="WD.firetlb(event,this);"
+  ><img 
+    alt="{{ "IDS_CAP0144" | loadstring }}"
+  {% if prompt.tlbicon == "wdres/calendar.svg" %}
+    class="wdtlbicon wdtlbcalendar"
+    src="{{url_for('static',filename='wdres/calendar.svg')}}" alt="{{ prompt.tlbicon }}"
+  {% elif prompt.tlbicon != "" %}  
+    class="wdtlbicon wdtlbcusticon"
+    src="{{url_for('static',filename=prompt.tlbicon)}}" alt="{{ prompt.tlbicon }}"
+  {% else %}
+    class="wdtlbicon"
+    src="{{url_for('static',filename='wdres/arrow_v_217bc0.svg')}}"
+  {%- endif -%}
+  ></button>

@@ -1,0 +1,8 @@
+[20170504 08:38:55] IN  - Change Toolbar      | WTBşRESET
+[20170504 08:38:55] IN  - Change Toolbar      | WDPşPAUSEş2
+[20170504 08:38:55] IN  - Define Toolbar      | WDTş9şTıservnote.icoıEıWORKNOTESıWork NotesıYıııHS-NOTESı&Commands/&Calendar/&WorknotesıGCHSııııııışTıclient1.icoıEıHS-CRIıClient InquiryıYıııHS-CRIı&Commands/&Client InquiryıGCHSııııııışTıemployee.icoıEıHS-EMPıEmployee InquiryıYıııHS-EMPı&Commands/&Employee InquiryıGCHSııııııı
+[20170504 08:38:55] IN  - Change Toolbar      | WDPşPAUSEş2
+[20170504 08:36:54] IN  - Change Toolbar      | WCTşıııııNıııHS-NOTESşıııııNıııHS-CRIşıııııNıııHS-EMP
+[20170504 08:37:00] IN  - Change Toolbar      | WCTşıııııYıııHS-EMPşıııııYıııHS-CRIşıııııYıııHS-NOTES
+[20170504 08:38:55] IN  - Change Toolbar      | WDPşPAUSEş2
+[20170504 08:38:08] IN  - Change Toolbar      | WCTşıııııXıııHS-EMPşıııııXıııHS-CRIşıııııXıııHS-NOTES

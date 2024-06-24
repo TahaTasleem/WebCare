@@ -1,0 +1,57 @@
+[20170119 09:57:00] **************************************************************************************
+[20170119 09:57:00] Log Started: 2017-01-19 09:57:00 AM; Version: 2016.1.1; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170119 09:57:00] Data Path: C:\Users\ayc\AppData\Local\Campana\GoldCare\Data\; Port: 0;
+[20170119 09:57:00] **************************************************************************************
+[20170119 09:57:01] IN  - Screen              | WSþ1þ1þMAINþ2þ0þ34þ104þ
+[20170119 09:57:01] IN  - Auto Complete       | WACþT.TABLE.TESTþCLEAR
+[20170119 09:57:01] IN  - Auto Complete       | WACþT.TABLE.TESTþADDýABCDE*2üABCDE*1
+[20170119 09:57:01] IN  - Close Message       | WXM
+[20170119 09:57:01] IN  - Mail Status         | WMSþSENDüEüF9ýICONüýHIDEýFLASH
+[20170119 09:57:01] IN  - Header              | WHþSXII.DEV - Maintain s (SXTEST-6211)þ68 sxii.devþCARTIAAR
+[20170119 13:35:27] IN  - Define Grid         | WWþ10þ1þ15þ86þ7þ9þ
+[20170119 09:57:01] IN  - Define Group Box    | WGBþGBOX1þ18þ0.5þ21.5þ79.5þ Radio Buttons cannot be disabled via SET-GUI-PROMPT 
+[20170119 09:57:01] IN  - Define Prompt       | WPþ1þ2þ1þlone prompt:þ2þ18þLý60ý60þDþALPHAþAny text may be entered.  All text will be placed in upper case after entry.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ2þ3þ1þShow fieldþ3þ18þLý60ý60þSþALPHAþThis prompt displays Show field.  It cannot be changed.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ3þ4þ1þNotesþ4þ18þLý1000ý30þDþWORDWRAPþAny text may be entered.  The text will be wrapped to fit inside the box.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ4þ5þ1þTable Lookupþ5þ18þLý255ý10þDþTABLEþThis is a tabled prompt.  Press the table lookup button to get a list of entries.þDDDýAC.LISTüT.TABLE.TESTüINORDER
+[20170119 09:57:01] IN  - Define Prompt       | WPþ5þ6þ6þTest a checkbox promptþ6þ1þLý1ý3þDþCHECKBOXþþDISPLAY_TYPEüCHECKBOXýEDIT.PARMSüCHECKED.VALUEüYüUNCHECKED.VALUEüN
+[20170119 09:57:01] IN  - Define Prompt       | WPþ6þ7þ1þTest a YORN promptþ7þ18þLý3ý3þDþYORNþEntry must be either 'Y' for yes or 'N' for no.  If nothing is entered 'Y'es is assumed.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ7þ10þ1þkeyþ15þ1þLý30ý30þDþALPHAþAny text may be entered.  All text will be placed in upper case after entry.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ8þ10þ31þdescþ15þ31þLý37ý37þDþWORDWRAPþAny text may be entered.  The text will be wrapped to fit inside the box.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ9þ10þ80þotherþ15þ80þLý7ý7þSþALPHAþThis prompt displays other.  It cannot be changed.þ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ10þ19þ2þEnabled Radio Buttons:þ19þ21þLý57ý57þDþRADIO.BUTTONþþRADIO.BUTTONSüARRANGE=VERTICALüITEM=A,zero,,,,üITEM=1,One,,,,
+[20170119 09:57:01] IN  - Define Prompt       | WPþ11þ19þ30þDisabled Radio Buttons:þ19þ50þLý28ý28þSþRADIO.BUTTONþThis prompt displays Disabled Radio Buttons:.  It cannot be changed.þRADIO.BUTTONSüARRANGE=VERTICALüITEM=A,zero,,,,üITEM=1,One,,,,
+[20170119 09:57:01] IN  - Define Prompt       | WPþ12þ-1þ-1þThis is a manual NORY promptþ-1þ-1þLý7ý7þMþNORYþþ
+[20170119 09:57:01] IN  - Define Prompt       | WPþ13þ22þ0þ| Basic | Security | User Profile | User Privileges | Mail |  Printer Control |\\| Password | Parameters | Logon Command | Advanced | Usage | Finished |þ22þ0þLý78ý78þPþALPHAþþ
+[20170119 09:57:01] IN  - (un)Lock Screen     | WLSþ1
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ1ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ2ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ3ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ4ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ5ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ6ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ7ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ8ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ9ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ10ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ11ýþ
+[20170119 09:57:01] IN  - (un)Lock Screen     | WLSþ0
+[20170119 09:57:01] IN  - (un)Lock Screen     | WLSþ1
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ1ýþLone
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ2ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ3ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ4ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ5ýþY
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ6ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ7ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ8ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ9ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ10ýþ
+[20170119 09:57:01] IN  - Populate Prompt     | WDþ11ýþ
+[20170119 09:57:01] IN  - (un)Lock Screen     | WLSþ0
+[20170119 09:57:01] IN  - Define Prompt       | WPþ12þ-1þ-1þThis is a manual NORY promptþ-1þ-1þLý7ý7þMþNORYþþ
+[20170119 09:57:02] IN  - Populate & Prompt   | WPDþ1ýþLone
+[20170119 09:57:05] IN  - Mail Status         | WMSþHIDE
+[20170119 09:57:06] **************************************************************************************
+[20170119 09:57:06] Log Ended: 2017-01-19 09:57:06 AM
+[20170119 09:57:06] **************************************************************************************

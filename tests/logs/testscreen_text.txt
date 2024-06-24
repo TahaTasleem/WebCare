@@ -1,0 +1,39 @@
+[20161006 14:38:27] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.CHANNEL.PROFILEþADDý
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.CHANNEL.SYSTEMþADDýP
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.DISABLE.JOIN.FLAGþADDý
+[20161006 14:38:27] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161006 14:38:27] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ385 CAA.DEV AS JHO
+[20161006 14:38:27] IN  - Define Grid         | WWþ4þ41þ6þ65þ13þ13þDþþNþC
+[20161006 14:38:27] IN  - Define Grid         | WWþ20þ22þ21þ76.5þ21þ21þDþþNþF
+[20161006 14:38:27] IN  - Define Prompt       | WPþ1þ4þ1þCash Drawer Date:þ4þ22þLý150ý4þDþONLYþDefault date used for opening of cash drawers: (C)urrent date, (T)omorrows date, (N)o defaultþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ2þ5þ1þDeposit Envelopes:þ5þ22þLý150ý4þDþYORNþEnvelopes used when transferring or depositing funds: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ3þ6þ1þElectronic CD:þ6þ22þLý150ý4þDþNORYþElectronic cash drawers used: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ4þ7þ1þClient Profile:þ7þ22þLý150ý4þDþNORYþClient profiles used: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ5þ8þ1þClient Profile Merge Method:þ8þ22þLý150ý4þDþONLYþAXIS Client Profile Merge Method (A)ll, Most (R)ecentþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ6þ9þ1þRestrict Setup:þ9þ22þLý150ý4þDþNORYþRestrict product and pricing setup by teller: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ7þ10þ1þRecent Clients:þ10þ22þLý150ý4þDþONLYþKeep recent clients: number of (c)lients, number of (d)aysþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ8þ11þ5þRecent Clients Number:þ11þ22þLý150ý4þDþINTþRecent Clients Numberþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ9þ12þ5þDisplay POS Teller Table:þ12þ22þLý150ý4þDþYORNþDisplay POS teller tables: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WTþ1þ13þ1þThis is a line of text
+[20161006 14:38:27] IN  - Define Prompt       | WTþ2þ14þ1þThis is another line of text
+[20161006 14:38:27] IN  - Define Prompt       | WTþ3þ11þ1þAkbar.icoþIMAGE
+[20161006 14:38:27] IN  - Define Prompt       | WTþ4þ12þ1þUsers.icoþIMAGE
+[20161006 14:38:27] IN  - Define Group Box    | WGBþGBOX1þ17þ1þ22þ78þNational Security
+[20161006 14:38:27] IN  - Command             | WCþCLEARALLþ13
+[20161006 14:38:27] IN  - Command             | WCþCLEARALLþ21
+[20161006 14:38:27] IN  - Define Text         | WTþ1þ3þ35þ BASIC1 þINVERSE
+[20161006 14:38:27] IN  - Define Prompt       | WPþ10þ8þ41þChannel Used:þ8þ63þLý150ý14þDþONLYþChannel used: (Y)es, (N)o, (S)etup, (R)eception Queueþ
+[20161006 14:38:27] IN  - (un)Lock Screen     | WLSþ1
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ1ýþC
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ2ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ3ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ4ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ5ýþA
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ6ýþN
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ7ýþD
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ8ýþ30
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ9ýþY
+[20161006 14:38:27] IN  - (un)Lock Screen     | WLSþ0
+[20161006 14:38:27] IN  - Screen Command      | WSCþSHOW
+[20161006 14:38:27] IN  - Define Prompt       | WPþ10þ8þ41þChannel Used:þ8þ63þLý150ý14þDþONLYþChannel used: (Y)es, (N)o, (S)etup, (R)eception Queueþ

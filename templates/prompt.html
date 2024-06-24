@@ -1,0 +1,220 @@
+{# This code is duplicated in grid.html for performance reasons. Changes made here should be made there and vice versa #}
+{%- set islastprompt = False if not lastprompt is defined else lastprompt -%}
+{%- set isonlyprompt = False if not onlyprompt is defined else onlyprompt -%}
+{%- set rowpos = 1 if not row is defined else row -%}
+{%- if True -%}
+{
+	"aclist": "{{prompt.aclist[0]}}",
+	"bgcolour": "{{ '#' + prompt.bgcolour[rowpos-1] if prompt.bgcolour[rowpos-1]|length > 0 }}",
+	"cmd":"{{cmd}}",
+	"checkbox": {{prompt.checkbox | py2js}},
+	"checkedvalue": "{{prompt.checkedvalue }}",
+	"datacol": {{prompt.datacol}},
+	"datarow": {{prompt.datarow}},
+	"displayheight": {{prompt.displayheight}},
+	"displaywidth": {{prompt.displaywidth}},
+	"edittype": "{{prompt.edittype}}",
+	"fullscreen": {{prompt.fullscreen | py2js}},
+	"height": "{{ prompt.displayheight | convertrowunittoem}}em",
+	"id": "{{ prompt.promptid() }}",
+	"justification": "{{prompt.justification}}",
+	"labelleft": {{ (100 * ((prompt.tagcol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }},
+	{% if not isgrid %}
+	"labeltag": {{ prompt.tag | tojson | safe}},
+	{% else %}
+	"labeltag": "{{ prompt.tag | nl2br | safe }}",
+	{% endif %}
+	"labeltop": {{ (prompt.tagrow-screen.startrow)|convertrowunittoem }},
+	"left": "{{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%",
+	"maxlength": "{{ prompt.maxlength }}",
+	"manual_top": [
+	{% for rbitem in prompt.radiobuttonitems %}
+		"{{ (( rbitem[3] | float) - screen.startrow) | convertrowunittoem }}em"{{ "," if not loop.last }}
+	{% endfor %}
+	],
+	"manual_left": [
+	{% for rbitem in prompt.radiobuttonitems %}
+		"{{ (100 * ((rbitem[4] | float) - screen.startcol) | convertcolunittoem) / screen.guiwidth | round(2) }}%"{{ "," if not loop.last }}
+	{% endfor %}
+	],
+	"name": "{{ prompt.promptid(row) }}",
+	{% if isgrid %}
+    "numrows": {{ prompt.numrows(rowpos-1) }},
+	{% endif %}
+	"promptliteral": {{ prompt.promptliteral | tojson }},
+	"prompttype": "{{prompt.prompttype}}",
+	"radiobuttonposition": "{{prompt.radiobuttonposition}}",
+	"radiobuttonitems": {{ prompt.radiobuttonitems | tojson }},
+	"rowpos":"{{rowpos}}",
+	"title":"{{prompt.title}}",
+	"textcolour": "{{ '#' + prompt.textcolour[rowpos-1] if prompt.textcolour[rowpos-1]|length > 0 else '' }}",
+	"tlb": {{ prompt.tlb | py2js}},
+	{% if prompt.tlb -%}
+		"tlbleft": {{ prompt.tlbleft | py2js}},
+		"tlbalt": "{{ "IDS_CAP0144" | loadstring }}",
+		{% if prompt.tlbicon == "wdres/calendar.svg" %}
+		"tlbicon": "{{url_for('static',filename='wdres/calendar.svg')}}",
+		{% elif prompt.tlbicon != "" %}  
+		"tlbicon": "{{url_for('static',filename=prompt.tlbicon)}}",
+		{% else %}
+		"tlbicon": "{{url_for('static',filename='wdres/arrow_v_217bc0.svg')}}",
+		{%- endif -%}
+	{%- endif %}
+	"top": "{{ (prompt.datarow-screen.startrow) | convertrowunittoem  }}em",
+	"uncheckedvalue": "{{ prompt.uncheckedvalue }}",
+	"value": "{{ prompt.value[rowpos-1] |urlencode }}",
+    {% if isgrid %}
+    "width": "{{ (100 * prompt.displaywidth / grid.getwidth()) | round(4)}}%"
+    {% else %}
+	"width": "{{ (100 * (prompt.displaywidth | convertcolunittoem) / screen.guiwidth) | round(2)}}%"
+    {% endif %}
+}
+{%- else -%}
+{% if prompt.prompttype == "X" or (prompt.prompttype != "M" and prompt.datarow >= 0 and prompt.datarow <= screen.endrow and prompt.datacol >= 0) -%}
+	{% if prompt.edittype != "CHECKBOX" -%}
+		{% include "label.html" -%}
+	{% endif %}
+	{% if prompt.displaywidth <= 0 -%}
+	{% elif prompt.edittype == "RADIO-BUTTON" or prompt.edittype == "RADIO.BUTTON" or prompt.edittype == "RADIOBTN" -%}
+		{% if prompt.radiobuttonposition == "VERTICAL" %}
+			<span class="promptcontainer" id="{{ prompt.promptid(row) }}" 
+			style="top: {{ (prompt.datarow-screen.startrow)|convertrowunittoem  }}em; 
+			left: {{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | 
+			round(2) }}%;">
+		{% elif prompt.radiobuttonposition == "MANUAL" %}
+            <span id="{{ prompt.promptid(row) }}">
+        {% endif %}
+		{% for rbitem in prompt.radiobuttonitems -%}
+			{%- if prompt.radiobuttonposition == "MANUAL" -%}
+				<span class="promptcontainer" style="top: {{ (( rbitem[3] |  float) - screen.startrow) |convertrowunittoem  }}em; 
+				left: {{ (100 * (((rbitem[4] | float) - screen.startcol) |convertcolunittoem) / screen.guiwidth) |
+				 round(2) }}%; padding-top: 2px;">
+			{% endif %}
+				<span class="inputset">
+					<input type="radio" id="{{ prompt.promptid(row) }}_{{ rbitem[0] }}" name="{{ prompt.promptid(row) }}" value="{{ rbitem[0] }}"
+					{% if prompt.prompttype == "S" -%}
+						disabled
+					{% endif %}
+					{% if rbitem[5] == "N" %} disabled {% endif %}
+					{% if rbitem[0] == prompt.value[0] %} checked {% endif %}
+					class="prompt" />
+					<label for="{{ prompt.promptid(row) }}_{{ rbitem[0] }}" class="rblabel">
+						{{ rbitem[1] }}
+					</label>
+				</span>
+			{%- if prompt.radiobuttonposition == "MANUAL" -%}
+				</span>
+			{% endif %}
+		{% if prompt.radiobuttonposition == "VERTICAL" %}
+			<br />
+		{% endif %}
+		{% endfor %}
+		</span>
+	{% elif prompt.edittype == "BROWSER" -%}
+		<div id="{{ prompt.promptid(row) }}" style="position:absolute; 
+			{%- if prompt.fullscreen -%} 
+			bottom: 0; left: 0; right: 0; top: 0;
+			{%- else -%}
+			top: {{(prompt.datarow-screen.startrow)|convertrowunittoem  }}em;
+			left: {{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;
+			height: {{ prompt.displayheight | convertrowunittoem}}em;
+			width: {{ (100 * (prompt.displaywidth | convertcolunittoem) / screen.guiwidth) | round(2)}}%;
+			{%- endif -%}"> 
+			<iframe class="screenbrowser" 
+			{%- if prompt.fullscreen -%} 
+				style="border: 0;
+				{%- if config.PRODUCT == "GoldCare" -%}
+					margin-top: -3px;
+				{%- endif -%}
+				"
+			{%- endif -%}
+			src="{%- if cmd == 'login' and prompt.value[0] != 'about:blank' and prompt.value[0] != ''-%}..\{%- endif -%}{{ prompt.value[0] }}" onload="WD.updateiframefunctions(this);" ></iframe>
+			<script>
+				setTimeout(WD.updateiframefunctions($("#{{ prompt.promptid(row) }} iframe").get(0)),100);
+			</script>
+		</div>
+	{% elif prompt.edittype == "CHECKBOX" -%}
+	<span class="promptcontainer" style="top: {{ (prompt.datarow-screen.startrow)|convertrowunittoem  }}em;
+	 left: {{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+		<input type="checkbox"
+		{% if prompt.prompttype == "S" -%}
+			disabled
+		{%- endif -%}
+		{% if prompt.value[rowpos-1] == prompt.checkedvalue %}
+			checked
+		{%- endif %}
+		data-checkedvalue="{{ prompt.checkedvalue }}" data-uncheckedvalue="{{ prompt.uncheckedvalue }}"
+		name="{{ prompt.promptid(row) }}" id="{{ prompt.promptid(row) }}"
+		onfocus="WD.focuselement(event, this.id);"
+		onclick="WD.updateelement(event,this); return false;"
+		class="prompt" value="{{ prompt.value[rowpos-1] }}"/>
+		<label for="{{ prompt.promptid() }}" class="rblabel">{{ prompt.tag }}</label>
+	</span>
+	{% else -%}
+	<div class="promptcontainer"
+		style="top: {{ (prompt.datarow-screen.startrow)|convertrowunittoem  }}em; left: {{ (100 * ((prompt.datacol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;
+			width: {{ (100 * (prompt.displaywidth | convertcolunittoem) / screen.guiwidth) | round(2)}}%;"
+		{%- if prompt.edittype != "PASSWORD" -%}title="{{ prompt.value[rowpos-1] }}"{%- endif -%}
+		>
+		<input draggable="false"
+		{%- if prompt.aclist %}
+			data-list="{{ prompt.aclist[0] }}"
+		{% endif -%}
+		{% if prompt.edittype == "PASSWORD" -%}
+			type="password"
+			{% if prompt.prompttype != "S" -%}
+				autocomplete="off" readonly
+			{%- endif %}
+		{% else -%}
+			type="text"
+			autocomplete="off"
+		{% endif %}
+		{% if prompt.prompttype == "S" -%}
+			disabled
+		{% elif prompt.required -%}
+			required
+		{% endif %}
+		style = "
+		{%- if prompt.tlb -%}
+			width: calc(100% - {{2 * 0.75}}em ); 
+		{%- else -%}
+			width: 100%;
+		{%- endif -%}
+		{%- if prompt.bgcolour[rowpos-1] %}
+			background-color: #{{ prompt.bgcolour[rowpos-1] }};
+		{%- endif -%}
+		{%- if prompt.textcolour[rowpos-1] -%}
+			color: #{{ prompt.textcolour[rowpos-1] }};
+		{%- endif -%}
+		" name="{{ prompt.promptid(row) }}" data-orig="{{ prompt.value[rowpos-1] }}"
+		{%- if prompt.maxlength > 0 %} maxlength="{{ prompt.maxlength }}" {% endif -%}
+		data-promptliteral="{{ prompt.promptliteral }}"
+		id="{{ prompt.promptid(row) }}" class="prompt 
+		{%- if prompt.bgcolour[rowpos-1] %} bgcoloured{%- endif -%}
+		{%- if prompt.textcolour[rowpos-1] %} textcoloured{%- endif -%}
+		{%- if prompt.tlb -%}
+			{%- if prompt.tlbleft %} tlbleft
+			{%- else %} tlbright
+			{%- endif -%}
+		{%- endif -%}
+        {%- if prompt.justification == "R" %} rightjustified{%- endif -%}
+        " value="{{ prompt.value[rowpos-1] }}"
+		{%- if prompt.edittype != "PASSWORD" -%} title="{{ prompt.value[rowpos-1] }}"{%- endif -%}
+		/>
+		{%- if prompt.tlb -%}
+		  {% set promptid = prompt.promptid(row) %}
+		  {% include "tlb.html" %}
+		{%- endif -%}
+		{%- if prompt.aclist and rowpos < 2 -%}
+			<datalist id="{{prompt.aclist[0]}}">
+				{%- for item in screen.aclists[prompt.aclist[0]] -%}
+				<option>{{item}}</option>
+				{%- endfor -%}
+			</datalist>
+		{%- endif -%}
+	</div>
+	{% endif %}
+{% else -%}
+	 <div class="promptcontainer manualprompt" style="display:none;" name="{{ prompt.promptid(row) }}" id="{{ prompt.promptid(row) }}" title="{{ prompt.title }}" data-edittype="{{ prompt.edittype }}">{{ prompt.promptliteral  | nl2br}}</div>
+{%- endif -%}
+{%- endif -%}

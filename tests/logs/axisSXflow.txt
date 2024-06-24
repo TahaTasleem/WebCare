@@ -1,0 +1,61 @@
+[20170210 09:53:36] **************************************************************************************
+[20170210 09:53:36] Log Started: 2017-02-10 09:53:36 AM; Version: 2017.1.2; Windows 6.1.7601 - Service Pack 1 - AMD64; Remote: False;
+[20170210 09:53:36] Data Path: C:\Users\dar\AppData\Local\Campana\AXIS\Data\; Port: 822;
+[20170210 09:53:36] **************************************************************************************
+
+[20170210 09:53:38] IN  - Initialize          | WIþAXIS for Windowsþ3
+[20170210 09:53:38] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170210 09:53:38] IN  - Spell Check Setup   | WSSþALLOW=ýIGNORE.NUM=ýIGNORE.MIXED=ýIGNORE.UPPER=ýSUGGEST=ýADD.TO=
+[20170210 09:53:39] OUT - Data Sent To Host   | WinGem-2017.1.2
+[20170210 09:53:39] IN  - Toolbar Command     | WTBþRESET
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_c.icoýEýCARD.BALýPrepaid Card BalanceýYýýýGCCUSTOM-CARD.BALý&Commands/Prepaid &Card BalanceýGCCUSTOMý3ýýýý99ýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þMýýEýCýýYýýýGCCUSTOM-Cý&Commands/Client Inquiryýýýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þMýDýEýDIARYýýYýýýGCCUSTOM-DIARYý&Commands/Diaryýýýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þMýcomm_f.icoýEýFLAG HANDLEýýYýýýGCCUSTOM-FLAG HANDLEý&Commands/&FLAG HANDLINGýý6ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_n.icoýEýRELEASE NOTESýRelease NotesýYýýýGCCUSTOM-RELEASE NOTESý&Commands/Release &NotesýGCCUSTOMý14ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_r.icoýEýREPRINT_RECEIPTýReprint ReceiptýYýýýGCCUSTOM-REPRINT_RECEIPTý&Commands/&Reprint ReceiptýGCCUSTOMý18ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_f.icoýEýRQ INQUIRYýRQ INQUIRY (HTM)ýYýýýGCCUSTOM-RQ INQUIRYý&Commands/&RQ INQUIRY (HTM)ýGCCUSTOMý6ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_t.icoýEýTIME ENTRYýTime EntryýYýýýGCCUSTOM-TIME ENTRYý&Commands/&Time EntryýGCCUSTOMý20ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_e.icoýEýTRACEýDetermine PROC nameýYýýýGCCUSTOM-TRACEý&Commands/D&etermine PROC nameýGCCUSTOMý5ýýýýýý
+[20170210 09:53:39] IN  - Define Toolbar      | WDTþ1þTýcomm_green_P.icoýEýWS.PARAMSýWorkspace ParametersýYýýýGCCUSTOM-WS.PARAMSý&Commands/Works&pace ParametersýGCCUSTOMý16ýýýý99ýý
+[20170210 09:53:39] IN  - Header              | WHþSX System Menu
+[20170210 09:53:39] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:53:39] IN  - Application Command | WAþNORMAL
+[20170210 09:53:39] IN  - Header              | WHþSX System Menu
+[20170210 09:53:39] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:53:39] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:53:39] IN  - Command Line        | WEþDISABLE
+[20170210 09:53:39] IN  - Menu Screen         | WNþ0þ1þSX System MenuþLine/AccountýReport/Form RoutingýPrinter Number AssignmentýSite Pro^fileýDisplay Release VersionýOD^BC File ManagerýUser ID'sýMail GroupsýSecurity MenuýAuditing MenuýDelete Mail FoldersýCustomize CommandsýArchive MenuýUpdate Release in ^AccountýData^base Utility MenuýMaintain Universe ^IndicesýTest PrinterýRe^view MessagesýMaintain Auto UpdateýLoad Version from this AccountýApplication MaintenanceýLo^ck ManagerýPhantom ManagerýReminder ManagerýSupplement MenuýCare AnywhereýPortal MenuýPDA MenuýHost PDF Printers SetupýBatch User Designationþ6ý7ý8ý9ý10ý11ý15ý16ý17ý18ý19ý20ý21ý6ý7ý8ý9ý10ý11ý12ý15ý16ý18ý19ý20ý21ý22ý23ý24ýþ5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý5ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ý44ýþEnvironment MaintenanceýSecurity/Mail MaintenanceýUtilitiesýSystem/Device Maintenanceþ4ý13ý4ý13þ4ý4ý44ý44þ-2ý-4ý-2ý-2ý-2ý-2ý1ý-2ý2ý3ý-2ý-2ý-1ý-2ý-1ý-2ý-2ý-2ý-2ý-2ý-1ý-2ý-1ý-1ý-1ý4ý4ý4ý-2ý-2þusers.pngýsecurity_menu.pngýauditing.pngý-1
+[20170210 09:53:39] IN  - Prompt Menu Screen  | WPN
+[20170210 09:53:45] OUT - Data Sent To Host   | 10
+[20170210 09:53:45] IN  - Header              | WHþSX System Menu
+[20170210 09:53:45] IN  - Header              | WHþSystem Auditing
+[20170210 09:53:45] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:53:45] IN  - Application Command | WAþNORMAL
+[20170210 09:53:45] IN  - Header              | WHþSystem Auditing
+[20170210 09:53:45] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:53:45] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:53:45] IN  - Command Line        | WEþDISABLE
+[20170210 09:53:45] IN  - Menu Screen         | WNþ0þ2þSystem AuditingþAudit Browse / ReportýMYOR AuditýPurge AuditýSystem AuditingýAuditing EventsýAuditing Notify EventsýEncryption CheckýMtn File of Filesþ6ý8ý10ý12ý14ý15ý16ý18þ29ý35ý34ý32ý32ý32ý32ý32þþþþ1ý-4ý-2ý-2ý-2ý-2ý-2ý2þGC_reports.pngýconfig.png
+[20170210 09:53:45] IN  - Prompt Menu Screen  | WPN
+[20170210 09:53:47] OUT - Data Sent To Host   | F4
+[20170210 09:53:47] IN  - Close Menu Screen(s | WXNþ0þ2
+[20170210 09:53:47] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:53:47] IN  - Header              | WHþSX System Menu
+[20170210 09:53:47] IN  - Close Menu Screen(s | WXNþ1þ0
+[20170210 09:53:47] IN  - Application Command | WAþNORMAL
+[20170210 09:53:47] IN  - Header              | WHþSX System Menu
+[20170210 09:53:47] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:53:47] IN  - Application Command | WAþENABLEEXIT
+[20170210 09:53:47] IN  - Command Line        | WEþDISABLE
+[20170210 09:53:47] IN  - Close Screen(s)     | WXþ0þ0
+[20170210 09:53:47] IN  - Prompt Menu Screen  | WPN
+[20170210 09:53:49] OUT - Data Sent To Host   | F4
+[20170210 09:53:49] IN  - Close Menu Screen(s | WXNþ0þ1
+[20170210 09:53:49] IN  - Close Menu Screen(s | WXNþ0þ0
+[20170210 09:53:49] IN  - Application Command | WAþDISABLEEXITþYou can only close your session from a menu screen (a screen with menu item icons).
+[20170210 09:53:49] IN  - Non-Packet Data     | >
+
+[20170210 09:53:49] **************************************************************************************
+[20170210 09:53:49] Log Ended: 2017-02-10 09:53:49 AM
+[20170210 09:53:49] **************************************************************************************

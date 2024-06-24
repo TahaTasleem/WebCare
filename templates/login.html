@@ -1,0 +1,147 @@
+<script>
+	var wdserveroverride = "{{serveroverride}}";
+	var wdaccountoverride = "{{accountoverride}}";
+	var wdallowfree = {{allowfreeformlogin|lower}};
+</script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<script>
+	function handleLogin(response) {
+		WD.saveLoginInfo();
+		WD.connect(event, 'login', response);
+	}
+</script>
+<div id="login" class="tab-pane fade in active">
+	{% if config.PRODUCT == "AXIS" %}
+		<img class="wdlogo" alt="AXIS" src="{{url_for('static',filename='wdres/logo_axis_full.svg')}}" />
+	{% else %}
+		<img class="wdlogo" alt="GoldCare" src="{{url_for('static',filename='wdres/logo_gc_full.png')}}" />
+	{% endif %}
+	<div style="padding-left: 4em; padding-top: 2em; padding-right: 4em;">
+	<br/>
+	<form>
+	<input type="text" id="username" placeholder="{{ "IDS_CAP0141" | loadstring }}" /><br/><br/>
+	<input type="password" id="password" placeholder="{{ "IDS_CAP0140" | loadstring }}" /><br/><br/>
+
+	<div id="mfa" class="hidden">
+		<input type="text" id="passcode" name="passcode" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" placeholder="{{ "IDS_CAP0147" | loadstring }}"><br/><br/>
+	</div>
+
+	{# allowfreeformlogin should be false in a production environment #}
+	{% if allowfreeformlogin %}
+		<input type="text" id="server" list="servernames" value="{{ serveroverride }}" onchange="WD.checkForMFA(this.value);" placeholder="{{ "IDS_CAP0011" | loadstring }}" />
+		<datalist id="servernames">
+		{% for server in config.SERVERS -%}
+			{% if not config["AUTO"][server] %}
+			<option value="{{server}}">
+			{% endif %}
+		{% endfor %}
+		</datalist>
+		<br/><br/>
+		<input type="checkbox" value="ssl" checked id="ssl" name="ssl" /> <label style="width: 4em;" for="ssl">SSL</label>
+		<input type="checkbox" value="ssh" checked id="ssh" name="ssh" /> <label style="width: 4em;" for="ssh">SSH</label>
+		<br/><br/>
+	{% elif serveroverride %}
+		<input type="hidden" id="server" list="servernames" value="{{ serveroverride }}" onchange="WD.checkForMFA(this.value);">
+	{% elif config.SERVERS|length > 1 %}
+		<select type="text" id="server" list="servernames" onchange="WD.checkForMFA(this.value);" placeholder="{{ "IDS_CAP0011" | loadstring }}">
+			{% for server in config.SERVERS -%}
+				{% if not config["AUTO"][server] %}
+				<option value="{{server}}">{{server}}</option>
+				{% endif %}
+			{% endfor %}
+		</select><br/><br/>
+	{% else %}
+		<input type="hidden" id="server" list="servernames" value="{{ config.SERVERS[0] }}" onchange="WD.checkForMFA(this.value);">
+	{% endif %}
+	<div id="mfaservers" class="hidden">
+	{% for server in config["SERVERS"] -%}
+		{% if config["MFA"][server] -%}
+			,{{ server }},
+		{% endif -%}
+	{% endfor -%}
+	</div>
+	{% if allowfreeformlogin %}
+		<input type="text" id="account" value="{{ accountoverride }}" placeholder="{{ "IDS_CAP0022" | loadstring }}" />
+		{% for server in config["SERVERS"] -%}
+			<datalist id="accounts-{{server}}">
+				{% for account in config["ACCOUNTS"][server] -%}
+					<option value="{{account}}">
+				{% endfor %}
+			</datalist>
+		{% endfor %}
+		<br/><br/>
+	{% elif accountoverride %}
+		<input type="hidden" id="account" value="{{ accountoverride }}">
+	{% elif config.SERVERS|length > 1 or config.ACCOUNTS[config.SERVERS[0]]|count > 1 %}
+		<select type="text" id="account" placeholder="{{ "IDS_CAP0022" | loadstring }}"></select>
+		{% for server in config["SERVERS"] -%}
+			<datalist id="accounts-{{server}}">
+				{% for account in config["ACCOUNTS"][server] -%}
+					<option value="{{account}}">{{account}}</option>
+				{% endfor %}
+			</datalist>
+		{% endfor %}
+		<br/><br/>
+	{% else %}
+		<input type="hidden" id="account" value="{{ config.ACCOUNTS[config.SERVERS[0]][0] }}">
+	{% endif %}
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
+		<div class="panel panel-default loginOptionsPanel">
+		  <div class="panel-heading" role="tab" id="optionsHeading">
+			<h4 class="panel-title">
+			  <a role="button" id="optionsToggle" data-toggle="collapse" data-parent="#accordion" href="#optionCollapse" aria-expanded="false" aria-controls="optionCollapse">
+				<span id="optionsToggleIcon" class="glyphicon"></span>Options
+			  </a>
+			</h4>
+		  </div>
+		  <div id="optionCollapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="optionsHeading">
+			<div class="panel-body">
+				<label class="loggingsessioncheck"> <input type="checkbox" id="loggingsessioncheck"> <span>{{ "IDS_CAP0142" | loadstring }}</span></label>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+	{% if config.CAPTCHA == True %}
+	<div class="g-recaptcha" id="captcha" data-sitekey="6LeGqM8pAAAAAC77fdzppSD3MwI-Ouwo9epq1SdX"
+		data-size="invisible" data-callback="handleLogin"></div>
+	<button type="submit" class="btn btn-primary" onclick="grecaptcha.execute(); return false;">{{
+		"IDS_CAP0136" | loadstring }}</button>
+	{% else %}
+	<button type="submit" class="btn btn-primary" onclick="WD.saveLoginInfo(); WD.connect(event, 'login');">{{
+		"IDS_CAP0136" | loadstring }}</button>
+	{% endif %}
+	</form>
+  	<br/><br/>
+  	</div>
+  	<div {% if config.PRODUCTION and config.PRODUCT == "GoldCare" %}class="hidden" {% endif %}style="text-align: right; font-size: 75%; padding: 1em;">v{{ config.VERSION }}</div>
+</div>
+<div id="connectingdialog">
+	<div class="modal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="dialogtitle">{{"IDS_CAP0139"|loadstring}}</h4>
+				</div>
+				<div class="modal-body">					
+					<div class="container-fluid">
+						<div class="row">
+							<div id="dialogtext" class="col-xs-12">
+								<p>{{"IDS_CAP0137"|loadstring}}</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="progress">
+									<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+										<span class="sr-only">{{"IDS_CAP0138"|loadstring}}</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		     </div>	
+		</div>
+	</div>
+</div>

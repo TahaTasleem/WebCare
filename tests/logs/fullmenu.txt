@@ -1,0 +1,51 @@
+[20170316 09:10:41] **************************************************************************************
+[20170316 09:10:41] Log Started: 2017-03-16 09:10:41 AM; Version: 2016.1.1; Windows 6.2.9200 -  - AMD64; Remote: False;
+[20170316 09:10:41] Data Path: C:\Users\daemo\AppData\Local\Campana\AXIS\Data\; Port: 313;
+[20170316 09:10:41] **************************************************************************************
+[20170316 09:10:43] IN  - Non-Packet Data     | FCDBOU on CAA.DEV/cmwls-rhaxis Port: 313
+[20170316 09:10:43] OUT - Data Sent To Host   | WinGem-2016.1.1
+[20170316 09:10:43] IN  - Initialize          | WIşAXIS for Windowsş3
+[20170316 09:10:43] IN  - Mail Status         | WMSşSENDüEüEMAILıICONüıHIDE
+[20170316 09:10:43] IN  - Spell Check Setup   | WSSşALLOW=ıIGNORE.NUM=ıIGNORE.MIXED=ıIGNORE.UPPER=ıSUGGEST=ıADD.TO=-1
+[20170316 09:10:43] IN  - Close Screen(s)     | WXş0ş0
+[20170316 09:10:43] IN  - Initialize          | WIşAXIS for Windowsş3
+[20170316 09:10:43] IN  - Mail Status         | WMSşSENDüEüEMAILıICONüıHIDE
+[20170316 09:10:43] IN  - Spell Check Setup   | WSSşALLOW=ıIGNORE.NUM=ıIGNORE.MIXED=ıIGNORE.UPPER=ıSUGGEST=ıADD.TO=-1
+[20170316 09:10:43] IN  - File Transfer       | WFTşDELETEş.\SETUP.EXE
+[20170316 09:10:43] OUT - Data Sent To Host   | WHIR:-1
+[20170316 09:10:43] OUT - Data Sent To Host   | WinGem-2016.1.1
+[20170316 09:10:43] IN  - Status              | WSTşUSERıPORTşCDBOU on CAA.DEVı313 on cmwls-rhaxis/dev/pts/12
+[20170316 09:10:43] IN  - Toolbar Command     | WTBşRESET
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_e.ico alt= >ıEıTRACEıDetermine PROC nameıYıııAXIS_TRACEı&Commands/D&etermine PROC nameıWINGEMı5ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_t.ico alt= >ıEıTIME ENTRYıTime EntryıYıııAXIS_TIME ENTRYı&Commands/&Time EntryıWINGEMı20ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_f.ico alt= >ıEıRQ INQUIRYıRQ INQUIRY (HTM)ıYıııAXIS_RQ INQUIRYı&Commands/&RQ INQUIRY (HTM)ıWINGEMı6ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_r.ico alt= >ıEıREPRINT_RECEIPTıReprint ReceiptıYıııAXIS_REPRINT_RECEIPTı&Commands/&Reprint ReceiptıWINGEMı18ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_n.ico alt= >ıEıRELEASE NOTESıRelease NotesıYıııAXIS_RELEASE NOTESı&Commands/Release &NotesıWINGEMı14ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMı<img=comm_f.ico alt= >ıEıFLAG HANDLEııYıııAXIS_FLAG HANDLEı&Commands/&FLAG HANDLINGıı6ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMı<img=D alt= >ıEıDIARYııYıııAXIS_DIARYı&Commands/Diaryıııııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMı<img= alt= >ıEıCııYıııAXIS_Cı&Commands/Client Inquiryıııııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_d.ico alt= >ıEıDIıDiary EntryıYıııAXIS_DIı&Commands/&Diary EntryıWINGEMı4ıııııı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=AXlogo.ico alt= >ıEıWORKSPACE QUEUESıWorkSpace QueuesıYıııAXIS_WORKSPACE QUEUESı&Commands/WorkSpace &QueuesıWINGEMı17ıııı3ıı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_green_P.ico alt= >ıEıWS.PARAMSıWorkspace ParametersıYıııAXIS_WS.PARAMSı&Commands/Works&pace ParametersıWINGEMı16ıııı99ıı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=comm_green_C.ico alt= >ıEıCSICMD:NAVACT=WCNY.JESS.PROFILE.V2ıCC in ProfileıYıııAXIS_CSICMD:NAVACT=WCNY.JESS.PROFILE.V2ı&Commands/CC in ProfileıWINGEMııııı99ıı
+[20170316 09:10:43] IN  - Command Line        | WEşDISABLE
+[20170316 09:10:43] IN  - Change Toolbar      | WCTşııııııııExitıııııııııNı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıSCHEMEıcontrol look of AxisıYıııDisplay &Schemeı&Session/Display &Scheme...ıııııııSession/1ıY
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıMENU.QUITıquit to menuıYıııMENU.QUITı&Session/&CloseıııııııSession/2ıY
+[20170316 09:10:43] IN  - Change Toolbar      | WCTşııııııııAboutWinGemıııııııııYı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıMENU.GUIDESııYıııMENU.GUIDESı&Help/&View AXIS Guide ListıııııııHelp/2ıY
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıMENU.AFWııYıııMENU.AFWı&Help/View AXIS Getting &StartedıııııııHelp/3ı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıWHEREıSystem InformationıYıııMENU.ABOUT.WORKSTATIONı&Help/System &InformationıııııııHelp/4ıY
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şMııEıWHERE.WINDOWıWindow InformationıYıııMENU.ABOUT.WINDOWı&Help/&Window InformationıııııııHelp/5ı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=GetList.ico alt= >ıEıGET-LISTıGET-LIST for next itemıYıııMENU.GET.LISTı&Commands/GET-LIST for next itemıbndToolbarDebugıııııA1ıı
+[20170316 09:10:43] IN  - Define Toolbar      | WDTş1şTı<img=FORMNAMEINACTIVE.ICO alt= >ıEıDISPLAY.FORMSıDisplay Forms ListıYıııDISPLAY.FORMSı&Commands/Display Forms ListıbndToolbarDebugıııııA2ıı
+[20170316 09:10:44] IN  - Application Command | WAşENABLEEXIT
+[20170316 09:10:44] IN  - Change Toolbar      | WCTşıııııYıııMENU.QUITııııııııı
+[20170316 09:10:44] IN  - Change Toolbar      | WCTşıııııYıııDisplay &Schemeııııııııı
+[20170316 09:10:44] IN  - Menu Screen         | WNş0ş1şMain MenuşCounter ServiceıMembershipıRoad ServiceıTravel AgencyıAuto TouringıHotel and Car ReservationsıMedical InsuranceıSundryıTravellers ChequesıSetupıUtilitiesıNavigatorıAccountingıBranch SchedulingıCash ManagementıInventoryıPurchasingıMember Request TrackingıIncentiveıLeads ManagementıMake Your Own ReportıEnterprise Information SystemıDatabase MarketingıLifetime ValueıDialog MarketingıPromotion Response TrackingıServices UtilizedıClient Feedbackş6ı7ı8ı9ı10ı11ı12ı13ı14ı18ı19ı20ı6ı7ı8ı9ı10ı11ı12ı13ı17ı18ı19ı20ı21ı22ı23ı24ş4ı4ı4ı4ı4ı4ı4ı4ı4ı4ı4ı4ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44ı44şClient ServicesıClient ServicesıClient ServicesıClient ServicesıClient ServicesıClient ServicesıClient ServicesıClient ServicesıClient ServicesıAXIS UtilitiesıAXIS UtilitiesıAXIS UtilitiesıCorporate OperationsıCorporate OperationsıCorporate OperationsıCorporate OperationsıCorporate OperationsıCorporate OperationsıCorporate OperationsıCorporate OperationsıMarketing and ReportingıMarketing and ReportingıMarketing and ReportingıMarketing and ReportingıMarketing and ReportingıMarketing and ReportingıMarketing and ReportingıMarketing and Reportingş4ı4ı4ı4ı4ı4ı4ı4ı4ı16ı16ı16ı4ı4ı4ı4ı4ı4ı4ı4ı15ı15ı15ı15ı15ı15ı15ı15ş8ı8ı8ı8ı8ı8ı8ı8ı8ı8ı8ı8ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ı48ş-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1ı-1şş1ı2ı3ı4ı5ı6ı7ı8ı9ı10ı11ı12ı20ı21ı22ı23ı24ı25ı26ı27ı30ı31ı32ı33ı34ı35ı36ı37şşLISTş1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1ı1
+[20170316 09:10:45] IN  - Header              | WHşCampana Systems Inc.
+[20170316 09:10:45] IN  - Mail Status         | WMSşHIDE
+[20170316 09:10:45] IN  - Prompt Menu Screen  | WPN
+[20170316 09:10:46] **************************************************************************************
+[20170316 09:10:46] Log Ended: 2017-03-16 09:10:46 AM
+[20170316 09:10:46] **************************************************************************************

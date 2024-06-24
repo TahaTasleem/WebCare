@@ -1,0 +1,12 @@
+<label 
+{% if not isgrid %}
+	for="{{ prompt.promptid() }}"
+	style="top: {{ (prompt.tagrow-screen.startrow)|convertrowunittoem }}em; left: {{ (100 * ((prompt.tagcol-screen.startcol)|convertcolunittoem) / screen.guiwidth) | round(2) }}%;"
+{% endif %}
+	class="wdlabel">
+	{% if not isgrid %}
+ 	{{ prompt.tag | safe }}
+ 	{% else %}
+ 	{{ prompt.tag | nl2br | safe }}
+ 	{% endif %}
+</label>

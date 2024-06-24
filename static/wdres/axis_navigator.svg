@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.1763" y1="-0.2554" x2="33.2794" y2="54.9165">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.3701" style="stop-color:#FDFDFD"/>
+		<stop  offset="0.5443" style="stop-color:#F5F5F5"/>
+		<stop  offset="0.6776" style="stop-color:#E8E8E8"/>
+		<stop  offset="0.79" style="stop-color:#D6D6D6"/>
+		<stop  offset="0.8893" style="stop-color:#BEBEBE"/>
+		<stop  offset="0.978" style="stop-color:#A1A1A1"/>
+		<stop  offset="1" style="stop-color:#999999"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" stroke="#CCCCCC" stroke-width="2" d="M3.66,8.385v35.14l37.686-0.17c0,0,0.385-3.265,0-5.093
+		c-0.245-1.162-2.036-14.599-8.657-21.22C21.921,6.275,3.03,6.747,3.66,8.385C4.508,10.592,3.66,8.385,3.66,8.385z"/>
+	<path d="M17.304,28.366c-0.57-0.493-5.025,3.711-9.946,9.394c-4.922,5.684-3.96,5.51-3.389,6.005
+		c0.573,0.496,0.539,1.474,5.461-4.209C14.352,33.873,17.877,28.862,17.304,28.366z"/>
+	<path fill="none" stroke="#BFBEBE" stroke-width="6" d="M3.88,8.636c22.006,0,36.82,14.669,36.82,36.459"/>
+	<line fill="none" stroke="#000000" stroke-width="2" x1="3.88" y1="5.303" x2="3.88" y2="44.456"/>
+	<line fill="none" stroke="#000000" stroke-width="2" x1="3.835" y1="43.88" x2="44" y2="43.88"/>
+</g>
+<g>
+	<g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-123.03" y="-135" width="304.56" height="304.8">
+				<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+				<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-123.03" y="-135" width="304.56" height="304.8" id="SVGID_2_">
+			<g filter="url(#Adobe_OpacityMaskFilter)">
+				
+					<image overflow="visible" width="1286" height="1287" xlink:href="F0D8FE52.jpg"  transform="matrix(0.24 0 0 0.24 -125.0303 -137)">
+				</image>
+			</g>
+		</mask>
+		<g transform="matrix(1 0 0 1 -4.876842e-006 5.364418e-006)" mask="url(#SVGID_2_)">
+			
+				<image overflow="visible" width="1269" height="1270" xlink:href="F0D8FE56.png"  transform="matrix(0.24 0 0 0.24 -123.0303 -135)">
+			</image>
+		</g>
+	</g>
+	<g>
+		
+			<image overflow="visible" opacity="0.48" width="956" height="957" xlink:href="F0D8FE51.png"  transform="matrix(0.24 0 0 0.24 -84.9023 -96.0698)">
+		</image>
+		<g>
+			<g>
+				
+					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-69.5493" y1="-5.749" x2="-63.1667" y2="9.8836" gradientTransform="matrix(0.7334 0.6798 -0.6798 0.7334 84.7457 49.1802)">
+					<stop  offset="0" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#5B903F"/>
+				</linearGradient>
+				<path fill="url(#SVGID_3_)" d="M14.098,20.762L30.629,2.93l4.709,4.366l-2.353,9.969c-0.684,2.86-1.712,6.039-2.755,8.809
+					l0.052,0.051c1.945-2.577,4.097-5.058,6.599-7.757l4.809-5.185l3.702,3.434l-16.53,17.832l-4.232-3.923l2.566-10.412
+					c0.732-2.912,1.651-6.291,2.741-9.167l-0.105-0.099c-2.075,2.505-4.353,5.067-7.05,7.978l-4.979,5.372L14.098,20.762z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

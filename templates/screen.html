@@ -1,0 +1,145 @@
+{%- if True -%}
+	{
+		"draw":{{screen.draw | py2js}},
+		"coloffset":{{screen.coloffset}},
+		"endcol":{{screen.endcol}},
+		"endrow":{{screen.endrow}},
+		"focuspromptnum":"{{ screen.focuspromptnum }}",
+		"guiwidth":{{screen.guiwidth}},
+		"hasheading": {{screen.hasheading | py2js}},
+		"height":{{screen.height}},
+		"position":"{{screen.position if screen.position else ''}}",
+		"rowoffset":{{screen.rowoffset}},
+		"screenid":"{{screen.screenid}}",
+		"startcol":{{screen.startcol}},
+		"startrow":{{screen.startrow}},
+		"startrowdraw":{{screen.startrowdraw}},
+		"width":{{screen.width}},
+		"prompts":[	
+		{%- set promptjoiner = joiner(",") -%}
+		{% for prompt in screen.prompts -%}
+			{% set vars = {'ingrid': False} %}
+			{% for grid in screen.grids -%}
+				{% if prompt in grid.prompts -%}
+					{% if vars.update({'ingrid':True}) -%}{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% if not vars.ingrid  -%}
+				{{ promptjoiner() }}{% include "prompt.html" %}
+			{% endif %}
+		{% endfor %}
+		],
+		"grids":[
+		{%- set gridjoiner = joiner(",") -%}
+		{% for grid in screen.grids -%}
+			{% set inscreen = True %}
+			{{ gridjoiner() }}{% include "grid.html" %}
+		{% endfor %}
+		],
+		"buttons":[
+		{%- set buttonjoiner = joiner(",") -%}
+		{% for button in screen.buttons -%}
+			{{ buttonjoiner() }}{% include "button.html" %}
+		{% endfor %}
+		],
+		"groupboxes":[
+		{%- set gbjoiner = joiner(",") -%}
+		{% for groupbox in screen.groupboxes -%}
+			{{ gbjoiner() }}{% include "groupbox.html" %}
+		{% endfor %}
+		],
+		"texts":[
+		{%- set textjoiner = joiner(",") -%}
+		{% for text in screen.texts -%}
+			{{ textjoiner() }}{% include "text.html" %}
+		{% endfor %}
+		]
+	}
+{%- else -%}
+	<div class="screen" id="{{ screen.screenid }}_screen" 
+	data-screenid="{{ screen.screenid }}"
+{% if screen.focuspromptnum %}
+	data-focuspromptid="{{ screen.screenid }}_{{ screen.focuspromptnum }}"
+{% endif %}
+	style="
+			top: {{ (screen.startrowdraw + screen.rowoffset) | convertrowunittoem }}em;
+			{% if screen.fillcontainer %}
+			 left:0; right: 0; bottom: 0;
+			{% elif screen.position == "FULLSCREEN" %}
+			 left:0; right: 0; bottom: {{1.6 | convertrowunittoem}}em;
+			{% else %}
+	         height: calc({{ screen.height}}em + 6px);
+			 width: calc({{ screen.width + 1 }}em + 6px);
+			 left: {{ (screen.startcol + screen.coloffset) | convertcolunittoem }}em;
+			{% endif %}
+			{% if not screen.draw %}
+				display: none;
+			{% endif %}
+			"
+			data-fillcontainer="{{screen.fillcontainer}}"
+			data-startrow={{ (screen.startrowdraw + screen.rowoffset) | convertrowunittoem }}
+			{% if screen.fillcontainer or screen.position == "FULLSCREEN" %}
+			data-startcol="0"
+			{% else %}
+			data-startcol={{ (screen.startcol + screen.coloffset) | convertcolunittoem }}
+			{% endif %}
+			data-endrow={{ screen.endrow }}
+			{%if screen.position %}data-position="{{ screen.position }}"{% endif %}
+		>
+		<div class="subscreen">
+			{%if not screen.fillcontainer %}
+			<button type="button" class="close" aria-label="Close" onclick="WD.input(WD.ESCAPE + 'F4',true);">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			{% endif %}
+			{% if screen.position == "FULLSCREEN" %}
+				<div class="scrollable"
+				{% if not screen.hasheading %}
+				style="top:0;"
+				{% endif %}
+				>
+			{% endif %}
+			{% for groupbox in screen.groupboxes -%}
+				{% include "groupbox.html" %}
+			{% endfor %}			
+			{% for prompt in screen.prompts -%}
+				{% set vars = {'ingrid': False} %}
+				{% for grid in screen.grids -%}
+					{% if prompt in grid.prompts -%}
+						{% if vars.update({'ingrid':True}) -%}{% endif %}
+						{%if prompt == grid.prompts[0] %}
+							{% set inscreen = True %}
+							{% include "grid.html" %}
+						{% endif %}
+					{% endif %}
+				{% endfor %}
+				{% if not vars.ingrid  -%}
+					{% include "prompt.html" %}
+				{% endif %}
+			{% endfor %}
+			{% for text in screen.texts -%}
+				{% if text.heading != True %}
+					{% include "text.html" %}
+				{% endif %}
+			{% endfor %}
+			{% for button in screen.buttons -%}
+				{% if not button.autoposition %}
+					{% include "button.html" %}
+				{% endif %}
+			{% endfor %}
+			{% if screen.position == "FULLSCREEN" %}
+				</div>
+			{% endif %}
+			{% for text in screen.texts -%}
+				{% if text.heading == True %}
+				{% include "text.html" %}
+				{% endif %}
+			{% endfor %}
+			{% for button in screen.buttons -%}
+				{% if button.autoposition %}
+					{% include "button.html" %}
+				{% endif %}
+			{% endfor %}
+	</div>
+</div>
+{% endif %}

@@ -1,0 +1,60 @@
+[20161006 14:38:27] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.CHANNEL.PROFILEþADDý
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.CHANNEL.SYSTEMþADDýP
+[20161006 14:38:27] IN  - Auto Complete       | WACþAXIS.DISABLE.JOIN.FLAGþADDý
+[20161006 14:38:27] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161006 14:38:27] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ314 CAA.DEV AS CDBOU
+[20161006 14:38:27] IN  - Define Grid         | WWþ4þ41þ6þ65þ13þ13þDþþNþC
+[20161006 14:38:27] IN  - Define Grid         | WWþ20þ22þ21þ76.5þ21þ21þDþþNþF
+[20161006 14:38:27] IN  - Define Prompt       | WPþ1þ4þ1þCash Drawer Date:þ4þ22þLý150ý4þDþONLYþDefault date used for opening of cash drawers: (C)urrent date, (T)omorrows date, (N)o defaultþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ2þ5þ1þDeposit Envelopes:þ5þ22þLý150ý4þDþYORNþEnvelopes used when transferring or depositing funds: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ3þ6þ1þElectronic CD:þ6þ22þLý150ý4þDþNORYþElectronic cash drawers used: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ4þ7þ1þClient Profile:þ7þ22þLý150ý4þDþNORYþClient profiles used: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ5þ8þ1þClient Profile Merge Method:þ8þ22þLý150ý4þDþONLYþAXIS Client Profile Merge Method (A)ll, Most (R)ecentþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ6þ9þ1þRestrict Setup:þ9þ22þLý150ý4þDþNORYþRestrict product and pricing setup by teller: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ7þ10þ1þRecent Clients:þ10þ22þLý150ý4þDþONLYþKeep recent clients: number of (c)lients, number of (d)aysþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ8þ11þ1þRecent Clients Number:þ11þ22þLý150ý4þDþINTþRecent Clients Numberþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ9þ12þ1þDisplay POS Teller Table:þ12þ22þLý150ý4þDþYORNþDisplay POS teller tables: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ10þ13þ1þWeb Regions:þ13þ22þLý150ý4þDþNORYþUse regions for web transactions: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ11þ14þ1þSundry Web Sales:þ14þ22þLý150ý4þDþNORYþSundry web sales used: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ12þ15þ1þCompany by Branch:þ15þ22þLý150ý4þDþNORYþUse company overrides by branch: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ13þ4þ41þCD Report Summariesþ5þ41þLý150ý20þDþONLYþCash drawer report summaries: (N)egative/void transactions, (E)mployee transactions, * for allþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ14þ8þ41þChannel Used:þ8þ63þLý150ý14þDþONLYþChannel used: ('Y'es/'N'o/'S'etup)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ15þ9þ41þDefault Channel Profile:þ9þ63þLý150ý14þDþTABLEþDefault Channel Profile: code, ?? for tableþDDDýAC.LISTüAXIS.CHANNEL.PROFILEüINORDER
+[20161006 14:38:27] IN  - Define Prompt       | WPþ16þ10þ41þChannel for System:þ10þ63þLý150ý14þDþTABLEþChannel for System transactions: code, ?? for tableþDDDýAC.LISTüAXIS.CHANNEL.SYSTEMüINORDER
+[20161006 14:38:27] IN  - Define Prompt       | WPþ17þ11þ41þCDXCS Update:þ11þ63þLý150ý3þDþYORNþUpdate trigger file for CDX Central Server: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ18þ12þ41þDisable Join Flag:þ12þ63þLý150ý14þDþTABLEþFlag to disable Join option for Prospect: code, ?? for tableþDDDýAC.LISTüAXIS.DISABLE.JOIN.FLAGüINORDER
+[20161006 14:38:27] IN  - Define Prompt       | WPþ19þ18þ2þEnable Matching:þ18þ22þLý150ý4þDþNORYþEnable National Security matching in Client Screen: (Y/N)þ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ20þ19þ2þName Match:þ19þ22þLý150ý4þDþONLYþNational Security name matching in Client Screen: (L)ast only, (F)irst and lastþ
+[20161006 14:38:27] IN  - Define Prompt       | WPþ21þ20þ2þWarning Messageþ20þ22þLý150ý55þDþTEXTþNational Security warning message in Client Screenþ
+[20161006 14:38:27] IN  - Define Group Box    | WGBþGBOX1þ17þ1þ22þ78þNational Security
+[20161006 14:38:27] IN  - Command             | WCþCLEARALLþ13
+[20161006 14:38:27] IN  - Command             | WCþCLEARALLþ21
+[20161006 14:38:27] IN  - Define Text         | WTþ1þ3þ35þ BASIC1 þINVERSE
+[20161006 14:38:27] IN  - Define Prompt       | WPþ14þ8þ41þChannel Used:þ8þ63þLý150ý14þDþONLYþChannel used: (Y)es, (N)o, (S)etup, (R)eception Queueþ
+[20161006 14:38:27] IN  - (un)Lock Screen     | WLSþ1
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ1ýþC
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ2ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ3ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ4ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ5ýþA
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ6ýþN
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ7ýþD
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ8ýþ30
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ9ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ10ýþN
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ11ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ12ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ13ýþNýE
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ14ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ15ýþSTORE
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ16ýþS
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ17ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ18ýþ
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ19ýþY
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ20ýþF
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ21ýþThis is the National Security warning message.
+[20161006 14:38:27] IN  - (un)Lock Screen     | WLSþ0
+[20161006 14:38:27] IN  - Screen Command      | WSCþSHOW
+[20161006 14:38:27] IN  - Populate Prompt     | WDþ21ýþThis is the National Security warning message.
+[20161006 14:38:27] IN  - Define Prompt       | WPþ14þ8þ41þChannel Used:þ8þ63þLý150ý14þDþONLYþChannel used: (Y)es, (N)o, (S)etup, (R)eception Queueþ

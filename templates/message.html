@@ -1,0 +1,24 @@
+<div id="messagecontainer">
+	<div class= "modal" role="dialog" data-keyboard="false" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="msgtitle"></h4>
+				</div>
+				<div class="modal-body">					
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-3">
+								<img id="messageicon" class="messageicon" alt="{{"IDS_CAP0032" | loadstring}}" src="" data-basepath="{{url_for('static',filename='')}}">
+							</div>
+							<div id="popupmessagetext" class="col-xs-9"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			        <button type="button" class="btn btn-primary hidden" data-dismiss="modal" onclick="WD.cleartoast();WD.destroymodaldraggable(this)">Close</button>
+		     	</div>
+		     </div>	
+		</div>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+<div id="filepicker">
+	<div class= "modal" role="dialog" data-keyboard="false" data-backdrop="static">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">{{ "IDS_WEB0013" | loadstring }}</h4>
+				</div>
+				<div class="modal-body">					
+					<div class="container-fluid">
+			  			<div class="row" style="display: flex; align-items: center;">
+							<div class="col-md-2">
+								<div id="targetfilename" class='hidden'></div>
+								<div id="retfilename" class='hidden'></div>
+								<div>
+									<button type="button" class="btn btn-primary" onclick="$('#fileupload').click();" >{{ "IDS_WEB0012" | loadstring }}</button>
+								</div>
+							</div>
+			  				<div class="col-md-10">
+								<input class="hidden" id="fileupload" name="fileupload" type="file" onchange="WD.filechosen();"/>
+								<div id="origfile" class="hidden" style="padding: 10px;">
+									<b>{{ "IDS_WEB0011" | loadstring }}:</b><br/><br/>
+									<span id="originalfilename"></span>
+									<br/>
+								</div>
+								<div id="chosenfiles" class="hidden" style="padding: 10px;">
+									<b>{{ "IDS_WEB0010" | loadstring }}:</b><br/><br/>
+									<span id="chosenfilenames"></span>
+									<br/>
+								</div>
+							</div>							
+				  		</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+			        <button type="button" id="upload" class="btn btn-primary" data-dismiss="modal" disabled onclick="WD.uploadfile();">{{ "IDS_WEB0009" | loadstring }}</button>
+			        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="WD.cancelfileupload();">{{ "IDS_CAP0006" | loadstring }}</button>
+		     	</div>
+		     </div>	
+		</div>
+	</div>
+</div>

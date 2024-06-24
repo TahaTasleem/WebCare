@@ -1,0 +1,51 @@
+[20170503 10:55:15] IN  - Screen              | WSþ0þ1þMAINþ2þ0þ28þ94þ
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.LOG.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.LOG.USERþADDý
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.COMMENT.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.COMMENT.USERþADDý
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WF.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WF.USERþADDý
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WF.ALT.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WF.ALT.USERþADDý
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WO.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WO.USERþADDý
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WO.ALT.USERþCLEAR
+[20170503 10:55:15] IN  - Auto Complete       | WACþCONTROL.VO.WO.ALT.USERþADDý
+[20170503 10:55:15] IN  - Application Command | WAþRESIZEþ28þ95
+[20170503 10:55:15] IN  - Close Message       | WXM
+[20170503 10:55:15] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170503 10:55:15] IN  - Header              | WHþMaintain Webforms Configurationþ822 CAA.DEV AS DARþDAR
+[20170503 10:55:15] IN  - Define Grid         | WWþ3þ3þ8þ25þ2þ3þ
+[20170503 10:55:15] IN  - Define Grid         | WWþ11þ3þ16þ25þ5þ6þ
+[20170503 10:55:15] IN  - Define Grid         | WWþ3þ45þ8þ76.5þ7þ9þ
+[20170503 10:55:15] IN  - Define Grid         | WWþ11þ45þ16þ80þ10þ12þ
+[20170503 10:55:15] IN  - Define Text         | WTþ1þ2þ45þWebForms Version Overridesþ
+[20170503 10:55:15] IN  - Define Text         | WTþ2þ10þ45þWebObjects Version Overridesþ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ1þ2þ3þDefault Log Templatesþ2þ21þLý2ý3þDþONLYþDefault logging requirements. 0/Null-none, 1-TIME (merge times), 2-TIME, TM (merge details) & COUNT (template usage stats)þ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ2þ3þ3þUser Idþ4þ3þLý10ý10þDþTABLEþUser who requires an exception to the default log settingþDDDýAC.LISTüCONTROL.LOG.USERüINORDER
+[20170503 10:55:15] IN  - Define Prompt       | WPþ3þ3þ14þLogþ4þ16þLý10ý10þDþONLYþUser's logging requirements. 0/Null-none, 1-TIME (merge times), 2-TIME, TM (merge details) & COUNT (template usage stats)þ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ4þ10þ3þDefault Comment Templatesþ10þ23þLý2ý3þDþONLYþ1 - inset HTML format comment into merged template, 0/Null - don't insertþ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ5þ11þ3þUser Idþ12þ3þLý10ý10þDþTABLEþUser who requires an exception to the default comment settingþDDDýAC.LISTüCONTROL.COMMENT.USERüINORDER
+[20170503 10:55:15] IN  - Define Prompt       | WPþ6þ11þ16þCommentþ12þ16þLý10ý10þDþONLYþUser's comment setting. 1 - insert comment into merged template, 0/Null - don't insertþ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ7þ3þ45þUserþ4þ45þLý10ý10þDþTABLEþUser whose WebForm version assignments are to be overridden by those entered here.þDDDýAC.LISTüCONTROL.VO.WF.USERüINORDER
+[20170503 10:55:15] IN  - Define Prompt       | WPþ8þ3þ53þVersionþ4þ53þLý10ý10þDþALPHAþVersion to use. NULL to force null version.þ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ9þ3þ66þAlt Userþ4þ66þLý10ý10þDþTABLEþUser ID whose version assignments are to be used.þDDDýAC.LISTüCONTROL.VO.WF.ALT.USERüINORDER
+[20170503 10:55:15] IN  - Define Prompt       | WPþ10þ11þ45þUserþ12þ45þLý10ý10þDþTABLEþUser whose WebObject version assignments are to be overridden by those entered here.þDDDýAC.LISTüCONTROL.VO.WO.USERüINORDER
+[20170503 10:55:15] IN  - Define Prompt       | WPþ11þ11þ53þApplic*Versionþ12þ53þLý15ý15þDþALPHAþApplication*Version to use.þ
+[20170503 10:55:15] IN  - Define Prompt       | WPþ12þ11þ71þAlt Userþ12þ71þLý10ý10þDþTABLEþUser ID whose version assignments are to be used.þDDDýAC.LISTüCONTROL.VO.WO.ALT.USERüINORDER
+[20170503 10:55:15] IN  - Define Button       | WDBþ10þCýUser VersionsýEýVER.RPTýýYýýýVER.RPT
+[20170503 10:55:15] IN  - (un)Lock Screen     | WLSþ1
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ1ýþ0
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ2ýþMWHýMFWýPPDýLFCCýSLVýAYFýCDBOUýDJGýALANýKSL
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ3ýþ2ý0ý0ý1ý1ý1ý0ý1ý2ý1
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ4ýþ0
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ5ýþCDBOUýPCHýKAB
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ6ýþ0ý0ý0
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ7ýþTMGýPPDýPCHýGMMýANBýSAW
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ8ýþMWSýMWSýMWSýMWSýCAA.QýCAA.Q
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ9ýþýýýýý
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ10ýþSAW
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ11ýþLOCAL*CAA.Q
+[20170503 10:55:15] IN  - Populate Prompt     | WDþ12ýþ
+[20170503 10:55:15] IN  - (un)Lock Screen     | WLSþ0
+[20170503 10:55:15] IN  - Populate & Prompt   | WPDþ1ýþ0

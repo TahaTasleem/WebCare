@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="30.1299" y1="5.8315" x2="42.4136" y2="18.1901">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.3757" style="stop-color:#FDFEFE"/>
+		<stop  offset="0.5223" style="stop-color:#F6F9FC"/>
+		<stop  offset="0.6289" style="stop-color:#EAF1F9"/>
+		<stop  offset="0.7161" style="stop-color:#D9E6F3"/>
+		<stop  offset="0.7914" style="stop-color:#C2D8ED"/>
+		<stop  offset="0.8586" style="stop-color:#A6C6E4"/>
+		<stop  offset="0.9196" style="stop-color:#85B0DA"/>
+		<stop  offset="0.9743" style="stop-color:#6098CF"/>
+		<stop  offset="1" style="stop-color:#4C8BC9"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" points="46.711,13.919 38.201,17.733 33.079,17.394 30.643,12.271 33.537,2.445 39.152,8.457 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-29.4185" y1="-29.6992" x2="73.8856" y2="74.2338">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.3757" style="stop-color:#FDFEFE"/>
+		<stop  offset="0.5223" style="stop-color:#F6F9FC"/>
+		<stop  offset="0.6289" style="stop-color:#EAF1F9"/>
+		<stop  offset="0.7161" style="stop-color:#D9E6F3"/>
+		<stop  offset="0.7914" style="stop-color:#C2D8ED"/>
+		<stop  offset="0.8586" style="stop-color:#A6C6E4"/>
+		<stop  offset="0.9196" style="stop-color:#85B0DA"/>
+		<stop  offset="0.9743" style="stop-color:#6098CF"/>
+		<stop  offset="1" style="stop-color:#4C8BC9"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" stroke="#233A74" stroke-miterlimit="10" d="M46.719,12.741l-11.54-11.54
+		c-0.181-0.18-0.425-0.281-0.68-0.281H13.342c-0.531,0-0.961,0.43-0.961,0.961v44.237c0,0.53,0.43,0.962,0.961,0.962h32.697
+		c0.532,0,0.961-0.432,0.961-0.962V13.421C47,13.166,46.899,12.922,46.719,12.741z M34.499,14.383c-0.532,0-0.962-0.43-0.962-0.961
+		c0-1.153,0-9.828,0-10.977l11.938,11.938C43.182,14.383,36.743,14.383,34.499,14.383z"/>
+</g>
+<line fill="none" stroke="#2777BD" stroke-width="2" stroke-miterlimit="10" x1="18.077" y1="18.126" x2="40.677" y2="18.126"/>
+<line fill="none" stroke="#2777BD" stroke-width="2" stroke-miterlimit="10" x1="18.077" y1="37.693" x2="40.677" y2="37.693"/>
+<line fill="none" stroke="#2777BD" stroke-width="2" stroke-miterlimit="10" x1="18.077" y1="31.171" x2="40.677" y2="31.171"/>
+<line fill="none" stroke="#2777BD" stroke-width="2" stroke-miterlimit="10" x1="18.077" y1="24.648" x2="40.677" y2="24.648"/>
+<g>
+	<g opacity="0.77">
+		
+			<text transform="matrix(0.9998 -0.0207 0.0207 0.9998 1.9995 43.8594)" stroke="#000000" stroke-miterlimit="10" font-family="'FranklinGothic-Demi'" font-size="53">?</text>
+	</g>
+	<g>
+		
+			<text transform="matrix(0.9998 -0.0207 0.0207 0.9998 0.9995 42.8594)" fill="#158542" stroke="#010101" stroke-miterlimit="10" font-family="'FranklinGothic-Demi'" font-size="53">?</text>
+	</g>
+</g>
+</svg>

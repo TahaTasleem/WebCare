@@ -1,0 +1,7 @@
+{% set inband = True %}
+{% for myband in [band] recursive %}
+	{% set outer_loop = loop %}
+	{% for tool in myband.tools recursive %}
+		{% include "commandbartool.html" %}
+	{% endfor %}
+{% endfor %}

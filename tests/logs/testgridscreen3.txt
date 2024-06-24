@@ -1,0 +1,41 @@
+[20170113 16:07:28] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170113 16:07:28] IN  - Auto Complete       | WACþAXIS.PCA.LOG.LEVELþADDý
+[20170113 16:07:28] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170113 16:07:28] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ313 CAA.DEV AS CDBOU
+[20170113 16:07:28] IN  - Define Grid         | WWþ9þ47þ11þ83þ9þ9þDþþNþN
+[20170113 16:07:28] IN  - Define Grid         | WWþ14þ3þ19þ83þ10þ10þDþþNþN
+[20170113 16:07:28] IN  - Define Prompt       | WPþ1þ5þ2þPortal Server:þ5þ18þLý150ý25þDþTEXTþMachine name (as in /etc/hosts) or IP address of the portal serverþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ2þ6þ2þPort Number:þ6þ18þLý150ý10þDþINTþPort number that the portal's router runs onþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ3þ7þ2þPool Code:þ7þ18þLý150ý10þDþTEXTþCode for pool that handles PCA requestsþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ4þ8þ2þConnect Timeout (ms):þ8þ18þLý150ý10þDþINTþConnection timeout (milliseconds)þ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ5þ10þ4þFile Name:þ10þ15þLý100ý28þDþTEXTþName of file containing the Client Security Context Record certificateþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ6þ11þ4þPassword:þ11þ15þLý150ý28þDþPASSWORDþPassword required for retrieving Client Security Context Record certificate informationþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ7þ4þ47þAuthorization Token:þ4þ64þLý150ý20þDþTEXTþAuthorization token for this AXIS serverþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ8þ5þ47þLog Level:þ5þ64þLý150ý7þDþTABLEþPCA Log Level: code, ?? for tableþDDDýAC.LISTüAXIS.PCA.LOG.LEVELüINORDER
+[20170113 16:07:28] IN  - Define Prompt       | WPþ9þ9þ46þþ9þ47þLý150ý35þDþTEXTþEmail address to which PCA should send notification when manual intervention is requiredþ
+[20170113 16:07:28] IN  - Define Prompt       | WPþ10þ14þ2þþ14þ3þLý150ý80þDþWPþERSDD PCA Public KeyþEDIT.PARMSüNO.BREAK
+[20170113 16:07:28] IN  - Define Group Box    | WGBþGBOX1þ4þ1þ12þ44þPortal
+[20170113 16:07:28] IN  - Define Text         | WTþ1þ9þ2þClient Security Context Record Certificateþ
+[20170113 16:07:28] IN  - Define Group Box    | WGBþGBOX3þ8þ46þ12þ85þSupport Email
+[20170113 16:07:28] IN  - Define Group Box    | WGBþGBOX4þ13þ1þ20þ85þERSDD PCA Public Key
+[20170113 16:07:28] IN  - Command             | WCþCLEARALLþ9
+[20170113 16:07:28] IN  - Command             | WCþCLEARALLþ10
+[20170113 16:07:28] IN  - Define Text         | WTþ2þ3þ30þ PCA Portal Setup þINVERSE
+[20170113 16:07:28] IN  - Auto Complete       | WACþAXIS.PCA.LOG.LEVELþCLEAR
+[20170113 16:07:28] IN  - Auto Complete       | WACþAXIS.PCA.LOG.LEVELþADDý
+[20170113 16:07:28] IN  - Define Prompt       | WPþ8þ5þ47þLog Level:þ5þ64þLý150ý7þDþTABLEþPCA Log Level: code, ?? for tableþDDDýAC.LISTüT34.AC.LIST
+[20170113 16:07:28] IN  - Auto Complete       | WACþT34.AC.LISTþADDý0ü5ü10
+[20170113 16:07:28] IN  - (un)Lock Screen     | WLSþ1
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ1ýþcmwls-pcavm
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ2ýþ46200
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ3ýþPCA
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ4ýþ30000
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ5ýþpadss4096-tls12-c.scr
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ6ýþcsi99!!
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ7ýþ005276060530
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ8ýþ5
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ9ýþcampana
+[20170113 16:07:28] IN  - Populate Prompt     | WDþ10ýþB2F0C5D58ED26AD6EA7AB72FDECF21AFE3BA7A54AE67D0177625F3A8F962766B49F99F991E2A4C1C83152B2F23CCF8286FC85B75A9029E430702DE79B0D7736EED84E669E08AD16109DDA74A1AEB206BD6F09C708052928DFCC8255EBB70C26A91623CA2BA51411DFF33435FF3DA9E32B01C2209D1F55C45EE5D3D4C87D124A2963C90DE11FED4EB7F71C259C18DA1F2486D8782E2EF350C3000EA9B9E56B44AF7D114851C4EE24349F5168B979D1FE2F70862584F4D2BB04D78099E8C208B07227BFDDA33DDDF79B7AC58C3297D6905AEB3AE33B98CD27004BE690DDBFE8DC15D1B40FCBCF386D95D9268B07520E459A58ECFB1186F890A67AAA57B291FA12F
+[20170113 16:07:28] IN  - (un)Lock Screen     | WLSþ0
+[20170113 16:07:28] IN  - Screen Command      | WSCþSHOW
+[20170113 16:07:28] IN  - Wait On Button      | WWBþOK

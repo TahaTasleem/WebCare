@@ -1,0 +1,19 @@
+[20170113 16:46:19] IN  - Screen              | WSþ0þ2þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20170113 16:46:19] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170113 16:46:19] IN  - Header              | WHþAXIS SYSTEM PARAMETERSþ313 CAA.DEV AS CDBOU
+[20170113 16:46:19] IN  - Define Grid         | WWþ5þ2þ19þ76þ3þ4þMSþþNþC
+[20170113 16:46:19] IN  - Define Prompt       | WPþ1þ4þ1þBranch:þ4þ8þLý150ý28þSþþBranchþ
+[20170113 16:46:19] IN  - Define Prompt       | WPþ2þ4þ41þTeller:þ4þ47þLý150ý30þSþþTellerþ
+[20170113 16:46:19] IN  - Define Prompt       | WPþ3þ5þ2þUse Workspace for:þ6þ2þLý150ý70þSþþUse Workspace forþ
+[20170113 16:46:19] IN  - Define Prompt       | WPþ4þ5þ72þþ6þ71þLý150ý2þSþCHECKBOXþþDISPLAY_TYPEüCHECKBOXýEDIT.PARMSüCHECKED.VALUEüYüUNCHECKED.VALUEüN
+[20170113 16:46:19] IN  - Define Text         | WTþ1þ3þ34þ WORKSPACE þINVERSE
+[20170113 16:46:19] IN  - Define Button       | WDBþ10þCý<img= >VersionsýEýSWS.VERSIONýýYýýýSWS.VERSION
+[20170113 16:46:19] IN  - Command             | WCþCLEARALLþ3
+[20170113 16:46:19] IN  - (un)Lock Screen     | WLSþ1
+[20170113 16:46:19] IN  - Populate Prompt     | WDþ1ýþALL
+[20170113 16:46:19] IN  - Populate Prompt     | WDþ2ýþALL
+[20170113 16:46:19] IN  - Populate Prompt     | WDþ3ýþMEM Change/InquirysýMEM RefundsýMEM ReversalsýService Workspace (Client Info landing tab)ýService Workspace (Navigator landing tab)ýMRTSýSmartAddressýAXIS DiaryýSUN
+[20170113 16:46:19] IN  - Populate Prompt     | WDþ4ýþýýýýý*
+[20170113 16:46:19] IN  - (un)Lock Screen     | WLSþ0
+[20170113 16:46:19] IN  - Screen Command      | WSCþSHOW
+[20170113 16:46:19] IN  - Wait On Button      | WWBþOK

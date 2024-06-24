@@ -1,0 +1,26 @@
+{% set groupboxtopadj = 0 %}
+{% if not groupbox.singleline %}
+{% set groupboxtopadj = 0.25 %}
+{% endif %}
+{%- if True -%}
+{
+	"caption": "{{ groupbox.caption }}",
+	"height": "{{ groupbox.height }}em",
+	"id": "{{groupbox.getid()}}",
+	"left": "{{ (100 * ((groupbox.startcol - screen.startcol) | convertcolunittoem) / screen.guiwidth) | round(2) }}%",
+	"singleline": {{groupbox.singleline | py2js}},
+	"top": " {{ (groupbox.startrow - screen.startrow - groupboxtopadj) | convertrowunittoem }}em",
+	"width": "{{ (100 * groupbox.width / screen.guiwidth) | round(2) }}%"
+}
+{%- else -%}
+<div id="{{groupbox.getid()}}_border" class="groupboxborder" style="height: {{ groupbox.height }}em;
+			width: {{ (100 * groupbox.width / screen.guiwidth) | round(2) }}%;
+			top: {{ (groupbox.startrow - screen.startrow - groupboxtopadj) | convertrowunittoem }}em;
+			left: {{ (100 * ((groupbox.startcol - screen.startcol) | convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+</div>
+<div id="{{groupbox.getid()}}" class="groupbox {%if groupbox.singleline %}singlegroupbox{% endif %}" style="width: {{ (100 * groupbox.width / screen.guiwidth) | round(2) }}%;
+			top: {{ (groupbox.startrow - screen.startrow - groupboxtopadj) | convertrowunittoem }}em;
+			left: {{ (100 * ((groupbox.startcol - screen.startcol) | convertcolunittoem) / screen.guiwidth) | round(2) }}%;">
+    <span class="groupboxcaption">{{groupbox.caption}}</span>
+</div>
+{% endif %}

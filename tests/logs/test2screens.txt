@@ -1,0 +1,64 @@
+[20161110 14:21:53] IN  - Screen              | WSþ0þ1þMAINþ3þ0þ20þ79þBOXþSGþþ
+[20161110 14:21:55] IN  - Auto Complete       | WACþUSER.KEYþADDýCT1
+[20161110 14:21:55] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161110 14:21:55] IN  - Header              | WHþþ313 CAA.DEV AS CDBOU
+[20161110 14:21:55] IN  - Define Prompt       | WPþ1þ4þ1þAXIS User:þ4þ12þLý150ý13þDþTABLEþAXIS user: code, ?? for tableþDDDýAC.LISTüUSER.KEYüINORDER
+[20161110 14:21:55] IN  - Define Prompt       | WPþ2þ-1þ-1þþ4þ25þLý150ý35þSþþþ
+[20161110 14:21:55] IN  - Define Button       | WDBþ10þCý<img= >Copy UserýEýCOPY.USER.CMDýýYýýýCOPY USER
+[20161110 14:21:55] IN  - (un)Lock Screen     | WLSþ1
+[20161110 14:21:55] IN  - Populate Prompt     | WDþ1ýþ
+[20161110 14:21:55] IN  - Populate Prompt     | WDþ2ýþ
+[20161110 14:21:55] IN  - (un)Lock Screen     | WLSþ0
+[20161110 14:21:55] IN  - Header              | WHþMaintain AXIS Userþ313 CAA.DEV AS CDBOU
+[20161110 14:21:55] IN  - Screen Command      | WSCþSHOW
+[20161110 14:21:55] IN  - Populate & Prompt   | WPDþ1ýþ
+[20161110 14:21:58] OUT - Data Sent To Host   | cdbouþ
+[20161110 14:21:58] IN  - Auto Complete       | WACþUSER.KEYþADDýCDBOU
+[20161110 14:21:58] IN  - Populate Prompt     | WDþ1ýþCDBOU
+[20161110 14:21:58] IN  - (un)Lock Screen     | WLSþ1
+[20161110 14:21:58] IN  - Populate Prompt     | WDþ1ýþCDBOU
+[20161110 14:21:58] IN  - Populate Prompt     | WDþ2ýþClayton Boucher
+[20161110 14:21:58] IN  - (un)Lock Screen     | WLSþ0
+[20161110 14:21:58] IN  - Define Prompt       | WPþ3þ22þ0þBasic1|Basic2|Logon|Links|Workspace|Passwordþ22þ0þL#78ýý3þPLþþBasic1 | Basic2 | Logon | Links | Workspace | Password | Update | Delete | Quit
+[20161110 14:21:58] IN  - Populate Prompt     | WDþ3ýþBASIC1
+[20161110 14:21:58] IN  - Screen              | WSþ0þ2þMAINþ5þ0þ20þ79þBOXþSGþþ
+[20161110 14:22:00] IN  - Auto Complete       | WACþITEM.STATUSþADDýCDBOUüCT1
+[20161110 14:22:00] IN  - Define Button       | WDBþ13þCý<img= >DeleteýEýWGUF:1:3:DELETEýýYýýýDELETE
+[20161110 14:22:00] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20161110 14:22:00] IN  - Header              | WHþMaintain AXIS Userþ313 CAA.DEV AS CDBOU
+[20161110 14:22:00] IN  - Define Prompt       | WPþ1þ6þ1þName:þ6þ27þLý150ý49þDþTEXTþNameþ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ2þ7þ1þPosition/Title:þ7þ27þLý150ý49þDþTEXTþA brief description of this user's position or title within the company.þ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ3þ8þ1þPhone Number:þ8þ27þLý150ý14þDþPHONEþPhone Numberþ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ4þ9þ1þFax Number:þ9þ27þLý150ý14þDþPHONEþPhone Numberþ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ5þ10þ1þEmail Address:þ10þ27þLý150ý30þDþMAIL.CHECKþEnter Email Address.þ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ6þ11þ1þLogin Type:þ11þ26þLý150ý50þDþRADIO.BUTTONþLogin TypeþRADIO.BUTTONSüARRANGE=MANUALüITEM=OS,UNIX/LDAP User,L,11,27,üITEM=AXIS,Local AXIS User,L,11,43,
+[20161110 14:22:00] IN  - Define Prompt       | WPþ7þ12þ1þUNIX Logon:þ12þ27þLý150ý14þDþTEXTþUNIX logon : UNIX user, ?? for tableþ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ8þ13þ1þDisplay POS Teller Table:þ13þ27þLý150ý3þDþNORYþDisplay teller table in POS: (Y/N)þ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ9þ14þ1þStatus:þ14þ27þLý150ý14þDþSTATUSþStatus: code, ?? for tableþDDDýAC.LISTüITEM.STATUSüINORDER
+[20161110 14:22:00] IN  - Define Prompt       | WPþ10þ18þ1þRequest Person:þ18þ27þLý150ý30þDþTEXTþName of person requesting User ID: nameþ
+[20161110 14:22:00] IN  - Define Prompt       | WPþ11þ19þ1þRequest Person Email:þ19þ27þLý150ý30þDþMAIL.CHECKþEmail of person requesting User ID: Email addressþ
+[20161110 14:22:00] IN  - Define Group Box    | WGBþGBOX1þ17þ0þ20þ74þUser ID setup
+[20161110 14:22:00] IN  - Define Text         | WTþ1þ5þ35þ Basic 1 þINVERSE
+[20161110 14:22:00] IN  - Define Button       | WDBþ10þCý<img= >NotifyýEýNOTIFY.SETUP.COMPLETED.CMDýýYý18ý59ýNOTIFY.SETUP.COMPLETED.BTNýýýýý1.75ý12.5ýýý
+[20161110 14:22:00] IN  - Define Prompt       | WPþ7þ12þ1þUNIX Logon:þ12þ27þLý150ý14þDþTEXTþUNIX logon : UNIX user, ?? for tableþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ7ýþbouchcla
+[20161110 14:22:00] IN  - (un)Lock Screen     | WLSþ1
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ1ýþClayton Boucher
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ2ýþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ3ýþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ4ýþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ5ýþclayton.boucher@campana.com
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ6ýþOS
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ7ýþbouchcla
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ8ýþN
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ9ýþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ10ýþ
+[20161110 14:22:00] IN  - Populate Prompt     | WDþ11ýþclayon.boucher@campana.com
+[20161110 14:22:00] IN  - (un)Lock Screen     | WLSþ0
+[20161110 14:22:00] IN  - Screen Command      | WSCþSHOW
+[20161110 14:22:00] IN  - Wait On Button      | WWBþOK
+[20161110 14:40:35] IN  - Non-Packet Data     | This is crap data
+[20161110 14:40:35] IN  - Non-Packet Data     | And more crap data!
+[20161110 14:22:01] **************************************************************************************
+[20161110 14:22:01] Log Ended: 2016-11-10 02:22:01 PM
+[20161110 14:22:01] **************************************************************************************

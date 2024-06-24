@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://axial.campana.com/pydist/"
+verify_ssl = true
+name = "campana"
+
+[packages]
+click = "~=8.0"
+paramiko = "~=3.4"
+csipyutils = {version = "~=1.1",index = "campana"}
+Flask = "~=2.0"
+Flask-SocketIO = "~=5.1"
+pyinstaller = "*"
+dnspython = "*"
+eventlet = "~=0.33"
+
+[dev-packages]
+"autopep8" = "~=1.5"
+"nose2" = "~=0.9"
+pylint = "~=2.5"
+rope = "*"
+pillow = "~=10.3.0"
+
+[requires]
+python_version = "3.9"

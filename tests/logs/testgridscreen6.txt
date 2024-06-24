@@ -1,0 +1,542 @@
+[20170116 10:47:20] IN  - Screen              | WSþ0þ2þMAINþ2þ0þ26þ95þBOXþSGþþVNN
+[20170116 10:47:20] IN  - Auto Complete       | WACþDOC$RQH.CODEþADDýCDBOUüSAWüKSL
+[20170116 10:47:20] IN  - Application Command | WAþRESIZEþ26þ96
+[20170116 10:47:20] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170116 10:47:20] IN  - Header              | WHþHandle Requestþ313 CAA.DEV AS CDBOU
+[20170116 10:47:20] IN  - Define Grid         | WWþ4þ1þ23þ94þ3þ12þMSþþNþC9-12
+[20170116 10:47:20] IN  - Define Prompt       | WPþ1þ-1þ-1þþ-1þ-1þLý150ý13þDþTABLEþRequest handler: code, ?? for tableþDDDýAC.LISTüDOC$RQH.CODEüINORDER
+[20170116 10:47:20] IN  - Define Prompt       | WPþ3þ4þ1þRequestþ5þ1þLý150ý8þSþþRequestþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ4þ4þ10þMemberþ5þ10þLý150ý40þSþWPþMemberþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ5þ4þ41þContactþ4þ40þLý150ý8þSþþContactþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ6þ4þ50þReq Typeþ5þ50þLý150ý12þSþþReq Typeþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ7þ4þ56þDateþ5þ50þLý150ý8þSþþDateþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ8þ4þ64þStsþ5þ64þLý150ý4þSþþStsþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ9þ4þ68þHandleþ5þ64þLý150ý5þSþþHandleþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ12þ6þ89þþ5þ88þLý150ý2þSþCHECKBOXþþDISPLAY_TYPEüCHECKBOXýEDIT.PARMSüCHECKED.VALUEüYüUNCHECKED.VALUEüN
+[20170116 10:47:20] IN  - Define Prompt       | WPþ13þ25þ2þRequest Count:þ25þ14þRý150ý4þSþþRequest Countþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ14þ4þ98þþ8þ93þLý150ý4þDþRADIO.BUTTONþSort byþRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98,üITEM=M,Member #,L,5.9,98,üITEM=T,Request Type,L,6.9,98,üITEM=D,Date,L,7.9,98,üITEM=S,Status,L,8.9,98,üITEM=H,Handler,L,9.9,98,üITEM=O,Default Order,L,10.9,98,
+[20170116 10:47:20] IN  - Define Group Box    | WGBþGBOX1þ4þ96þ13þ111þSort By
+[20170116 10:47:20] IN  - Define Button       | WDBþ10þCý<img= >Select AllýEýSELECT.ALLýýYý24.5ý74ýSELECT.ALLþCý<img= >Select NoneýEýSELECT.NONEýýYý24.5ý85ýSELECT.NONEþCý<img= >RefreshýEýWGUF:2:15:REFRESHýýYý26.20ý92ýREFRESHýýýýý1.35ý10þCý<img= >QuitýEýWGUF:2:15:QUITýýYýýýQUITþCý<img= >InquiryýEýWGUF:2:15:INQUIRYýýYýýýINQUIRYþCý<img= >EntryýEýWGUF:2:15:ENTRYýýYýýýENTRYþCý<img= >AssignýEýWGUF:2:15:ASSIGNýýYýýýASSIGNþCý<img= >ChangeýEýWGUF:2:15:CHANGEýýYýýýCHANGEþCý<img= >HandleýEýWGUF:2:15:HANDLEýýYýýýHANDLE
+[20170116 10:47:20] IN  - Command             | WCþCLEARALLþ3
+[20170116 10:47:20] IN  - Define Prompt       | WPþ14þ4þ98þþ8þ93þLý150ý4þSþRADIO.BUTTONþSort byþRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98,üITEM=M,Member #,L,5.9,98,üITEM=T,Request Type,L,6.9,98,üITEM=D,Date,L,7.9,98,üITEM=S,Status,L,8.9,98,üITEM=H,Handler,L,9.9,98,üITEM=O,Default Order,L,10.9,98,
+[20170116 10:47:20] IN  - Define Button       | WCBþý<img= >CloseýýýýýýýQUITýýýýýýýýý
+[20170116 10:47:20] IN  - Define Button       | WDBþ10þCý<img= >DepartmentýEýWGUF:2:15:DEPARTMENTýýNýýýDEPARTMENTýýýýýýýýý
+[20170116 10:47:20] IN  - Define Button       | WDBþ10þCý<img= >Close RequestýEýWGUF:2:15:CLOSE.REQUESTýýNýýýCLOSE.REQUESTýýýýýýýýý
+[20170116 10:47:20] IN  - Define Prompt       | WPþ14þ4þ98þþ8þ93þLý150ý4þSþRADIO.BUTTONþSort byþRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98,üITEM=M,Member #,L,5.9,98,üITEM=T,Request Type,L,6.9,98,üITEM=D,Date,L,7.9,98,üITEM=S,Status,L,8.9,98,üITEM=H,Handler,L,9.9,98,üITEM=O,Default Order,L,10.9,98,ýRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98üITEM=M,Member #,L,5.9,98üITEM=C,Contact Type,L,6.9,98üITEM=T,Request Type,L,7.9,98üITEM=D,Date,L,8.9,98üITEM=S,Status,L,9.9,98üITEM=H,Handler,L,10.9,98üITEM=O,Default Order,L,11.9,98ü
+[20170116 10:47:20] IN  - (un)Lock Screen     | WLSþ1
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ3ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ4ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ5ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ6ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ7ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ8ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ9ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ12ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ13ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ14ýþO
+[20170116 10:47:20] IN  - (un)Lock Screen     | WLSþ0
+[20170116 10:47:20] IN  - Screen Command      | WSCþSHOW
+[20170116 10:47:20] IN  - Screen              | WSþ0þ3þMAINþ7þ14þ14þ65þBOXþSGþþ
+[20170116 10:47:20] IN  - Auto Complete       | WACþT.ID.TELLERþADDýCDBOUüSAWüKSL
+[20170116 10:47:20] IN  - Auto Complete       | WACþDOC$CLUB.NOþADDý084
+[20170116 10:47:20] IN  - Auto Complete       | WACþT.ID.BRANCHþADDýK
+[20170116 10:47:20] IN  - Auto Complete       | WACþT.ID.CASH.DRAWERþADDýK1
+[20170116 10:47:20] IN  - Auto Complete       | WACþDOC$CHANNELþADDýP
+[20170116 10:47:20] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170116 10:47:20] IN  - Header              | WHþHandle Requestþ313 CAA.DEV AS CDBOU
+[20170116 10:47:20] IN  - Define Prompt       | WPþ1þ9þ17þþ9þ30þLý150ý9þDþTELLERþTeller ID: code, search string, ?? for tableþDDDýAC.LISTüT.ID.TELLERüINORDER
+[20170116 10:47:20] IN  - Define Prompt       | WPþ2þ9þ38þþ9þ40þLý150ý27þSþþþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ3þ10þ17þPassword:þ10þ30þLý150ý9þDþPASSWORDþPasswordþ
+[20170116 10:47:20] IN  - Define Prompt       | WPþ4þ11þ17þClub:þ11þ30þLý150ý9þDþCLUBþClub Number: code, ?? for tableþDDDýAC.LISTüDOC$CLUB.NOüINORDER
+[20170116 10:47:20] IN  - Define Prompt       | WPþ5þ11þ34þþ11þ40þLý150ý27þSþþþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ5ýþAAA WESTERN AND CENTRAL NEW YORK
+[20170116 10:47:20] IN  - Define Text         | WTþ1þ7þ32þ Teller Logon þINVERSE
+[20170116 10:47:20] IN  - Define Prompt       | WPþ1þ9þ17þTeller ID:þ9þ30þLý150ý9þDþTELLERþTeller ID: code, search string, ?? for tableþDDDýAC.LISTüT.ID.TELLERüINORDER
+[20170116 10:47:20] IN  - Define Prompt       | WPþ1þ9þ17þTeller ID:þ9þ30þLý150ý9þDþTELLERþTeller ID: code, search string, ?? for tableþDDNýAC.LISTüT.ID.TELLERüINORDER
+[20170116 10:47:20] IN  - (un)Lock Screen     | WLSþ1
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ1ýþCDBOU
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ2ýþCarlita Denise Bride Of Ulysses
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ3ýþ
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ4ýþ084
+[20170116 10:47:20] IN  - Populate Prompt     | WDþ5ýþAAA WESTERN AND CENTRAL NEW YORK
+[20170116 10:47:20] IN  - (un)Lock Screen     | WLSþ0
+[20170116 10:47:20] IN  - Screen Command      | WSCþSHOW
+[20170116 10:47:20] IN  - Populate & Prompt   | WPDþ1ýþCDBOU
+[20170116 10:47:21] OUT - Data Sent To Host   | sawþ
+
+[20170116 10:47:21] IN  - Auto Complete       | WACþT.ID.TELLERþADDýSAW
+[20170116 10:47:21] IN  - Populate Prompt     | WDþ1ýþSAW
+[20170116 10:47:21] IN  - Populate Prompt     | WDþ2ýþSHERRY WRAIGHT
+[20170116 10:47:21] IN  - Populate Prompt     | WDþ5ýþAAA WESTERN AND CENTRAL NEW YORK
+[20170116 10:47:21] IN  - Populate & Prompt   | WPDþ4ýþ084
+[20170116 10:47:22] OUT - Data Sent To Host   |
+
+[20170116 10:47:22] IN  - Auto Complete       | WACþDOC$CLUB.NOþADDý084
+[20170116 10:47:22] IN  - Populate Prompt     | WDþ4ýþ084
+[20170116 10:47:22] IN  - Populate Prompt     | WDþ5ýþAAA WESTERN AND CENTRAL NEW YORK
+[20170116 10:47:22] IN  - Close Screen(s)     | WXþ0þ3
+[20170116 10:47:22] IN  - Define Prompt       | WPþ14þ4þ98þþ8þ93þLý150ý4þDþRADIO.BUTTONþSort byþRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98,üITEM=M,Member #,L,5.9,98,üITEM=T,Request Type,L,6.9,98,üITEM=D,Date,L,7.9,98,üITEM=S,Status,L,8.9,98,üITEM=H,Handler,L,9.9,98,üITEM=O,Default Order,L,10.9,98,ýRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98üITEM=M,Member #,L,5.9,98üITEM=C,Contact Type,L,6.9,98üITEM=T,Request Type,L,7.9,98üITEM=D,Date,L,8.9,98üITEM=S,Status,L,9.9,98üITEM=H,Handler,L,10.9,98üITEM=O,Default Order,L,11.9,98ü
+[20170116 10:47:22] IN  - Menubar Command     | WMBþHIDE
+[20170116 10:47:22] IN  - Screen              | WSþ0þ3þMAINþ7þ31þ13þ48þBOXþSGþþVNN
+[20170116 10:47:22] IN  - Mail Status         | WMSþSENDüEüEMAILýICONüýHIDE
+[20170116 10:47:22] IN  - Header              | WHþHandle Requestþ313 CAA.DEV AS CDBOU
+[20170116 10:47:22] IN  - Define Prompt       | WPþ1þ8þ40þþ11þ40þLý150ý21þDþþManual Entryþ
+[20170116 10:47:22] IN  - Define Text         | WTþ1þ8.7þ34þMSG_MAN.ICOþIMAGE
+[20170116 10:47:22] IN  - Define Text         | WTþ2þ9þ40þDepartment: þTAG
+[20170116 10:47:22] IN  - Define Text         | WTþ3þ9.7þ40þAT,WEB,CM,ERS,K,TCS,MEM,TESTþTAG
+[20170116 10:47:22] IN  - Define Prompt       | WPþ1þ8þ40þþ11þ40þLý150ý21þDþONLYþþ
+[20170116 10:47:22] IN  - Define Button       | WDBþ10þCý<img= >OKýEýF2ýýYý12.6ý40.0ýOKýýýýý1.2ý9.8ýýý
+[20170116 10:47:22] IN  - Define Button       | WDBþ10þCý<img= >CancelýEýF4ýýYý12.6ý51.2ýCANCELýýýýý1.2ý9.8ýýý
+[20170116 10:47:22] IN  - Define Text         | WTþ4þ7þ26þ Entry þINVERSE
+[20170116 10:47:22] IN  - (un)Lock Screen     | WLSþ1
+[20170116 10:47:22] IN  - Populate Prompt     | WDþ1ýþ
+[20170116 10:47:22] IN  - (un)Lock Screen     | WLSþ0
+[20170116 10:47:22] IN  - Screen Command      | WSCþSHOW
+[20170116 10:47:22] IN  - Populate & Prompt   | WPDþ1ýþ
+[20170116 10:47:23] OUT - Data Sent To Host   | atþ
+
+[20170116 10:47:23] IN  - Close Screen(s)     | WXþ0þ3
+[20170116 10:47:23] IN  - Define Prompt       | WPþ14þ4þ98þþ8þ93þLý150ý4þDþRADIO.BUTTONþSort byþRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98,üITEM=M,Member #,L,5.9,98,üITEM=T,Request Type,L,6.9,98,üITEM=D,Date,L,7.9,98,üITEM=S,Status,L,8.9,98,üITEM=H,Handler,L,9.9,98,üITEM=O,Default Order,L,10.9,98,ýRADIO.BUTTONSüARRANGE=MANUALüITEM=R,Request #,L,4.9,98üITEM=M,Member #,L,5.9,98üITEM=C,Contact Type,L,6.9,98üITEM=T,Request Type,L,7.9,98üITEM=D,Date,L,8.9,98üITEM=S,Status,L,9.9,98üITEM=H,Handler,L,10.9,98üITEM=O,Default Order,L,11.9,98ü
+[20170116 10:47:23] IN  - Define Text         | WTþ1þ2þ29þ Request Handler SAW , Department AT þINVERSE
+[20170116 10:47:23] IN  - (un)Lock Screen     | WLSþ1
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ3ýþ1971ý3929ý3930ý3931ý3932ý3933ý3942ý3943ý3944ý3945ý3946ý3948ý3967ý3968ý3969ý3971ý3974ý3992ý4004ý4005ý4006ý4007ý4024ý4043ý4044ý4046ý4047ý4048ý4049ý4057ý4058ý4059ý4060ý4061ý4062ý4064ý4065ý4066ý4067ý4069ý4071ý4072ý4073ý4074ý4075ý4076ý4077ý4080ý4184ý4188ý4642ý4670ý4701ý4702ý4703ý4704ý4708ý4709ý4710ý4711ý4765ý4788ý5053ý5181ý5191ý5311ý5337ý5360ý5361ý5363ý5364ý5365ý6241ý6242ý6243ý6244ý6245ý6246ý6247ý6248ý6249ý6255ý4972ý4223ý1336ý914ý915ý960ý2281ý3982ý4016ý4017ý4018ý4021ý4031ý4033ý1589ý1606ý1660ý4078ý4220ý5815ý5837ý1831ý1313ý1321ý1331ý1612ý1761ý3980ý4001ý4002ý4022ý1522ý1654ý1833ý3877ý3879ý3902ý3903ý3904ý3905ý3906ý3907ý3965ý3966ý3972ý3978ý4010ý4011ý4012ý4063ý4070ý4695ý4696ý4697ý4700ý4712ý4713ý4920ý4974ý4975ý4976ý4977ý4978ý4979ý4980ý4981ý4982ý4983ý4984ý4985ý4986ý4987ý4988ý4989ý4990ý5037ý5041ý5100ý5101ý5102ý5103ý5104ý5107ý5108ý5109ý5135ý5241ý5242ý5243ý5244ý5245ý5313ý5339ý5340ý5871ý6128ý6262ý6263ý6264ý6265ý6266ý6267ý6268ý6269ý6270ý6271ý6272ý6273ý6274ý6275ý6276ý6277ý6278ý6279ý6280ý6281ý6282ý6283ý6284ý6285ý6286ý6287ý6288ý4014
+[20170116 10:47:23] IN  - Status Bar          | WSBþINITþComplete
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ4ýþSAM BLACK (PP10259)
+ROAD MAP
+Last Action : 14 MAY 2013 Diary task completýBAYLEY WRAIGHT (4423842)
+TEST NEW MRTS
+Last Action : 08 JAN 2016 Original client 28ýROY W JONES (7794988)                             ***
+TEST 3RD REQUEST
+Last Action : 27 FEB 2012 SLVýROY W JONES (7794988)                             ***
+TEST 4TH TIME
+Last Action : 27 FEB 2012 SLVýROY W JONES (7794988)                             ***
+TEST NUMBER 5 TESTING MORE DESC AND MORE ADDES
+Last Action : 27 FEB 2012 SLVýBAYLEY WRAIGHT (4423842)
+SIXTH TEST MORE DESCRIPTION BEING APPENDED
+Last Action : 08 JAN 2016 Original client 28ýMS HANK HILL (MEMBERS)                            ***
+BRANCH COMPLAINT
+Last Action : 17 APR 2012 KABýBAYLEY WRAIGHT (4423842)                          ***
+BRANCH COMPLAINT
+Last Action : 08 JAN 2016 Original client 28ýART VANDELAY (4412317)                            ***
+BRANCH COMPLAINT
+Last Action : 18 APR 2012 KABýART VANDELAY (4412317)                            ***
+BRANCH COMPLAINT
+Last Action : 18 APR 2012 KABýMR ART VANDALAY (MEMBERS)                         ***
+TRAVEL
+Last Action : 18 APR 2012 KABýMR ART VANDALAY (4412317)                         ***
+BRANCH COMPLAINT
+Last Action : 18 APR 2012 KABýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 17 JUL 2012 SAWýSHERRY WRAIGHT (4078015)                          ***
+Travel Lead
+Last Action : 08 JAN 2016 Original client 28ýMARION KENNEDY (4423835)                          ***
+Travel Lead
+Last Action : 09 JAN 2016 Original client 28ýBAYLEY WRAIGHT (4423842)                          ***
+Travel Lead
+Last Action : 08 JAN 2016 Original client 28ýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 20 JUL 2012 SAWýJOHN SMITH (4424341)                              ***
+Travel Lead
+Last Action : 27 AUG 2012 First contact estaýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead THE ADDITIONAL NOTES
+Last Action : 06 SEP 2012 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+Travel Lead NTOES
+Last Action : 04 JAN 2016 Original client 28ýBAYLEY WRAIGHT (4423842)                          ***
+Travel Lead NEW NOTES
+Last Action : 31 DEC 2015 Original client 28ýSHERRY WRAIGHT (1078015)                          ***
+TRAVEL LEAD NOTES
+Last Action : 06 SEP 2012 Reassigned DepartmýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 SEP 2015 test ýBAYLEY WRAIGHT (4423842)                          ***
+Complaint
+Last Action : 08 JAN 2016 Original client 27ýMR JOHN VOLL (0200900)                            ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 31 DEC 2015 Original client 27ýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+Complaint
+Last Action : 31 DEC 2015 Original client 27ýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 Reassigned DepartmýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 03 OCT 2012 Reassigned DepartmýJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 05 OCT 2012 Reassigned DepartmýJ HARDY (4413278)                                 ***
+Complaint
+Last Action : 17 OCT 2012 Reassigned DepartmýBAYLEY WRAIGHT (4423842)                          ***
+Complaint
+Last Action : 31 DEC 2015 Original client 04ýTERRI A KRANDAL (0070869)
+
+Last Action : 11 DEC 2014 Reassigned DepartmýSHERRY WRAIGHT (1078015)                          ***
+TRAVEL LEAD TEST DIARY TEST NOTES
+Last Action : 03 SEP 2013 Diary task TRAVEL ýAUDRETTE BOULAINEE (3000000)                      ***
+Oú SONT LES BuCHES DE NOëL?
+Last Action : 20 NOV 2013 Reassigned DepartmýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýAUDRETTE BOULAINEE (3000000)                      ***
+COMPLAINT
+Last Action : 11 DEC 2014 Reassigned DepartmýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 20 NOV 2013 Reassigned DepartmýSHERRY WRAIGHT (1078015)                          ***
+jdjd
+Last Action : 12 MAR 2014 SAWýBAYLEY WRAIGHT (4423842)                          ***
+NEW REQUEST
+Last Action : 04 JUN 2015 SAWýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT *** Additional Description added 29 SEP 15 by SAW
+Last Action : 29 SEP 2015 *** Additional DesýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT NOTES
+Last Action : 13 NOV 2015 SAWýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 13 JAN 2016 KDDKDKDKýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 31 DEC 2015 SAWýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 31 DEC 2015 SAWýBAYLEY WRAIGHT (4423842)                          ***
+COMPAINT ABOUT EMPLOYEE
+Last Action : 05 JAN 2016 SAWýBAYLEY WRAIGHT (4423842)                          ***
+COMPAINT ABOUT EMPLOYEE
+Last Action : 05 JAN 2016 SAWýBAYLEY WRAIGHT (4423842)                          ***
+TEST
+Last Action : 05 JAN 2016 SAWýMS ELIZABETH SAGE (1062914)                       ***
+description
+Last Action : 11 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+test
+Last Action : 11 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+TEST
+Last Action : 11 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES test
+Last Action : 11 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES
+Last Action : 11 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES
+Last Action : 14 NOV 2016 Diary task added.ýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES
+Last Action : 14 NOV 2016 Diary task added.ýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES
+Last Action : 14 NOV 2016 Diary task added.ýMS ELIZABETH SAGE (1062914)                       ***
+TEST
+Last Action : 14 NOV 2016 MFWýMS ELIZABETH SAGE (1062914)                       ***
+SERVICES Test
+Last Action : 14 NOV 2016 MFWýGORDON FREEMAN (4425938)                          ***
+Complaint dgdfdfg
+Last Action : 28 NOV 2013 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+Travel Lead DDD
+Last Action : 29 OCT 2015 Reassigned HandlerýMR KELVIN HERRINGBONE (4413586-A6)                ***
+JORDA
+Last Action : 24 JUN 2004 Reassigned HandlerýMARYANNE HERRINGBONE (89112519)                   ***
+A COMPLETE TEST REQUEST TESTING THE ADDITION OF DESCRIPTION
+Last Action : 13 OCT 2005 Assigned Request týMARYANNE HERRINGBONE (89112519)                   ***
+ANOTHER TEST ENTRY
+Last Action : 13 OCT 2005 Assigned Request týMARYANNE HERRINGBONE (89112519)                   ***
+BOB
+Last Action : 13 OCT 2005 Assigned Request týMS HANK HILL (89121609)                           ***
+ROAD MAP Going to Quebec City for Carnival de Neige
+Last Action : 05 OCT 2010 Assigned Request týJOHN SMITH (4424341)                              ***
+Travel Lead
+Last Action : 12 MAY 2014 Diary task TALK TOýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead NOTES
+Last Action : 18 SEP 2012 First contact estaýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead NOTES
+
+Last Action : 18 SEP 2012 First contact esta
+[20170116 10:47:23] IN  - Status Bar          | WSBþUPDATEþ41
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ4ý93þSHERRY WRAIGHT (1078015)                          ***
+Travel Lead NOTES
+Last Action : 18 SEP 2012 First contact estaýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead NOTES
+Last Action : 19 SEP 2012 First contact estaýMS VERNE ROUBLE36 (1333444)                       ***
+TEST FROM DEV TESTER
+Last Action : 21 SEP 2012 Reassigned HandlerýBOB SMITH (1078015)                               ***
+Branch Complaint TEST FROM DEV TESTER
+Last Action : 27 SEP 2012 Assigned Request týBRANDON BLACK (PP9230)                            ***
+TEST REQUEST FOR PROSPECT MORE DESCRIPTION FOR TESTING
+Last Action : 04 APR 2008 Assigned Request týJOHN SANT (5291273)                               ***
+QUOTE: HOME OWNER
+Last Action : 04 APR 2008 Reassigned HandlerýBUG EL KHABIR (1078015)                           ***
+TESTING AUTO CLOSE THAT SHOULD CLOSE
+Last Action : 07 MAY 2007 Assigned Request týJOHN SMITH (4424341)
+Complaint
+Last Action : 05 OCT 2012 Reassigned DepartmýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead DDD
+Last Action : 11 SEP 2013 Reassigned HandlerýMR RUCHELLIE SABETA19 (1124971)                   ***
+TECHNICAL SERVICES
+Last Action : 12 JAN 2016 Assigned Request týMME KAREN TOYE (4427029)                          ***
+COMPLAINT Karen's entry
+Last Action : 13 JAN 2016 Original client 28ýBUG EL KHABIR (1078015)                           ***
+KDKDKD MORE DESCRIPTION
+Last Action : 27 AUG 2007 Assigned Request týMR KELVIN HERRINGBONE (4413586-A6)                ***
+KBKBKB NEW DESC
+Last Action : 24 JUN 2004 Reassigned HandlerýMR KELVIN HERRINGBONE (4413586-A6)                ***
+BOB
+Last Action : 23 JUN 2004 Reassigned HandlerýMR KELVIN HERRINGBONE (4413586-A6)                ***
+KDKDKD BOB
+Last Action : 24 JUN 2004 Reassigned HandlerýBUG EL KHABIR (1078015)                           ***
+DKDKDK MORE DESC
+Last Action : 02 JAN 2007 Assigned Request týART VANDALAY (4412317)                            ***
+SUN REFERENCE 32941               RECEIPT WEB-80-1 Product
+Last Action : 07 MAY 2007 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 01 AUG 2012 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+Travel Lead MORE NOTES
+
+Last Action : 06 SEP 2012 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+Travel Lead XXX
+Last Action : 06 SEP 2012 First contact estaýSHERRY WRAIGHT (1078015)
+Travel Lead NOTES
+Last Action : 21 SEP 2012 First contact estaýMS KARRIE EL KHABIR (4413586-A6)
+KDKD
+Last Action : 28 AUG 2006 Reassigned HandlerýBUG EL KHABIR (1078015)
+KDKDKDK MORE DESC
+Last Action : 19 MAR 2010 TESTINGýBUG EL KHABIR (1078015)                           ***
+KDKDKD MORE DESC
+Last Action : 31 JUL 2007 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+NEW REQUEST
+Last Action : 26 OCT 2011 Reassigned HandlerýSHERRY WRAIGHT (1078015)
+ANOTHER NEW REQUEST
+Last Action : 26 OCT 2011 ANOTHER ACTIONýRITA ANN WILSON (4413851)                         ***
+SUN REFERENCE 37902               RECEIPT CC1-8-2 Product
+Last Action : 16 JAN 2012 Assigned Request týRICHARD M RANDALL (1005549)                       ***
+SUN REFERENCE 37903          RECU/RECEIPT CC1-8-3 Product
+Last Action : 16 JAN 2012 Assigned Request týDANIEL A HARPER (6930333)                         ***
+SUN REFERENCE 37904          RECU/RECEIPT CC1-8-4 Product
+Last Action : 16 JAN 2012 Assigned Request týGLEN GOURING (1083710)                            ***
+SUN REFERENCE 37909          RECU/RECEIPT CC1-8-6 Product
+Last Action : 16 JAN 2012 Assigned Request týSIR JACOB JONES (1234567)                         ***
+SUN REFERENCE 37950          RECU/RECEIPT WEB-122-12
+Last Action : 01 FEB 2012 Assigned Request týSIR JACOB JONES (1234567)                         ***
+SUN REFERENCE 37951          RECU/RECEIPT WEB-122-12
+Last Action : 01 FEB 2012 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 27 AUG 2013 Original client 27ýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 27 AUG 2013 Original client 27ýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 20 JUL 2012 SAWýSHERRY WRAIGHT (1078015)                          ***
+Travel Lead
+Last Action : 02 SEP 2013 Diary task added.ýSHERRY WRAIGHT (1078015)
+TRAVEL LEAD NOTES
+Last Action : 06 SEP 2012 Reassigned DepartmýSHERRY WRAIGHT (1078015)                          ***
+SUN REFERENCE 38162          RECU/RECEIPT CC1-8-7 Product
+Last Action : 07 SEP 2012 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+SUN REFERENCE 38163          RECU/RECEIPT CC1-8-8 Product
+Last Action : 07 SEP 2012 Assigned Request týJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 03 OCT 2012 First contact estaýSHERRY WRAIGHT (1078015)                          ***
+SERVICES
+Last Action : 06 SEP 2013 SAWýSHERRY WRAIGHT (1078015)                          ***
+SERVICES
+Last Action : 06 SEP 2013 Diary task TALK TOýSHERRY WRAIGHT (1078015)                          ***
+SERVICES
+Last Action : 06 SEP 2013 Diary task TALK TOýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýJOHN SMITH (4424341)                              ***
+COMPLAINT
+Last Action : 12 SEP 2013 KABýSHERRY WRAIGHT (1078015)
+APPROVED AUTO REPAIR
+Last Action : 23 OCT 2013 Diary task added.ýMS JACQELYN BARA (89114489)                       ***
+SUN REFERENCE 38569               RECEIPT CC1-8-9 Product
+Last Action : 19 DEC 2013 Assigned Request týJOSEPHINE BLACK (PP9699)                          ***
+SUN REFERENCE 38574               RECEIPT CC1-8-10 Product
+Last Action : 23 DEC 2013 Assigned Request týJOSEPH JOHNSON3 (4422219)                         ***
+SUN REFERENCE 38575               RECEIPT CC3-1-2 Product
+Last Action : 23 DEC 2013 Assigned Request týJOSEPH JOHNSON3 (4422219)                         ***
+SUN REFERENCE 38576               RECEIPT CC3-1-3 Product
+Last Action : 23 DEC 2013 Assigned Request týTAMMY MEDEIROS81 (1289052)                        ***
+SUN REFERENCE 38577               RECEIPT CC1-8-11 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týMR BEMOL BURKHOLDER (3531430)                     ***
+SUN REFERENCE 38578               RECEIPT CC1-8-12 Product
+Last Action : 23 DEC 2013 Assigned Request týTAMMY MEDEIROS81 (1289052)                        ***
+SUN REFERENCE 38579               RECEIPT CC1-8-13 Product
+Last Action : 23 DEC 2013 Assigned Request týTAMMY MEDEIROS81 (1289052)                        ***
+SUN REFERENCE 38580               RECEIPT CC3-1-4 Product
+Last Action : 23 DEC 2013 Assigned Request týBARBARA BELLAMY11 (2491581-A1)                    ***
+SUN REFERENCE 38583               RECEIPT CC3-1-5 Product
+Last Action : 23 DEC 2013 Assigned Request týBABY3 BLACK (PP9701)                              ***
+SUN REFERENCE 38584               RECEIPT CC3-1-6 Product
+Last Action : 23 DEC 2013 Assigned Request týBARBARA BELLAMY11 (2491581-A1)                    ***
+SUN REFERENCE 38585               RECEIPT CC3-1-7 Product
+Last Action : 23 DEC 2013 Assigned Request týBARBARA BELLAMY11 (2491581-A1)                    ***
+SUN REFERENCE 38586               RECEIPT CC3-1-8 Product
+Last Action : 23 DEC 2013 Assigned Request týSHERRY WRAIGHT (1078015)                          ***
+APPROVED AUTO REPAIR
+Last Action : 18 FEB 2014 SAWýSHERRY WRAIGHT (1078015)                          ***
+APPROVED AUTO REPAIR
+Last Action : 12 MAR 2014 Diary task TALK TOýMR JOHN CLEESE (3333334)                          ***
+SUN REFERENCE 38977               RECEIPT PPD2-175-223
+Last Action : 01 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39020          RECU/RECEIPT PPD2-175-254
+Last Action : 14 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39021          RECU/RECEIPT PPD2-175-255
+Last Action : 14 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39027          RECU/RECEIPT PPD2-175-256
+Last Action : 14 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39029          RECU/RECEIPT PPD2-175-258
+Last Action : 14 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39035          RECU/RECEIPT PPD2-175-261
+Last Action : 14 APR 2014 Assigned Request týTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39037          RECU/RECEIPT PPD2-175-262
+Last Action : 14 APR 2014 Assigned Request t
+[20170116 10:47:23] IN  - Status Bar          | WSBþUPDATEþ81
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ4ý167þTERESA GUTA (6202827722111001)                    ***
+SUN REFERENCE 39037          RECU/RECEIPT PPD2-175-262
+Last Action : 14 APR 2014 Assigned Request týAUDRETTE BOULAINEE (3000000)                      ***
+test *** Additional Description added 03 NOV 14 by ANB ***
+Last Action : 11 DEC 2014 Reassigned DepartmýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT TESTING
+Last Action : 14 OCT 2015 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT TEST
+Last Action : 14 OCT 2015 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT TEST
+Last Action : 14 OCT 2015 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT TEST
+Last Action : 14 OCT 2015 First contact estaýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT TEST
+Last Action : 14 OCT 2015 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT test MOR DETAILD
+Last Action : 02 DEC 2015 Assigned Request týMICKEY PAUL QUILATAN62 (5522211)                  ***
+SUN REFERENCE 39982          RECU/RECEIPT PPD2-179-142
+Last Action : 15 DEC 2015 Assigned Request týMICKEY PAUL QUILATAN62 (5522211)                  ***
+SUN REFERENCE 39987          RECU/RECEIPT PPD2-179-152
+Last Action : 18 DEC 2015 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 18 JAN 2016 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+SERVICES
+Last Action : 22 FEB 2016 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 05 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Diary task added.ýBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 06 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týBAYLEY WRAIGHT (4423842)                          ***
+COMPLAINT
+Last Action : 09 JAN 2017 Assigned Request týJOHN SMITH (4424341)                              ***
+Complaint
+Last Action : 18 SEP 2012 First contact esta
+[20170116 10:47:23] IN  - Status Bar          | WSBþUPDATEþ100
+[20170116 10:47:23] IN  - Status Bar          | WSBþCLOSE
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ5ýþOIýCýCýCýCýCýCýCýCýCýTIýCýLýLýLýLýLýLýLýLýLýLýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýLýLýCýCýCýCýCýCýCýCýCýCýRSýCýCýCýCýCýCýCýCýCýOIýOIýOIýOIýOIýOIýOIýOIýOIýOIýCýLýýýýýOIýLýLýLýLýLýCýCýýýOIýCýLýTIýCýýýýýýýLýLýLýLýýOIýýLýLýýýýýýýLýLýLýLýLýýýCýCýOIýOIýOIýCýCýCýCýýýýýýýýýýýýýýýýýýRSýRSýýýýýýýýýCýOIýOIýOIýOIýOIýTIýýýTIýOIýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýC
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ6ýþASSOCýCýCýCýCýCýBCýBCýBCýBCýTQRýBCýTLýTLýTLýTLýTLýTLýTLýTLýTLýTLýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýTLýQTLýCýCýCýCýCýCýCýCýCýCýAARýCEMýCýCýCýCýCýCEMýCEMýCEMýSýSýSýSýSýSýSýSýSýSýCýTLýAARýAARýAARýAARýRMýTLýTLýTLýTLýTLýBCýBCýAARýQUOTEýASSOCýCýTLýTSýCýAARýAARýTCSýAARýAARýSHIPýTLýTLýTLýTLýAARýASSOCýAARýAARýAARýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýTLýTLýTLýTLýTLýSHIPýSHIPýCýCýSýSýSýCýCýCýAARýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýAARýAARýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPýSHIPý12345676ýCýCýCýCýCýCýSHIPýSHIPýCýSýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýCýC
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ7ýþ19NOV07ý27FEB12ý27FEB12ý27FEB12ý27FEB12ý27FEB12ý17APR12ý18APR12ý18APR12ý18APR12ý18APR12ý18APR12ý17JUL12ý17JUL12ý17JUL12ý20JUL12ý20JUL12ý27AUG12ý06SEP12ý06SEP12ý06SEP12ý06SEP12ý25SEP12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý03OCT12ý05OCT12ý17OCT12ý08NOV12ý09NOV12ý17JUL13ý16AUG13ý12SEP13ý12SEP13ý12SEP13ý12SEP13ý12SEP13ý12SEP13ý12SEP13ý12SEP13ý18SEP13ý19SEP13ý12MAR14ý04JUN15ý03SEP15ý13NOV15ý11DEC15ý31DEC15ý31DEC15ý05JAN16ý05JAN16ý05JAN16ý11NOV16ý11NOV16ý11NOV16ý11NOV16ý11NOV16ý14NOV16ý14NOV16ý14NOV16ý14NOV16ý14NOV16ý28NOV13ý21NOV12ý24JUN04ý19OCT00ý19OCT00ý07MAR01ý16JAN09ý07AUG12ý18SEP12ý10SEP12ý15SEP12ý19SEP12ý27SEP12ý01JUL12ý22NOV06ý11DEC06ý08JAN07ý05OCT12ý21NOV12ý12JAN16ý13JAN16ý31JUL07ý15APR04ý11JUN04ý23JUN04ý12DEC06ý16APR07ý01AUG12ý06SEP12ý06SEP12ý21SEP12ý28AUG06ý05JAN07ý31JUL07ý26OCT11ý26OCT11ý16JAN12ý16JAN12ý16JAN12ý16JAN12ý01FEB12ý01FEB12ý17JUL12ý17JUL12ý20JUL12ý01AUG12ý06SEP12ý07SEP12ý07SEP12ý03OCT12ý03OCT12ý06SEP13ý06SEP13ý06SEP13ý12SEP13ý12SEP13ý12SEP13ý23OCT13ý19DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý23DEC13ý18FEB14ý18FEB14ý01APR14ý14APR14ý14APR14ý14APR14ý14APR14ý14APR14ý14APR14ý14APR14ý23OCT14ý14OCT15ý14OCT15ý14OCT15ý14OCT15ý14OCT15ý19NOV15ý15DEC15ý18DEC15ý18JAN16ý22FEB16ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý05JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý06JAN17ý09JAN17ý09JAN17ý09JAN17ý09JAN17ý09JAN17ý09JAN17ý09JAN17ý18SEP12
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ8ýþDýAýAýAýAýAýOýOýOýOýOýOýOýOýOýOýOýOýWýOýWýOýDýOýOýOýOýOýOýOýOýOýOýOýOýOýOýOýOýOýOýOýAýOýAýAýAýAýAýWýIýAýAýAýAýAýAýAýAýAýIýAýOýOýAýAýAýAýAýOýOýOýAýAýAýAýAýAýAýAýAýAýAýOýAýAýAýAýDýOýWýWýWýWýAýAýHýAýAýAýOýTRIýAýOýOýOýOýOýAýAýTRIýWýWýOýHýOýOýOýAýAýAýAýAýAýOýOýOýIýAýAýAýOýOýAýIýIýAýAýAýIýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýDýAýOýOýOýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýAýO
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ9ýþýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýý ý1234ýBBBýBCTýBCTýBCTýBCTýBCTýBCTýBCTýBCTýBCTýBCTýBCTýKABýKABýKABýKABýKABýKABýKTGýPAHýSAHýSAHýSAHýSAHýSAHýSAHýSAHýSAHýSAHýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýSAWýUNH-AT
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ12ýþ
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ13ýþ206
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ14ýþO
+[20170116 10:47:23] IN  - (un)Lock Screen     | WLSþ0
+[20170116 10:47:23] IN  - Header              | WHþHandle Requestþ313 CAA.DEV AS CDBOU
+[20170116 10:47:23] IN  - Screen Command      | WSCþSHOW
+[20170116 10:47:23] IN  - Command             | WCþSETROWþ3ý1
+[20170116 10:47:23] IN  - Populate Prompt     | WDþ3ýþ1971ý3929ý3930ý3931ý3932ý3933ý3942ý3943ý3944ý3945ý3946ý3948ý3967ý3968ý3969ý3971ý3974ý3992ý4004ý4005ý4006ý4007ý4024ý4043ý4044ý4046ý4047ý4048ý4049ý4057ý4058ý4059ý4060ý4061ý4062ý4064ý4065ý4066ý4067ý4069ý4071ý4072ý4073ý4074ý4075ý4076ý4077ý4080ý4184ý4188ý4642ý4670ý4701ý4702ý4703ý4704ý4708ý4709ý4710ý4711ý4765ý4788ý5053ý5181ý5191ý5311ý5337ý5360ý5361ý5363ý5364ý5365ý6241ý6242ý6243ý6244ý6245ý6246ý6247ý6248ý6249ý6255ý4972ý4223ý1336ý914ý915ý960ý2281ý3982ý4016ý4017ý4018ý4021ý4031ý4033ý1589ý1606ý1660ý4078ý4220ý5815ý5837ý1831ý1313ý1321ý1331ý1612ý1761ý3980ý4001ý4002ý4022ý1522ý1654ý1833ý3877ý3879ý3902ý3903ý3904ý3905ý3906ý3907ý3965ý3966ý3972ý3978ý4010ý4011ý4012ý4063ý4070ý4695ý4696ý4697ý4700ý4712ý4713ý4920ý4974ý4975ý4976ý4977ý4978ý4979ý4980ý4981ý4982ý4983ý4984ý4985ý4986ý4987ý4988ý4989ý4990ý5037ý5041ý5100ý5101ý5102ý5103ý5104ý5107ý5108ý5109ý5135ý5241ý5242ý5243ý5244ý5245ý5313ý5339ý5340ý5871ý6128ý6262ý6263ý6264ý6265ý6266ý6267ý6268ý6269ý6270ý6271ý6272ý6273ý6274ý6275ý6276ý6277ý6278ý6279ý6280ý6281ý6282ý6283ý6284ý6285ý6286ý6287ý6288ý4014
+[20170116 10:47:24] IN  - Define Button       | WCBþýýýýýYýýýDEPARTMENTýýýýýýýýý
+[20170116 10:47:24] IN  - Define Button       | WCBþýýýýýYýýýCLOSE.REQUESTýýýýýýýýý
+[20170116 10:47:24] IN  - Define Button       | WCBþýýýýýYýýýHANDLEýýýýýýýýý
+[20170116 10:47:24] IN  - Define Button       | WCBþýýýýýNýýýASSIGNýýýýýýýýý
+[20170116 10:47:24] IN  - Populate & Prompt   | WPDþ3ý1þ1971

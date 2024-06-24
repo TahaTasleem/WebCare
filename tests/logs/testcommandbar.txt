@@ -1,0 +1,32 @@
+[20170126 09:51:21] IN  - Toolbar Command     | WTBşRESET
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_a.ico alt= >ıEıAııYıııAXIS_Aı&Commands/Fix &Addressıı1ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_do.ico alt= >ıEıDONııYıııAXIS_DONı&Commands/&Donor Maintenanceıı4ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_d.ico alt= >ıEıDSııYıııAXIS_DSı&Commands/Check &Driversıı4ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_i.ico alt= >ıEıIıInquiryıNıııAXIS_Iı&Commands/&InquiryıWINGEMı9ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_p.ico alt= >ıEıIPııNıııAXIS_IPı&Commands/&Print Inquiryıı16ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_m.ico alt= >ıEıIPMıMultiple Print InquiryıYıııAXIS_IPMı&Commands/&Multiple Print InquiryıWINGEMı13ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_q.ico alt= >ıEıQUOTEıQuote CurrencyıNıııAXIS_QUOTEı&Commands/&Quote CurrencyıWINGEMı17ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_r.ico alt= >ıEıREQıMRTS RequestıYıııAXIS_REQı&Commands/M&RTS RequestıWINGEMı18ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_h.ico alt= >ıEıSPıSP-EDITıYıııAXIS_SPı&Commands/&SP-EDITıWINGEMı8ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_v.ico alt= >ıEıVIEWııYıııAXIS_VIEWı&Commands/&View Commentsıı22ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=comm_green_j.ico alt= >ıEıWHEREıJHO1ıYıııJHO1ı&Commands/&JHO1ıWINGEMı8ıııııışTı<img=comm_green_h.ico alt= >ıEıWHEREıJHO2ıYıııJHO2ı&Commands/J&HO2ıWINGEMı8ıııııışTı<img=comm_green_o.ico alt= >ıEıWHEREıJHO3ıYıııJHO3ı&Commands/JH&O3ıWINGEMı8ıııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMı<img=comm_x.ico alt= >ıEıTEST'APOııYıııTEST_APOı&Commands/&Test Apostropheıı22ıııııı
+[20161207 14:08:03] IN  - Change Toolbar      | WCTşııııııııExitıııııııııNı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıSCHEMEıcontrol look of AxisıYıııDisplay &Schemeı&Session/Display &Scheme...ıııııııSession/1ıY
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıMENU.QUITıquit to menuıYıııMENU.QUITı&Session/&CloseıııııııSession/2ıY
+[20161207 14:08:03] IN  - Change Toolbar      | WCTşııııııııAboutWinGemıııııııııYı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıMENU.GUIDESııYıııMENU.GUIDESı&Help/&View AXIS Guide ListıııııııHelp/2ıY
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıMENU.AFWııYıııMENU.AFWı&Help/View AXIS Getting &StartedıııııııHelp/3ı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıWHEREıSystem InformationıYıııMENU.ABOUT.WORKSTATIONı&Help/System &InformationıııııııHelp/4ıY
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şMııEıWHERE.WINDOWıWindow InformationıYıııMENU.ABOUT.WINDOWı&Help/&Window InformationıııııııHelp/5ı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img=GetList.ico alt= >ıEıGET-LISTıGET-LIST for next itemıYıııMENU.GET.LISTı&Commands/GET-LIST for next itemıbndToolbarDebugıııııA1ıı
+[20161207 14:08:03] IN  - Define Toolbar      | WDTş1şTı<img="FORMNAMEINACTIVE.ICO" alt= >ıEıDISPLAY.FORMSıDisplay Forms ListıYıııDISPLAY.FORMSı&Commands/Display Forms ListıbndToolbarDebugıııııA2ıı
+[20161207 14:08:04] IN  - Change Toolbar      | WCTşıııııYıııMENU.QUITııııııııı
+[20161207 14:08:04] IN  - Change Toolbar      | WCTşıııııYıııDisplay &Schemeııııııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WCTşıııııHıııAXIS_DONııııııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WCTşıııııHıııJHO2ııııııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WCTşıııııUıııAXIS_DONııııııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WCTşıııııXıııAXIS_SPııııııııı
+[20161207 14:08:03] IN  - Define Toolbar      | WCTşıııııYıııNonExistantToolNameııııııııı
+[20161207 14:08:04] IN  - Change Toolbar      | WDPşPAUSEş2
+[20161207 14:08:04] IN  - Change Toolbar      | WCTşıııııYıııViewı&Window/&View2ııııııııY
